@@ -382,8 +382,53 @@ def himalayas():
         time.sleep(1.5)
     return out
 
+WORKABLE_TERMS = ["devops", "cloud engineer", "infrastructure engineer", "system administrator",
+                  "systems engineer", "site reliability", "linux", "sap basis"]
+WORKABLE_PLACES = ["Egypt", "United Arab Emirates", "Saudi Arabia", "Qatar", "Kuwait", "Bahrain", "Oman"]
+
+
+def workable_search():
+    """jobs.workable.com: the public job search across every company that hires with Workable.
+    Many Egyptian and Gulf companies use Workable, so this is the main Egypt/Gulf feed."""
+    out, seen = [], set()
+    for place in WORKABLE_PLACES:
+        for term in WORKABLE_TERMS:
+            token = None
+            for _ in range(3):  # up to 60 results per term and place
+                params = {"query": term, "location": place}
+                if token:
+                    params["pageToken"] = token
+                try:
+                    data = _get("https://jobs.workable.com/api/v1/jobs", params=params).json()
+                except NotFound:
+                    break
+                for j in data.get("jobs", []):
+                    if j.get("id") in seen or not _title_ok(j.get("title")):
+                        continue
+                    seen.add(j.get("id"))
+                    loc = j.get("location") or {}
+                    locs = j.get("locations") or []
+                    location = ", ".join(x for x in (loc.get("city"), loc.get("countryName")) if x) or " / ".join(
+                        x for x in locs if x != "TELECOMMUTE")
+                    out.append({
+                        "title": j.get("title"),
+                        "company": (j.get("company") or {}).get("title") or "",
+                        "location": location,
+                        "remote": ("TELECOMMUTE" in locs) or j.get("workplace") == "remote" or None,
+                        "url": j.get("url"),
+                        "description": f"{j.get('description', '')}\n{j.get('requirementsSection', '')}",
+                        "posted_at": _iso(j.get("created")),
+                        "source": "Workable",
+                    })
+                token = data.get("nextPageToken")
+                if not token or not data.get("jobs"):
+                    break
+                time.sleep(0.5)
+    return out
+
 
 BOARDS = {
+    "workable": workable_search,
     "arbeitnow": arbeitnow,
     "arbeitnow_uk": arbeitnow_uk,
     "remotive": remotive,

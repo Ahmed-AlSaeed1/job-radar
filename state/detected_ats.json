@@ -1,1 +1,78 @@
-{}
+{
+ "Thndr": {
+  "ats": "ashby",
+  "slug": "thndr"
+ },
+ "Foodics": {
+  "ats": "workable",
+  "slug": "foodics"
+ },
+ "N26": {
+  "ats": "greenhouse",
+  "slug": "n26"
+ },
+ "Adyen": {
+  "ats": "greenhouse",
+  "slug": "adyen"
+ },
+ "Wolt": {
+  "ats": "greenhouse",
+  "slug": "wolt"
+ },
+ "Salla": {
+  "ats": "workable",
+  "slug": "salla"
+ },
+ "HelloFresh": {
+  "ats": "greenhouse",
+  "slug": "hellofresh"
+ },
+ "trivago": {
+  "ats": "greenhouse",
+  "slug": "trivago"
+ },
+ "Celonis": {
+  "ats": "greenhouse",
+  "slug": "celonis"
+ },
+ "SumUp": {
+  "ats": "greenhouse",
+  "slug": "sumup"
+ },
+ "Delivery Hero": {
+  "ats": "smartrecruiters",
+  "slug": "DeliveryHero"
+ },
+ "Contentful": {
+  "ats": "greenhouse",
+  "slug": "contentful"
+ },
+ "Canonical": {
+  "ats": "greenhouse",
+  "slug": "canonical"
+ },
+ "Grafana Labs": {
+  "ats": "greenhouse",
+  "slug": "grafanalabs"
+ },
+ "GitLab": {
+  "ats": "greenhouse",
+  "slug": "gitlab"
+ },
+ "Elastic": {
+  "ats": "greenhouse",
+  "slug": "elastic"
+ },
+ "Personio": {
+  "ats": "recruitee",
+  "slug": "personio"
+ },
+ "Mollie": {
+  "ats": "ashby",
+  "slug": "mollie"
+ },
+ "Bolt": {
+  "ats": "lever",
+  "slug": "boltjobs"
+ }
+}

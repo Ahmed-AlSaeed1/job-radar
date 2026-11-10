@@ -4,6 +4,7 @@ Input: a normalized raw job dict
     {title, company, location, remote, url, description, posted_at, source}
 Output: (analysis dict, None) when kept, or (None, reason) when dropped.
 """
+import datetime
 import hashlib
 import html
 import re
@@ -262,6 +263,16 @@ def analyze(raw, profile):
         return None, "title not a target role"
     if not filters.get("include_senior", False) and SENIOR_RX.search(title):
         return None, "senior/lead title"
+
+    max_age = filters.get("max_age_days", 30)
+    posted = raw.get("posted_at")
+    if max_age and posted:
+        try:
+            age = (datetime.date.today() - datetime.date.fromisoformat(str(posted)[:10])).days
+        except ValueError:
+            age = 0
+        if age > max_age:
+            return None, f"posted more than {max_age} days ago"
 
     region, extra = classify_region(raw.get("location", ""), raw.get("remote"), title)
     if region is None:

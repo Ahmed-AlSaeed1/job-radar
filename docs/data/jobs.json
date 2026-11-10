@@ -1,0 +1,842 @@
+{
+ "generated_at": "2026-11-10T16:04+00:00",
+ "today": "2026-11-10",
+ "demo": true,
+ "first_run": false,
+ "profile": {
+  "name": "Ahmed Al-Saeed",
+  "headline": "Cloud & DevOps Engineer, 2 years production, AWS SAA, VCP-DCV"
+ },
+ "roles": {
+  "devops": "DevOps / SRE / Platform",
+  "sap": "SAP Basis / HANA",
+  "cloud": "Cloud",
+  "infra": "Infrastructure / Virtualization",
+  "sysadmin": "System Admin / System Engineer"
+ },
+ "skill_names": {
+  "aws": "AWS",
+  "azure": "Azure",
+  "gcp": "GCP",
+  "openstack": "OpenStack",
+  "serverless": "Serverless / Lambda",
+  "docker": "Docker",
+  "kubernetes": "Kubernetes",
+  "openshift": "OpenShift",
+  "helm": "Helm",
+  "istio": "Service mesh (Istio)",
+  "terraform": "Terraform",
+  "cloudformation": "CloudFormation",
+  "pulumi": "Pulumi",
+  "ansible": "Ansible",
+  "puppet": "Puppet",
+  "saltstack": "SaltStack",
+  "cicd": "CI/CD",
+  "jenkins": "Jenkins",
+  "gitlab_ci": "GitLab CI",
+  "github_actions": "GitHub Actions",
+  "argocd": "Argo CD / GitOps",
+  "git": "Git",
+  "python": "Python",
+  "bash": "Bash / Shell",
+  "powershell": "PowerShell",
+  "golang": "Go",
+  "linux": "Linux",
+  "rhel": "RHEL",
+  "suse": "SUSE",
+  "windows_server": "Windows Server",
+  "active_directory": "Active Directory",
+  "m365": "Microsoft 365 / Exchange",
+  "vmware": "VMware vSphere",
+  "proxmox": "Proxmox",
+  "hyperv": "Hyper-V",
+  "nutanix": "Nutanix",
+  "virtualization": "Virtualization",
+  "ha_clustering": "High availability / clustering",
+  "prometheus": "Prometheus",
+  "grafana": "Grafana",
+  "zabbix": "Zabbix",
+  "nagios": "Nagios / Icinga",
+  "elk": "ELK / OpenSearch",
+  "datadog": "Datadog",
+  "splunk": "Splunk",
+  "incident": "Incident response / on-call",
+  "nginx": "Nginx",
+  "haproxy": "HAProxy / load balancing",
+  "apache": "Apache HTTPD",
+  "iis": "IIS",
+  "mysql": "MySQL / MariaDB",
+  "postgresql": "PostgreSQL",
+  "mongodb": "MongoDB",
+  "redis": "Redis",
+  "sql_server": "SQL Server",
+  "oracle_db": "Oracle DB",
+  "kafka": "Kafka",
+  "rabbitmq": "RabbitMQ",
+  "sap_hana": "SAP HANA",
+  "sap_basis": "SAP Basis",
+  "networking": "Networking (TCP/IP, DNS, VLANs)",
+  "firewalls": "Firewalls",
+  "cisco": "Cisco",
+  "vault": "HashiCorp Vault / secrets",
+  "devsecops": "Security scanning (DevSecOps)",
+  "veeam": "Veeam",
+  "backup_dr": "Backup and disaster recovery",
+  "storage": "Storage (SAN/NAS/Ceph)",
+  "cert_k8s": "CKA / CKAD",
+  "cert_aws": "AWS certification",
+  "cert_azure": "Azure certification (AZ-104…)",
+  "cert_gcp": "Google Cloud certification",
+  "cert_redhat": "RHCSA / RHCE",
+  "cert_terraform": "Terraform Associate",
+  "cert_vmware": "VMware VCP"
+ },
+ "jobs": [
+  {
+   "id": "2448040acfac",
+   "title": "Cloud Infrastructure Engineer",
+   "company": "Desert Peak Digital",
+   "location": "Dubai, United Arab Emirates",
+   "region": "gulf",
+   "remote": false,
+   "role": "cloud",
+   "url": "https://example.com/2",
+   "source": "Demo data",
+   "posted_at": "2026-11-08",
+   "score": 92,
+   "matched": [
+    "aws",
+    "linux",
+    "windows_server",
+    "vmware",
+    "networking",
+    "firewalls",
+    "veeam",
+    "backup_dr"
+   ],
+   "partial": [
+    "ansible",
+    "python"
+   ],
+   "missing": [],
+   "years": 3,
+   "visa": "yes",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "fe60acab2bb4",
+   "title": "Cloud Support Engineer",
+   "company": "Stratus Labs",
+   "location": "Remote (EMEA)",
+   "region": "remote",
+   "remote": true,
+   "role": "cloud",
+   "url": "https://example.com/14",
+   "source": "Demo data",
+   "posted_at": "2026-11-09",
+   "score": 88,
+   "matched": [
+    "aws",
+    "bash",
+    "linux",
+    "networking",
+    "cert_aws"
+   ],
+   "partial": [
+    "docker",
+    "python"
+   ],
+   "missing": [],
+   "years": null,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": false
+  },
+  {
+   "id": "55be332b72ff",
+   "title": "SAP HANA Administrator",
+   "company": "Gulf Enterprise Systems",
+   "location": "Dubai, UAE",
+   "region": "gulf",
+   "remote": false,
+   "role": "sap",
+   "url": "https://example.com/11",
+   "source": "Demo data",
+   "posted_at": "2026-11-09",
+   "score": 83,
+   "matched": [
+    "linux",
+    "suse",
+    "ha_clustering",
+    "sap_hana",
+    "backup_dr"
+   ],
+   "partial": [],
+   "missing": [
+    "sap_basis"
+   ],
+   "years": 2,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": false
+  },
+  {
+   "id": "7cfc99e40cf5",
+   "title": "DevOps Engineer",
+   "company": "Nilecloud Systems",
+   "location": "Cairo, Egypt",
+   "region": "egypt",
+   "remote": false,
+   "role": "devops",
+   "url": "https://example.com/1",
+   "source": "Demo data",
+   "posted_at": "2026-11-09",
+   "score": 73,
+   "matched": [
+    "aws",
+    "bash",
+    "linux",
+    "prometheus",
+    "grafana"
+   ],
+   "partial": [
+    "docker",
+    "kubernetes",
+    "terraform",
+    "cicd",
+    "jenkins"
+   ],
+   "missing": [
+    "gitlab_ci"
+   ],
+   "years": 2,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "fdfabb7f9285",
+   "title": "Junior DevOps Engineer",
+   "company": "Mediterranean Apps",
+   "location": "Alexandria, Egypt",
+   "region": "egypt",
+   "remote": false,
+   "role": "devops",
+   "url": "https://example.com/17",
+   "source": "Demo data",
+   "posted_at": "2026-11-09",
+   "score": 73,
+   "matched": [
+    "aws",
+    "linux"
+   ],
+   "partial": [
+    "docker",
+    "cicd",
+    "github_actions",
+    "git"
+   ],
+   "missing": [],
+   "years": 1,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": false
+  },
+  {
+   "id": "938cbf44a6cb",
+   "title": "Linux System Administrator",
+   "company": "OpenRack Hosting",
+   "location": "Remote - Worldwide",
+   "region": "remote",
+   "remote": true,
+   "role": "sysadmin",
+   "url": "https://example.com/6",
+   "source": "Demo data",
+   "posted_at": "2026-11-09",
+   "score": 72,
+   "matched": [
+    "bash",
+    "linux",
+    "rhel",
+    "zabbix",
+    "nginx",
+    "haproxy"
+   ],
+   "partial": [
+    "ansible",
+    "mysql"
+   ],
+   "missing": [
+    "nagios",
+    "postgresql"
+   ],
+   "years": 2,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": false
+  },
+  {
+   "id": "c51c24c5ad0b",
+   "title": "Systems Engineer",
+   "company": "Delta Bank Tech",
+   "location": "Smart Village, Giza, Egypt",
+   "region": "egypt",
+   "remote": false,
+   "role": "sysadmin",
+   "url": "https://example.com/12",
+   "source": "Demo data",
+   "posted_at": "2026-11-06",
+   "score": 67,
+   "matched": [
+    "bash",
+    "windows_server",
+    "vmware",
+    "virtualization",
+    "veeam",
+    "backup_dr"
+   ],
+   "partial": [],
+   "missing": [
+    "powershell",
+    "active_directory",
+    "m365"
+   ],
+   "years": 1,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "67826e769fa3",
+   "title": "Platform Engineer",
+   "company": "Liffey Analytics",
+   "location": "Dublin, Ireland",
+   "region": "europe",
+   "remote": false,
+   "role": "devops",
+   "url": "https://example.com/16",
+   "source": "Demo data",
+   "posted_at": "2026-11-05",
+   "score": 51,
+   "matched": [
+    "aws",
+    "prometheus",
+    "grafana"
+   ],
+   "partial": [
+    "kubernetes",
+    "terraform",
+    "python"
+   ],
+   "missing": [
+    "helm",
+    "istio",
+    "golang",
+    "cert_k8s"
+   ],
+   "years": 3,
+   "visa": "yes",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": false
+  },
+  {
+   "id": "2ac4b91b2a68",
+   "title": "DevOps Engineer",
+   "company": "Havel Payments",
+   "location": "Berlin, Germany",
+   "region": "europe",
+   "remote": false,
+   "role": "devops",
+   "url": "https://example.com/4",
+   "source": "Demo data",
+   "posted_at": "2026-11-09",
+   "score": 45,
+   "matched": [
+    "aws",
+    "prometheus",
+    "grafana"
+   ],
+   "partial": [
+    "kubernetes",
+    "terraform",
+    "python",
+    "incident"
+   ],
+   "missing": [
+    "gcp",
+    "helm",
+    "argocd",
+    "golang",
+    "datadog"
+   ],
+   "years": 2,
+   "visa": "yes",
+   "langs_nice": [
+    "German"
+   ],
+   "first_seen": "2026-11-10",
+   "is_new": false
+  }
+ ],
+ "gaps": {
+  "missing": [
+   [
+    "helm",
+    2
+   ],
+   [
+    "golang",
+    2
+   ],
+   [
+    "gitlab_ci",
+    1
+   ],
+   [
+    "gcp",
+    1
+   ],
+   [
+    "argocd",
+    1
+   ],
+   [
+    "datadog",
+    1
+   ],
+   [
+    "nagios",
+    1
+   ],
+   [
+    "postgresql",
+    1
+   ],
+   [
+    "sap_basis",
+    1
+   ],
+   [
+    "powershell",
+    1
+   ],
+   [
+    "active_directory",
+    1
+   ],
+   [
+    "m365",
+    1
+   ],
+   [
+    "istio",
+    1
+   ],
+   [
+    "cert_k8s",
+    1
+   ]
+  ],
+  "partial": [
+   [
+    "python",
+    4
+   ],
+   [
+    "docker",
+    3
+   ],
+   [
+    "kubernetes",
+    3
+   ],
+   [
+    "terraform",
+    3
+   ],
+   [
+    "cicd",
+    2
+   ],
+   [
+    "ansible",
+    2
+   ],
+   [
+    "jenkins",
+    1
+   ],
+   [
+    "incident",
+    1
+   ],
+   [
+    "mysql",
+    1
+   ],
+   [
+    "github_actions",
+    1
+   ]
+  ]
+ },
+ "dropped": {
+  "title not a target role": 2,
+  "senior/lead title": 1,
+  "no visa sponsorship": 1,
+  "remote but limited to another country": 1,
+  "nationals only": 1,
+  "ad is not written in English": 1,
+  "requires German": 1,
+  "asks for 6+ years": 1
+ },
+ "sources": [
+  {
+   "name": "Demo data",
+   "kind": "board",
+   "ok": true,
+   "fetched": 18,
+   "kept": 9
+  }
+ ],
+ "career_links": [
+  {
+   "name": "_VOIS",
+   "url": "https://jobs.vodafone.com",
+   "regions": [
+    "egypt"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "Microsoft",
+   "url": "https://jobs.careers.microsoft.com",
+   "regions": [
+    "egypt"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "IBM",
+   "url": "https://www.ibm.com/careers",
+   "regions": [
+    "egypt"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "Siemens",
+   "url": "https://jobs.siemens.com",
+   "regions": [
+    "egypt"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "Valeo",
+   "url": null,
+   "regions": [
+    "egypt"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "Orange Business",
+   "url": "https://orange.jobs",
+   "regions": [
+    "egypt"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "Fawry",
+   "url": null,
+   "regions": [
+    "egypt"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "Vodafone Egypt",
+   "url": "https://jobs.vodafone.com",
+   "regions": [
+    "egypt"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "Orange Egypt",
+   "url": null,
+   "regions": [
+    "egypt"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "Telecom Egypt (WE)",
+   "url": null,
+   "regions": [
+    "egypt"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "e& Egypt",
+   "url": null,
+   "regions": [
+    "egypt"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "Huawei",
+   "url": null,
+   "regions": [
+    "egypt",
+    "gulf"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "Ericsson",
+   "url": null,
+   "regions": [
+    "egypt",
+    "gulf",
+    "europe"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "Nokia",
+   "url": null,
+   "regions": [
+    "egypt",
+    "europe"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "Oracle",
+   "url": null,
+   "regions": [
+    "egypt",
+    "gulf"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "Amazon Web Services",
+   "url": null,
+   "regions": [
+    "egypt",
+    "gulf",
+    "europe"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "PwC",
+   "url": "https://www.pwc.com/m1/en/careers/experienced-jobs.html",
+   "regions": [
+    "egypt",
+    "gulf"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "Deloitte",
+   "url": null,
+   "regions": [
+    "egypt",
+    "gulf"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "EY",
+   "url": null,
+   "regions": [
+    "egypt",
+    "gulf"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "KPMG",
+   "url": null,
+   "regions": [
+    "egypt",
+    "gulf"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "Giza Systems",
+   "url": null,
+   "regions": [
+    "egypt",
+    "gulf"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "Raya IT",
+   "url": null,
+   "regions": [
+    "egypt"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "G42",
+   "url": "https://www.g42.ai/careers",
+   "regions": [
+    "gulf"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "Emirates NBD",
+   "url": "https://www.emiratesnbd.com/en/careers",
+   "regions": [
+    "gulf"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "stc",
+   "url": null,
+   "regions": [
+    "gulf"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "e& (Etisalat UAE)",
+   "url": null,
+   "regions": [
+    "gulf"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "du",
+   "url": null,
+   "regions": [
+    "gulf"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "Zain",
+   "url": null,
+   "regions": [
+    "gulf"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "Ooredoo",
+   "url": null,
+   "regions": [
+    "gulf"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "Mobily",
+   "url": null,
+   "regions": [
+    "gulf"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "Elm",
+   "url": null,
+   "regions": [
+    "gulf"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "Zalando",
+   "url": "https://jobs.zalando.com",
+   "regions": [
+    "europe"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "Booking.com",
+   "url": "https://jobs.booking.com",
+   "regions": [
+    "europe"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "SAP",
+   "url": "https://jobs.sap.com",
+   "regions": [
+    "europe",
+    "egypt",
+    "gulf"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "SUSE",
+   "url": "https://www.suse.com/company/careers/",
+   "regions": [
+    "europe",
+    "remote"
+   ],
+   "fallback": false
+  },
+  {
+   "name": "Red Hat",
+   "url": "https://www.redhat.com/en/jobs",
+   "regions": [
+    "europe",
+    "remote"
+   ],
+   "fallback": false
+  }
+ ],
+ "search": {
+  "keywords": [
+   "DevOps Engineer",
+   "Cloud Engineer",
+   "Infrastructure Engineer",
+   "System Administrator",
+   "Systems Engineer",
+   "Site Reliability Engineer",
+   "SAP HANA Administrator"
+  ],
+  "post_roles": {
+   "DevOps": "DevOps OR DevSecOps",
+   "Cloud": "\"cloud engineer\" OR \"cloud infrastructure\" OR \"cloud operations\"",
+   "Infrastructure": "\"infrastructure engineer\" OR \"infra engineer\" OR virtualization OR VMware",
+   "System Admin": "\"system administrator\" OR \"systems administrator\" OR sysadmin OR \"linux administrator\"",
+   "System Engineer": "\"system engineer\" OR \"systems engineer\"",
+   "SRE / Platform": "SRE OR \"site reliability\" OR \"platform engineer\"",
+   "SAP HANA": "\"SAP HANA\" OR \"SAP Basis\""
+  },
+  "post_places": {
+   "مصر": "Egypt OR Cairo OR Giza OR Alexandria OR Maadi OR \"New Cairo\" OR \"Smart Village\"",
+   "الخليج": "UAE OR Dubai OR \"Abu Dhabi\" OR KSA OR Riyadh OR Jeddah OR Qatar OR Doha OR Kuwait OR Bahrain OR Oman",
+   "ريموت وrelocation": "remote OR relocation OR \"visa sponsorship\""
+  }
+ }
+}

@@ -16,6 +16,7 @@
 # The "Sources" tab on the site shows which entries worked on the last run.
 
 job_boards:
+  - id: workable       # jobs.workable.com search: Egypt + Gulf (main local feed)
   - id: arbeitnow        # Europe, many English + visa-sponsorship jobs
   - id: arbeitnow_uk     # United Kingdom
   - id: remotive         # remote jobs
@@ -24,17 +25,17 @@ job_boards:
 
 companies:
   # ---------------- Egypt
-  - {name: Instabug,        slugs: [instabug],                     regions: [egypt, remote]}
-  - {name: Paymob,          slugs: [paymob],                       regions: [egypt, gulf]}
-  - {name: MNT-Halan,       slugs: [mnt-halan, halan, mnthalan],   regions: [egypt]}
-  - {name: Breadfast,       slugs: [breadfast],                    regions: [egypt]}
-  - {name: Vezeeta,         slugs: [vezeeta],                      regions: [egypt, gulf]}
-  - {name: Swvl,            slugs: [swvl],                         regions: [egypt, gulf, europe]}
+  - {name: Instabug (Luciq), link: true, career_url: "https://www.ycombinator.com/companies/luciq/jobs", regions: [egypt, remote]}
+  - {name: Paymob,          link: true, career_url: "https://jobs.global.vc/companies/paymob", regions: [egypt, gulf]}
+  - {name: MNT-Halan,       link: true, regions: [egypt]}
+  - {name: Breadfast,       link: true, career_url: "https://www.breadfast.com/careers_categories/technology", regions: [egypt]}
+  - {name: Vezeeta,         link: true, regions: [egypt, gulf]}
+  - {name: Swvl,            ats: workable, slugs: [swvl],          regions: [egypt, gulf, europe]}
   - {name: Thndr,           slugs: [thndr],                        regions: [egypt]}
-  - {name: valU,            slugs: [valu],                         regions: [egypt]}
-  - {name: Rabbit,          slugs: [rabbitmart, rabbit],           regions: [egypt]}
-  - {name: Khazna,          slugs: [khazna],                       regions: [egypt]}
-  - {name: Dell Technologies, workday_url: "https://dell.wd1.myworkdayjobs.com/External", regions: [egypt]}
+  - {name: valU,            link: true, regions: [egypt]}
+  - {name: Rabbit,          link: true, regions: [egypt]}
+  - {name: Khazna,          link: true, regions: [egypt]}
+  - {name: Dell Technologies, link: true, career_url: "https://jobs.dell.com", regions: [egypt]}
   - {name: _VOIS,           career_url: "https://jobs.vodafone.com", regions: [egypt]}
   - {name: Microsoft,       career_url: "https://jobs.careers.microsoft.com", regions: [egypt]}
   - {name: IBM,             career_url: "https://www.ibm.com/careers", regions: [egypt]}
@@ -58,19 +59,23 @@ companies:
   - {name: KPMG,            link: true, regions: [egypt, gulf]}
   - {name: Giza Systems,    link: true, regions: [egypt, gulf]}
   - {name: Raya IT,         link: true, regions: [egypt]}
-  - {name: CyShield,        slugs: [cyshield],                     regions: [egypt, gulf]}
-  - {name: ITWorx,          slugs: [itworx],                       regions: [egypt, gulf]}
-  - {name: Sumerge,         slugs: [sumerge],                      regions: [egypt, gulf]}
+  - {name: CyShield,        link: true, regions: [egypt, gulf]}
+  - {name: ITWorx,          link: true, regions: [egypt, gulf]}
+  - {name: Sumerge,         link: true, regions: [egypt, gulf]}
+  - {name: CEQUENS,         ats: workable, slugs: [cequens],       regions: [egypt, gulf]}
+  - {name: Robusta,         ats: workable, slugs: [robusta],       regions: [egypt]}
+  - {name: Lucidya,         ats: workable, slugs: [lucidya],       regions: [gulf, egypt]}
+  - {name: Brimore,         ats: smartrecruiters, slugs: [brimore], regions: [egypt]}
 
   # ---------------- Gulf
   - {name: Careem,          ats: greenhouse, slugs: [careem],      regions: [gulf]}
   - {name: Tamara,          ats: greenhouse, slugs: [tamara],      regions: [gulf, egypt]}
   - {name: Tabby,           slugs: [tabby],                        regions: [gulf, egypt]}
-  - {name: Talabat,         slugs: [talabat],                      regions: [gulf, egypt]}
+  - {name: Talabat,         link: true, career_url: "https://careers.deliveryhero.com/talabat-jobs", regions: [gulf, egypt]}
   - {name: Noon,            slugs: [noon, nooncom],                regions: [gulf, egypt]}
   - {name: Property Finder, slugs: [propertyfinder],               regions: [gulf, egypt]}
   - {name: Kitopi,          slugs: [kitopi],                       regions: [gulf]}
-  - {name: Lean Technologies, slugs: [leantechnologies, lean],     regions: [gulf]}
+  - {name: Lean Technologies, ats: ashby, slugs: [leantech],       regions: [gulf]}
   - {name: Foodics,         slugs: [foodics],                      regions: [gulf, egypt]}
   - {name: Salla,           slugs: [salla],                        regions: [gulf]}
   - {name: Anghami,         slugs: [anghami],                      regions: [gulf]}

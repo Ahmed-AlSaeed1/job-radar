@@ -71,16 +71,16 @@ search:
 
   # LinkedIn POSTS search (recruiter / HR "we are hiring" posts).
   # Keep these short and plain: LinkedIn post search returns nothing for long OR/AND queries.
-  # Each link searches: hiring <role> <place>
+  # Each link searches: hiring "<role>" <place>  (the quotes keep results on-topic)
   post_roles:
-    DevOps: 'DevOps'
-    Cloud: 'Cloud Engineer'
-    Infrastructure: 'Infrastructure Engineer'
-    System Admin: 'System Administrator'
-    System Engineer: 'System Engineer'
-    SRE / Platform: 'SRE'
-    Linux: 'Linux'
-    SAP HANA: 'SAP Basis'
+    DevOps: '"DevOps Engineer"'
+    Cloud: '"Cloud Engineer"'
+    Infrastructure: '"Infrastructure Engineer"'
+    System Admin: '"System Administrator"'
+    System Engineer: '"System Engineer"'
+    SRE / Platform: '"Site Reliability"'
+    Linux: '"Linux Administrator"'
+    SAP HANA: '"SAP Basis"'
   post_places:
     مصر: 'Egypt'
     القاهرة: 'Cairo'

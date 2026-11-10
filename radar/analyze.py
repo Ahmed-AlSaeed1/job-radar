@@ -70,7 +70,7 @@ TITLE_EXCLUDE = re.compile(
     r"front-?end|back-?end developer|full-?stack|data scientist|data engineer|data analyst|machine learning|"
     r"\bml\b|mechanical|electrical|civil|embedded|firmware|hardware|avionics|rf engineer|teacher|instructor|"
     r"trainer|pre-?sales|solutions? consultant|cloud kitchen|intern|internship|working student|werkstudent|"
-    r"praktikum|trainee|student)\b", re.I)
+    r"praktikum|trainee|student|security|cyber\w*|cybersecurity|soc|siem|penetration|pentest\w*|grc|robotics)\b", re.I)
 
 
 def classify_role(title):

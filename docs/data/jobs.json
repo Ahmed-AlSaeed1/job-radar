@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T17:23+00:00",
+ "generated_at": "2026-11-10T17:26+00:00",
  "today": "2026-11-10",
  "demo": false,
  "first_run": false,
@@ -171,32 +171,6 @@
     "cert_redhat"
    ],
    "years": 4,
-   "visa": "unknown",
-   "langs_nice": [],
-   "first_seen": "2026-11-10",
-   "is_new": true
-  },
-  {
-   "id": "9dac79ceddd2",
-   "title": "Robotics Systems Engineer (Autonomous Services & Smart Home)",
-   "company": "The Greater Change",
-   "location": "Dubai, United Arab Emirates",
-   "region": "gulf",
-   "remote": false,
-   "role": "sysadmin",
-   "url": "https://jobs.workable.com/view/x3thEUVg8PjBEmJCQ51nuC/robotics-systems-engineer-(autonomous-services-%26-smart-home)-in-dubai-at-the-greater-change",
-   "source": "Workable",
-   "posted_at": "2026-11-07",
-   "score": 87,
-   "matched": [
-    "linux",
-    "networking"
-   ],
-   "partial": [
-    "python"
-   ],
-   "missing": [],
-   "years": null,
    "visa": "unknown",
    "langs_nice": [],
    "first_seen": "2026-11-10",
@@ -462,33 +436,6 @@
    "is_new": true
   },
   {
-   "id": "267077b0e081",
-   "title": "Linux Cryptography and Security Engineer",
-   "company": "Canonical",
-   "location": "Remote Worldwide",
-   "region": "remote",
-   "remote": true,
-   "role": "sysadmin",
-   "url": "https://himalayas.app/companies/canonical/jobs/linux-cryptography-and-security-engineer?utm_source=api",
-   "source": "Himalayas",
-   "posted_at": "2026-09-20",
-   "score": 80,
-   "matched": [
-    "bash",
-    "linux"
-   ],
-   "partial": [
-    "ansible",
-    "python"
-   ],
-   "missing": [],
-   "years": null,
-   "visa": null,
-   "langs_nice": [],
-   "first_seen": "2026-11-10",
-   "is_new": true
-  },
-  {
    "id": "cddd8db1c981",
    "title": "Ubuntu Linux Kernel Engineer - Silicon Enablement",
    "company": "Canonical",
@@ -651,36 +598,6 @@
    "is_new": true
   },
   {
-   "id": "082fbf1a5da1",
-   "title": "Cloud Infrastructure Security Engineer",
-   "company": "Bjak",
-   "location": "Remote Worldwide",
-   "region": "remote",
-   "remote": true,
-   "role": "cloud",
-   "url": "https://himalayas.app/companies/bjak/jobs/cloud-infrastructure-security-engineer?utm_source=api",
-   "source": "Himalayas",
-   "posted_at": "2026-09-30",
-   "score": 77,
-   "matched": [
-    "aws",
-    "networking",
-    "firewalls",
-    "backup_dr"
-   ],
-   "partial": [
-    "incident"
-   ],
-   "missing": [
-    "gcp"
-   ],
-   "years": null,
-   "visa": null,
-   "langs_nice": [],
-   "first_seen": "2026-11-10",
-   "is_new": true
-  },
-  {
    "id": "66d973d21662",
    "title": "Cloud Engineer (Saudi Arabia)",
    "company": "Eram Talent",
@@ -783,6 +700,42 @@
    "missing": [],
    "years": null,
    "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "44129d2fac03",
+   "title": "Infrastructure Engineer",
+   "company": "Gardacp",
+   "location": "Geneva, Geneva",
+   "region": "europe",
+   "remote": false,
+   "role": "infra",
+   "url": "https://www.arbeitnow.ch/jobs/companies/gardacp/infrastructure-engineer-geneva-geneva-103465",
+   "source": "Arbeitnow",
+   "posted_at": "2026-11-07",
+   "score": 72,
+   "matched": [
+    "aws",
+    "linux",
+    "virtualization",
+    "networking",
+    "backup_dr"
+   ],
+   "partial": [
+    "azure",
+    "terraform",
+    "ansible",
+    "cicd",
+    "git",
+    "python"
+   ],
+   "missing": [
+    "powershell"
+   ],
+   "years": 4,
+   "visa": "unknown",
    "langs_nice": [],
    "first_seen": "2026-11-10",
    "is_new": true
@@ -1309,68 +1262,6 @@
    "is_new": true
   },
   {
-   "id": "55aa79ccd6a8",
-   "title": "Google Cloud Security Engineer.",
-   "company": "Müller`s Solutions",
-   "location": "Cairo, Egypt",
-   "region": "egypt",
-   "remote": false,
-   "role": "cloud",
-   "url": "https://jobs.workable.com/view/xejWZs6z29uNTCyUBK4Erz/google-cloud-security-engineer.-in-cairo-at-m%C3%BCller%60s-solutions",
-   "source": "Workable",
-   "posted_at": "2026-03-03",
-   "score": 69,
-   "matched": [
-    "bash",
-    "networking",
-    "firewalls"
-   ],
-   "partial": [
-    "python",
-    "incident",
-    "devsecops"
-   ],
-   "missing": [
-    "gcp"
-   ],
-   "years": 3,
-   "visa": null,
-   "langs_nice": [],
-   "first_seen": "2026-11-10",
-   "is_new": true
-  },
-  {
-   "id": "5543dcf2b96d",
-   "title": "Google Cloud Security Engineer.",
-   "company": "Müller`s Solutions",
-   "location": "Dubai, United Arab Emirates",
-   "region": "gulf",
-   "remote": false,
-   "role": "cloud",
-   "url": "https://jobs.workable.com/view/88GE8AMQ12UiEPtfRircFx/google-cloud-security-engineer.-in-dubai-at-m%C3%BCller%60s-solutions",
-   "source": "Workable",
-   "posted_at": "2026-03-03",
-   "score": 69,
-   "matched": [
-    "bash",
-    "networking",
-    "firewalls"
-   ],
-   "partial": [
-    "python",
-    "incident",
-    "devsecops"
-   ],
-   "missing": [
-    "gcp"
-   ],
-   "years": 3,
-   "visa": "unknown",
-   "langs_nice": [],
-   "first_seen": "2026-11-10",
-   "is_new": true
-  },
-  {
    "id": "5fa50bc335b6",
    "title": "Deployment Engineer (Large-Scale IoT & Agentic Infrastructure)",
    "company": "The Greater Change",
@@ -1884,35 +1775,6 @@
    "is_new": true
   },
   {
-   "id": "198b28f65df3",
-   "title": "Cloud / Network / Cybersecurity Engineer",
-   "company": "Pavago",
-   "location": "Egypt",
-   "region": "egypt",
-   "remote": true,
-   "role": "cloud",
-   "url": "https://jobs.workable.com/view/ozjY5vkTyGGfdtxEBZ4wBN/remote-cloud-%2F-network-%2F-cybersecurity-engineer-in-egypt-at-pavago",
-   "source": "Workable",
-   "posted_at": "2026-10-22",
-   "score": 64,
-   "matched": [
-    "aws",
-    "networking"
-   ],
-   "partial": [
-    "azure",
-    "incident"
-   ],
-   "missing": [
-    "gcp"
-   ],
-   "years": 3,
-   "visa": null,
-   "langs_nice": [],
-   "first_seen": "2026-11-10",
-   "is_new": true
-  },
-  {
    "id": "a3367ba01eeb",
    "title": "Mid-Level DevOps Engineer - 1 Year - Remote - Octopus by RTG",
    "company": "Robusta",
@@ -2023,7 +1885,7 @@
    "is_new": true
   },
   {
-   "id": "998aeaae5f7a",
+   "id": "9680b2d59c7b",
    "title": "Platform Engineer",
    "company": "Faculty",
    "location": "London",
@@ -2031,7 +1893,7 @@
    "remote": false,
    "role": "devops",
    "url": "https://www.arbeitnow.co.uk/jobs/companies/faculty/platform-engineer-london-87528",
-   "source": "Arbeitnow",
+   "source": "Arbeitnow UK",
    "posted_at": "2026-11-09",
    "score": 62,
    "matched": [
@@ -2217,6 +2079,31 @@
    "is_new": true
   },
   {
+   "id": "014fa06cf57c",
+   "title": "Research Engineer - Data Infrastructure",
+   "company": "Elevenlabs",
+   "location": "United Kingdom",
+   "region": "europe",
+   "remote": false,
+   "role": "infra",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/elevenlabs/research-engineer-data-infrastructure-united-kingdom-397791",
+   "source": "Arbeitnow UK",
+   "posted_at": "2026-11-08",
+   "score": 60,
+   "matched": [],
+   "partial": [
+    "kubernetes",
+    "git",
+    "storage"
+   ],
+   "missing": [],
+   "years": null,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
    "id": "b9a1c9077430",
    "title": "Platform Engineer",
    "company": "Sensor Tower",
@@ -2247,31 +2134,6 @@
     "elk",
     "postgresql"
    ],
-   "years": null,
-   "visa": "unknown",
-   "langs_nice": [],
-   "first_seen": "2026-11-10",
-   "is_new": true
-  },
-  {
-   "id": "014fa06cf57c",
-   "title": "Research Engineer - Data Infrastructure",
-   "company": "Elevenlabs",
-   "location": "United Kingdom",
-   "region": "europe",
-   "remote": false,
-   "role": "infra",
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/elevenlabs/research-engineer-data-infrastructure-united-kingdom-397791",
-   "source": "Arbeitnow UK",
-   "posted_at": "2026-11-08",
-   "score": 60,
-   "matched": [],
-   "partial": [
-    "kubernetes",
-    "git",
-    "storage"
-   ],
-   "missing": [],
    "years": null,
    "visa": "unknown",
    "langs_nice": [],
@@ -2823,7 +2685,7 @@
    "is_new": true
   },
   {
-   "id": "b340ed967326",
+   "id": "1dcff71ef7b9",
    "title": "Dev Ops Engineer",
    "company": "Smarkets",
    "location": "London",
@@ -2831,7 +2693,7 @@
    "remote": false,
    "role": "devops",
    "url": "https://www.arbeitnow.co.uk/jobs/companies/smarkets/dev-ops-engineer-london-19247",
-   "source": "Arbeitnow",
+   "source": "Arbeitnow UK",
    "posted_at": "2026-11-10",
    "score": 56,
    "matched": [
@@ -3514,37 +3376,6 @@
    "is_new": true
   },
   {
-   "id": "8e354fe79439",
-   "title": "IT Operations & Cybersecurity Specialist",
-   "company": "Sacred Byte GmbH",
-   "location": "Remote Worldwide",
-   "region": "remote",
-   "remote": true,
-   "role": "infra",
-   "url": "https://himalayas.app/companies/sacred-byte-gmbh/jobs/it-operations-cybersecurity-specialist?utm_source=api",
-   "source": "Himalayas",
-   "posted_at": "2026-11-01",
-   "score": 52,
-   "matched": [
-    "bash",
-    "backup_dr"
-   ],
-   "partial": [
-    "python"
-   ],
-   "missing": [
-    "powershell",
-    "m365"
-   ],
-   "years": 2,
-   "visa": null,
-   "langs_nice": [
-    "German"
-   ],
-   "first_seen": "2026-11-10",
-   "is_new": true
-  },
-  {
    "id": "aff213721926",
    "title": "Infrastructure Architect - 7 months contract",
    "company": "Müller`s Solutions",
@@ -3603,7 +3434,7 @@
    "is_new": true
   },
   {
-   "id": "b5c0fabc987c",
+   "id": "aea17ddd85e5",
    "title": "Platform Engineer",
    "company": "ManyPets",
    "location": "London, England, United Kingdom",
@@ -3611,7 +3442,7 @@
    "remote": false,
    "role": "devops",
    "url": "https://www.arbeitnow.co.uk/jobs/companies/manypets/platform-engineer-london-211309",
-   "source": "Arbeitnow",
+   "source": "Arbeitnow UK",
    "posted_at": "2026-11-09",
    "score": 51,
    "matched": [
@@ -3704,31 +3535,6 @@
    "missing": [
     "gcp",
     "gitlab_ci"
-   ],
-   "years": null,
-   "visa": "unknown",
-   "langs_nice": [],
-   "first_seen": "2026-11-10",
-   "is_new": true
-  },
-  {
-   "id": "d368b64ef5d0",
-   "title": "Google Cloud Data Platform and Security Architect",
-   "company": "Intelance",
-   "location": "London",
-   "region": "europe",
-   "remote": true,
-   "role": "cloud",
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/intelance/google-cloud-data-platform-and-security-architect-london-297226",
-   "source": "Arbeitnow UK",
-   "posted_at": "2026-11-10",
-   "score": 50,
-   "matched": [
-    "backup_dr"
-   ],
-   "partial": [],
-   "missing": [
-    "gcp"
    ],
    "years": null,
    "visa": "unknown",
@@ -4171,6 +3977,29 @@
    "is_new": true
   },
   {
+   "id": "9968730a9775",
+   "title": "AI Platform Engineer",
+   "company": "Nexcade",
+   "location": "London",
+   "region": "europe",
+   "remote": false,
+   "role": "devops",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/nexcade/ai-platform-engineer-london-38072",
+   "source": "Arbeitnow UK",
+   "posted_at": "2026-11-08",
+   "score": null,
+   "matched": [],
+   "partial": [
+    "python"
+   ],
+   "missing": [],
+   "years": null,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
    "id": "edccabebc396",
    "title": "Package Reliability Engineer (f/m/d)",
    "company": "Black Semiconductor GmbH",
@@ -4190,36 +4019,13 @@
    "langs_nice": [],
    "first_seen": "2026-11-10",
    "is_new": true
-  },
-  {
-   "id": "8b7110181fd0",
-   "title": "AI Platform Engineer",
-   "company": "Nexcade",
-   "location": "London",
-   "region": "europe",
-   "remote": false,
-   "role": "devops",
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/nexcade/ai-platform-engineer-london-38072",
-   "source": "Arbeitnow",
-   "posted_at": "2026-11-08",
-   "score": null,
-   "matched": [],
-   "partial": [
-    "python"
-   ],
-   "missing": [],
-   "years": null,
-   "visa": "unknown",
-   "langs_nice": [],
-   "first_seen": "2026-11-10",
-   "is_new": true
   }
  ],
  "gaps": {
   "missing": [
    [
     "gcp",
-    42
+    37
    ],
    [
     "golang",
@@ -4270,22 +4076,22 @@
     6
    ],
    [
-    "m365",
-    6
+    "vault",
+    5
    ],
    [
-    "vault",
+    "rabbitmq",
     5
    ]
   ],
   "partial": [
    [
-    "python",
-    74
-   ],
-   [
     "kubernetes",
     73
+   ],
+   [
+    "python",
+    70
    ],
    [
     "docker",
@@ -4293,15 +4099,15 @@
    ],
    [
     "cicd",
-    50
+    51
    ],
    [
     "terraform",
-    49
+    50
    ],
    [
     "git",
-    35
+    36
    ],
    [
     "azure",
@@ -4309,7 +4115,7 @@
    ],
    [
     "incident",
-    30
+    26
    ],
    [
     "ansible",
@@ -4322,15 +4128,15 @@
   ]
  },
  "dropped": {
-  "title not a target role": 5536,
-  "senior/lead title": 276,
-  "duplicate": 37,
-  "asks for 5+ years": 29,
-  "location outside Egypt / Gulf / Europe": 20,
-  "asks for 6+ years": 12,
+  "title not a target role": 5553,
+  "senior/lead title": 266,
+  "duplicate": 34,
+  "asks for 5+ years": 27,
+  "location outside Egypt / Gulf / Europe": 18,
   "remote but limited to another country": 11,
-  "ad is not written in English": 10,
-  "not enough infra keywords": 10,
+  "not enough infra keywords": 9,
+  "ad is not written in English": 9,
+  "asks for 6+ years": 9,
   "nationals only": 9,
   "asks for 10+ years": 5,
   "requires German": 4,
@@ -4438,6 +4244,13 @@
    "kept": 0
   },
   {
+   "name": "remoteok",
+   "kind": "board",
+   "ok": true,
+   "fetched": 99,
+   "kept": 0
+  },
+  {
    "name": "Careem",
    "kind": "company",
    "ok": true,
@@ -4454,10 +4267,10 @@
    "ats": "greenhouse:tamara"
   },
   {
-   "name": "remoteok",
+   "name": "arbeitnow_uk",
    "kind": "board",
    "ok": true,
-   "fetched": 99,
+   "fetched": 500,
    "kept": 0
   },
   {
@@ -4467,13 +4280,6 @@
    "fetched": 0,
    "kept": 0,
    "ats": "smartrecruiters:brimore"
-  },
-  {
-   "name": "arbeitnow",
-   "kind": "board",
-   "ok": true,
-   "fetched": 2149,
-   "kept": 0
   },
   {
    "name": "Lean Technologies",
@@ -4492,10 +4298,17 @@
    "ats": "workable:foodics"
   },
   {
-   "name": "arbeitnow_uk",
+   "name": "arbeitnow",
    "kind": "board",
    "ok": true,
-   "fetched": 500,
+   "fetched": 2149,
+   "kept": 0
+  },
+  {
+   "name": "himalayas",
+   "kind": "board",
+   "ok": true,
+   "fetched": 114,
    "kept": 0
   },
   {
@@ -4505,13 +4318,6 @@
    "fetched": 249,
    "kept": 0,
    "ats": "greenhouse:adyen"
-  },
-  {
-   "name": "himalayas",
-   "kind": "board",
-   "ok": true,
-   "fetched": 114,
-   "kept": 0
   },
   {
    "name": "Wolt",
@@ -4530,12 +4336,12 @@
    "ats": "greenhouse:hellofresh"
   },
   {
-   "name": "Spotify",
+   "name": "Delivery Hero",
    "kind": "company",
    "ok": true,
-   "fetched": 87,
+   "fetched": 5,
    "kept": 0,
-   "ats": "lever:spotify"
+   "ats": "smartrecruiters:DeliveryHero"
   },
   {
    "name": "Celonis",
@@ -4570,14 +4376,6 @@
    "ats": "greenhouse:contentful"
   },
   {
-   "name": "Bolt",
-   "kind": "company",
-   "ok": true,
-   "fetched": 5,
-   "kept": 0,
-   "ats": "lever:boltjobs"
-  },
-  {
    "name": "Grafana Labs",
    "kind": "company",
    "ok": true,
@@ -4586,12 +4384,12 @@
    "ats": "greenhouse:grafanalabs"
   },
   {
-   "name": "Delivery Hero",
+   "name": "Spotify",
    "kind": "company",
    "ok": true,
-   "fetched": 6,
+   "fetched": 87,
    "kept": 0,
-   "ats": "smartrecruiters:DeliveryHero"
+   "ats": "lever:spotify"
   },
   {
    "name": "Elastic",
@@ -4605,24 +4403,16 @@
    "name": "workable",
    "kind": "board",
    "ok": true,
-   "fetched": 168,
+   "fetched": 157,
    "kept": 0
   },
   {
-   "name": "Property Finder",
+   "name": "Bolt",
    "kind": "company",
-   "ok": false,
-   "fetched": 0,
+   "ok": true,
+   "fetched": 5,
    "kept": 0,
-   "error": "not found (no public job board found for slugs ['propertyfinder'])"
-  },
-  {
-   "name": "Tabby",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['tabby'])"
+   "ats": "lever:boltjobs"
   },
   {
    "name": "Kitopi",
@@ -4649,12 +4439,28 @@
    "error": "not found (no public job board found for slugs ['bayzat'])"
   },
   {
-   "name": "GetYourGuide",
+   "name": "Noon",
    "kind": "company",
    "ok": false,
    "fetched": 0,
    "kept": 0,
-   "error": "not found (no public job board found for slugs ['getyourguide'])"
+   "error": "not found (no public job board found for slugs ['noon', 'nooncom'])"
+  },
+  {
+   "name": "Tabby",
+   "kind": "company",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "not found (no public job board found for slugs ['tabby'])"
+  },
+  {
+   "name": "Property Finder",
+   "kind": "company",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "not found (no public job board found for slugs ['propertyfinder'])"
   },
   {
    "name": "Trade Republic",
@@ -4665,20 +4471,20 @@
    "error": "not found (no public job board found for slugs ['traderepublic'])"
   },
   {
+   "name": "GetYourGuide",
+   "kind": "company",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "not found (no public job board found for slugs ['getyourguide'])"
+  },
+  {
    "name": "Deriv",
    "kind": "company",
    "ok": false,
    "fetched": 0,
    "kept": 0,
    "error": "not found (no public job board found for slugs ['deriv'])"
-  },
-  {
-   "name": "Noon",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['noon', 'nooncom'])"
   },
   {
    "name": "Klarna",
@@ -4689,20 +4495,20 @@
    "error": "not found (no public job board found for slugs ['klarna'])"
   },
   {
-   "name": "Taxfix",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['taxfix'])"
-  },
-  {
    "name": "Deel",
    "kind": "company",
    "ok": false,
    "fetched": 0,
    "kept": 0,
    "error": "not found (no public job board found for slugs ['deel'])"
+  },
+  {
+   "name": "Taxfix",
+   "kind": "company",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "not found (no public job board found for slugs ['taxfix'])"
   }
  ],
  "career_links": [

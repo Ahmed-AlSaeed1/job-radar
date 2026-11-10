@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-10T17:11+00:00",
+ "generated_at": "2026-11-10T17:23+00:00",
  "today": "2026-11-10",
  "demo": false,
- "first_run": true,
+ "first_run": false,
  "profile": {
   "name": "Ahmed Al-Saeed",
   "headline": "Cloud & DevOps Engineer, 2 years production, AWS SAA, VCP-DCV"
@@ -117,7 +117,116 @@
     "Portuguese"
    ],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
+  },
+  {
+   "id": "e13e66ff94d0",
+   "title": "Network & Infrastructure Engineer",
+   "company": "Ninja",
+   "location": "Riyadh, Saudi Arabia",
+   "region": "gulf",
+   "remote": false,
+   "role": "infra",
+   "url": "https://jobs.workable.com/view/vSAgYHyzRY3bpmgF8NipVQ/network-%26-infrastructure-engineer-in-riyadh-at-ninja",
+   "source": "Workable",
+   "posted_at": "2026-10-19",
+   "score": 100,
+   "matched": [
+    "zabbix",
+    "networking",
+    "firewalls"
+   ],
+   "partial": [],
+   "missing": [],
+   "years": 3,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "1be15e833abd",
+   "title": "Systems Engineer (Linux) - Dubai, UAE",
+   "company": "DeepSource Technologies",
+   "location": "Dubai, United Arab Emirates",
+   "region": "gulf",
+   "remote": false,
+   "role": "sysadmin",
+   "url": "https://jobs.workable.com/view/oVgMuStC5ZxZ7vvWvutiRb/systems-engineer-(linux)---dubai%2C-uae-in-dubai-at-deepsource-technologies",
+   "source": "Workable",
+   "posted_at": "2026-08-06",
+   "score": 88,
+   "matched": [
+    "bash",
+    "linux",
+    "rhel",
+    "ha_clustering",
+    "networking",
+    "backup_dr"
+   ],
+   "partial": [
+    "python"
+   ],
+   "missing": [
+    "cert_redhat"
+   ],
+   "years": 4,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "9dac79ceddd2",
+   "title": "Robotics Systems Engineer (Autonomous Services & Smart Home)",
+   "company": "The Greater Change",
+   "location": "Dubai, United Arab Emirates",
+   "region": "gulf",
+   "remote": false,
+   "role": "sysadmin",
+   "url": "https://jobs.workable.com/view/x3thEUVg8PjBEmJCQ51nuC/robotics-systems-engineer-(autonomous-services-%26-smart-home)-in-dubai-at-the-greater-change",
+   "source": "Workable",
+   "posted_at": "2026-11-07",
+   "score": 87,
+   "matched": [
+    "linux",
+    "networking"
+   ],
+   "partial": [
+    "python"
+   ],
+   "missing": [],
+   "years": null,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "ed4fe35e162b",
+   "title": "Data Center Technician (Infrastructure) Saudi Arabia",
+   "company": "Eram Talent",
+   "location": "Al Bahah, Saudi Arabia",
+   "region": "gulf",
+   "remote": false,
+   "role": "infra",
+   "url": "https://jobs.workable.com/view/1JV82rQw9mcpoLZZjSz78N/data-center-technician-(infrastructure)-saudi-arabia-in-al-bahah-at-eram-talent",
+   "source": "Workable",
+   "posted_at": "2025-12-07",
+   "score": 87,
+   "matched": [
+    "linux",
+    "networking"
+   ],
+   "partial": [
+    "incident"
+   ],
+   "missing": [],
+   "years": 3,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
   },
   {
    "id": "cb67b290a1f5",
@@ -147,7 +256,35 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
+  },
+  {
+   "id": "a754c87bde2d",
+   "title": "Systems Engineer - KSA",
+   "company": "Azeus Convene",
+   "location": "Saudi Arabia",
+   "region": "gulf",
+   "remote": true,
+   "role": "sysadmin",
+   "url": "https://jobs.workable.com/view/kfV6UJwwcKrj1zCwBMSezS/remote-systems-engineer---ksa-in-riyadh-province-at-azeus-convene",
+   "source": "Workable",
+   "posted_at": "2026-09-25",
+   "score": 84,
+   "matched": [
+    "aws",
+    "linux",
+    "firewalls"
+   ],
+   "partial": [
+    "azure",
+    "incident"
+   ],
+   "missing": [],
+   "years": null,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
   },
   {
    "id": "7bc39a7d5b78",
@@ -177,7 +314,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "cddd72d538da",
@@ -207,7 +344,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "f864abc03bfe",
@@ -237,7 +374,7 @@
    "visa": "unknown",
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "aacc5146fac3",
@@ -267,7 +404,7 @@
    "visa": "unknown",
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "12bece626f25",
@@ -297,7 +434,7 @@
    "visa": "unknown",
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "e07ea82323fa",
@@ -322,7 +459,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "267077b0e081",
@@ -349,7 +486,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "cddd8db1c981",
@@ -376,7 +513,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "24d828ce1512",
@@ -403,7 +540,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "35daa99acab2",
@@ -432,7 +569,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "3aca1a21a02a",
@@ -457,7 +594,61 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
+  },
+  {
+   "id": "8657d59ba36f",
+   "title": "Dell AI Infrastructure & MLOps Engineer - (6 Month Only)",
+   "company": "Müller`s Solutions",
+   "location": "Dubai, United Arab Emirates",
+   "region": "gulf",
+   "remote": false,
+   "role": "infra",
+   "url": "https://jobs.workable.com/view/hgqRAfovnuU1Ue1kdHK1NX/dell-ai-infrastructure-%26-mlops-engineer---(6-month-only)-in-dubai-at-m%C3%BCller%60s-solutions",
+   "source": "Workable",
+   "posted_at": "2026-01-29",
+   "score": 80,
+   "matched": [
+    "linux",
+    "networking"
+   ],
+   "partial": [
+    "kubernetes",
+    "python"
+   ],
+   "missing": [],
+   "years": 4,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "32e2d3019995",
+   "title": "Systems Engineer",
+   "company": "Azeus Convene",
+   "location": "Riyadh, Saudi Arabia",
+   "region": "gulf",
+   "remote": false,
+   "role": "sysadmin",
+   "url": "https://jobs.workable.com/view/3zxyCAmNfP2qKHDrUsZ6vi/hybrid-systems-engineer-in-riyadh-at-azeus-convene",
+   "source": "Workable",
+   "posted_at": "2025-10-09",
+   "score": 80,
+   "matched": [
+    "aws",
+    "firewalls"
+   ],
+   "partial": [
+    "azure",
+    "incident"
+   ],
+   "missing": [],
+   "years": null,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
   },
   {
    "id": "082fbf1a5da1",
@@ -487,7 +678,37 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
+  },
+  {
+   "id": "66d973d21662",
+   "title": "Cloud Engineer (Saudi Arabia)",
+   "company": "Eram Talent",
+   "location": "Dammam, Saudi Arabia",
+   "region": "gulf",
+   "remote": false,
+   "role": "cloud",
+   "url": "https://jobs.workable.com/view/riXD7JVgZF76ETaJRkgoMJ/cloud-engineer-(saudi-arabia)-in-dammam-at-eram-talent",
+   "source": "Workable",
+   "posted_at": "2026-08-13",
+   "score": 77,
+   "matched": [
+    "aws",
+    "haproxy",
+    "networking",
+    "firewalls"
+   ],
+   "partial": [
+    "azure"
+   ],
+   "missing": [
+    "gcp"
+   ],
+   "years": null,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
   },
   {
    "id": "10966869aa49",
@@ -535,7 +756,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "cc343901bd60",
@@ -564,43 +785,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
-  },
-  {
-   "id": "44129d2fac03",
-   "title": "Infrastructure Engineer",
-   "company": "Gardacp",
-   "location": "Geneva, Geneva",
-   "region": "europe",
-   "remote": false,
-   "role": "infra",
-   "url": "https://www.arbeitnow.ch/jobs/companies/gardacp/infrastructure-engineer-geneva-geneva-103465",
-   "source": "Arbeitnow",
-   "posted_at": "2026-11-07",
-   "score": 72,
-   "matched": [
-    "aws",
-    "linux",
-    "virtualization",
-    "networking",
-    "backup_dr"
-   ],
-   "partial": [
-    "azure",
-    "terraform",
-    "ansible",
-    "cicd",
-    "git",
-    "python"
-   ],
-   "missing": [
-    "powershell"
-   ],
-   "years": 4,
-   "visa": "unknown",
-   "langs_nice": [],
-   "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "7dbce400f229",
@@ -632,7 +817,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "6e286e21fd46",
@@ -661,7 +846,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "4eaa40da1458",
@@ -690,7 +875,120 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
+  },
+  {
+   "id": "1c8331551f11",
+   "title": "Systems and Cloud Administrator",
+   "company": "Müller`s Solutions",
+   "location": "Cairo, Egypt",
+   "region": "egypt",
+   "remote": false,
+   "role": "cloud",
+   "url": "https://jobs.workable.com/view/9uAXwFQHYJxVoPsecZhCoG/systems-and-cloud-administrator-in-cairo-at-m%C3%BCller%60s-solutions",
+   "source": "Workable",
+   "posted_at": "2025-09-03",
+   "score": 72,
+   "matched": [
+    "aws",
+    "bash",
+    "linux",
+    "virtualization",
+    "networking",
+    "backup_dr",
+    "cert_aws"
+   ],
+   "partial": [
+    "azure",
+    "terraform",
+    "ansible"
+   ],
+   "missing": [
+    "gcp",
+    "powershell"
+   ],
+   "years": 3,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "8b818707b2a7",
+   "title": "IT System Administrator",
+   "company": "Müller`s Solutions",
+   "location": "Riyadh, Saudi Arabia",
+   "region": "gulf",
+   "remote": false,
+   "role": "sysadmin",
+   "url": "https://jobs.workable.com/view/bia3n7BZYjMpTA9oZgm7mA/it-system-administrator-in-riyadh-at-m%C3%BCller%60s-solutions",
+   "source": "Workable",
+   "posted_at": "2025-07-23",
+   "score": 72,
+   "matched": [
+    "aws",
+    "bash",
+    "linux",
+    "rhel",
+    "windows_server",
+    "vmware",
+    "virtualization",
+    "ha_clustering",
+    "firewalls",
+    "backup_dr"
+   ],
+   "partial": [
+    "azure",
+    "mysql"
+   ],
+   "missing": [
+    "powershell",
+    "hyperv",
+    "sql_server",
+    "cert_redhat"
+   ],
+   "years": 3,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "ebb31b0057e1",
+   "title": "DevOps Engineer",
+   "company": "CEQUENS",
+   "location": "Cairo, Cairo Governorate, Egypt",
+   "region": "egypt",
+   "remote": false,
+   "role": "devops",
+   "url": "https://apply.workable.com/j/F86C0BDCD2",
+   "source": "CEQUENS",
+   "posted_at": "2026-09-29",
+   "score": 71,
+   "matched": [
+    "aws",
+    "bash",
+    "linux",
+    "ha_clustering",
+    "backup_dr"
+   ],
+   "partial": [
+    "docker",
+    "kubernetes",
+    "terraform",
+    "ansible",
+    "cicd",
+    "git",
+    "python"
+   ],
+   "missing": [
+    "serverless"
+   ],
+   "years": 2,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
   },
   {
    "id": "cf89dbdb20a4",
@@ -727,7 +1025,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "2472bdda443b",
@@ -761,7 +1059,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "c1e2eb27c718",
@@ -795,7 +1093,79 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
+  },
+  {
+   "id": "316ec156e5f6",
+   "title": "Platform Engineer",
+   "company": "Sumerge",
+   "location": "Cairo, Egypt",
+   "region": "egypt",
+   "remote": false,
+   "role": "devops",
+   "url": "https://jobs.workable.com/view/bpJU2vJ6qzy962bKZwZ4i3/hybrid-platform-engineer-in-cairo-at-sumerge",
+   "source": "Workable",
+   "posted_at": "2026-10-06",
+   "score": 70,
+   "matched": [
+    "linux",
+    "windows_server",
+    "prometheus",
+    "grafana",
+    "networking",
+    "backup_dr"
+   ],
+   "partial": [
+    "docker",
+    "kubernetes",
+    "cicd",
+    "incident"
+   ],
+   "missing": [
+    "openshift",
+    "elk"
+   ],
+   "years": 2,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "de460ba57aa6",
+   "title": "Linux Engineer - Red Hat Satellite",
+   "company": "Müller`s Solutions",
+   "location": "Riyadh, Saudi Arabia",
+   "region": "gulf",
+   "remote": false,
+   "role": "sysadmin",
+   "url": "https://jobs.workable.com/view/gbrzvkY4Sjaoi37i7ppfMq/linux-engineer---red-hat-satellite-in-riyadh-at-m%C3%BCller%60s-solutions",
+   "source": "Workable",
+   "posted_at": "2026-01-13",
+   "score": 70,
+   "matched": [
+    "aws",
+    "bash",
+    "linux",
+    "rhel",
+    "ha_clustering"
+   ],
+   "partial": [
+    "azure",
+    "docker",
+    "kubernetes",
+    "ansible",
+    "python"
+   ],
+   "missing": [
+    "puppet",
+    "cert_redhat"
+   ],
+   "years": 4,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
   },
   {
    "id": "e833d0c30cc4",
@@ -830,7 +1200,7 @@
    "visa": "unknown",
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "3d3db85256cf",
@@ -861,7 +1231,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "43ec094f893d",
@@ -903,7 +1273,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "a0b6e28a2def",
@@ -936,7 +1306,145 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
+  },
+  {
+   "id": "55aa79ccd6a8",
+   "title": "Google Cloud Security Engineer.",
+   "company": "Müller`s Solutions",
+   "location": "Cairo, Egypt",
+   "region": "egypt",
+   "remote": false,
+   "role": "cloud",
+   "url": "https://jobs.workable.com/view/xejWZs6z29uNTCyUBK4Erz/google-cloud-security-engineer.-in-cairo-at-m%C3%BCller%60s-solutions",
+   "source": "Workable",
+   "posted_at": "2026-03-03",
+   "score": 69,
+   "matched": [
+    "bash",
+    "networking",
+    "firewalls"
+   ],
+   "partial": [
+    "python",
+    "incident",
+    "devsecops"
+   ],
+   "missing": [
+    "gcp"
+   ],
+   "years": 3,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "5543dcf2b96d",
+   "title": "Google Cloud Security Engineer.",
+   "company": "Müller`s Solutions",
+   "location": "Dubai, United Arab Emirates",
+   "region": "gulf",
+   "remote": false,
+   "role": "cloud",
+   "url": "https://jobs.workable.com/view/88GE8AMQ12UiEPtfRircFx/google-cloud-security-engineer.-in-dubai-at-m%C3%BCller%60s-solutions",
+   "source": "Workable",
+   "posted_at": "2026-03-03",
+   "score": 69,
+   "matched": [
+    "bash",
+    "networking",
+    "firewalls"
+   ],
+   "partial": [
+    "python",
+    "incident",
+    "devsecops"
+   ],
+   "missing": [
+    "gcp"
+   ],
+   "years": 3,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "5fa50bc335b6",
+   "title": "Deployment Engineer (Large-Scale IoT & Agentic Infrastructure)",
+   "company": "The Greater Change",
+   "location": "Dubai, United Arab Emirates",
+   "region": "gulf",
+   "remote": false,
+   "role": "infra",
+   "url": "https://jobs.workable.com/view/9eP7PvRMq3iuAX9xznkr9V/deployment-engineer-(large-scale-iot-%26-agentic-infrastructure)-in-dubai-at-the-greater-change",
+   "source": "Workable",
+   "posted_at": "2026-11-06",
+   "score": 69,
+   "matched": [
+    "aws",
+    "bash",
+    "proxmox",
+    "prometheus",
+    "grafana",
+    "networking"
+   ],
+   "partial": [
+    "azure",
+    "docker",
+    "kubernetes",
+    "terraform",
+    "ansible",
+    "python"
+   ],
+   "missing": [
+    "pulumi",
+    "elk"
+   ],
+   "years": null,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "1559c49404f5",
+   "title": "Windows System Administrator",
+   "company": "Müller`s Solutions",
+   "location": "Riyadh, Saudi Arabia",
+   "region": "gulf",
+   "remote": false,
+   "role": "sysadmin",
+   "url": "https://jobs.workable.com/view/4zPF2TwsoDLcrnFcmjTeK6/windows-system-administrator-in-riyadh-at-m%C3%BCller%60s-solutions",
+   "source": "Workable",
+   "posted_at": "2025-08-19",
+   "score": 69,
+   "matched": [
+    "aws",
+    "bash",
+    "windows_server",
+    "vmware",
+    "virtualization",
+    "ha_clustering",
+    "networking",
+    "firewalls",
+    "backup_dr"
+   ],
+   "partial": [
+    "azure"
+   ],
+   "missing": [
+    "powershell",
+    "active_directory",
+    "hyperv",
+    "sql_server"
+   ],
+   "years": 3,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
   },
   {
    "id": "ee4fadd71179",
@@ -968,7 +1476,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "310dfc4eeba7",
@@ -1002,7 +1510,44 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
+  },
+  {
+   "id": "7b4f9a79fafc",
+   "title": "DevOps / Site Reliability Engineer",
+   "company": "Goodman Masson Muscat",
+   "location": "Muscat, Oman",
+   "region": "gulf",
+   "remote": false,
+   "role": "devops",
+   "url": "https://jobs.workable.com/view/bHuU8jHBXo7t7ULgZtxFNu/devops-%2F-site-reliability-engineer-in-muscat-at-goodman-masson-muscat",
+   "source": "Workable",
+   "posted_at": "2026-10-29",
+   "score": 68,
+   "matched": [
+    "aws",
+    "prometheus",
+    "grafana",
+    "backup_dr"
+   ],
+   "partial": [
+    "azure",
+    "docker",
+    "kubernetes",
+    "terraform",
+    "ansible",
+    "cicd",
+    "incident",
+    "devsecops"
+   ],
+   "missing": [
+    "elk"
+   ],
+   "years": null,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
   },
   {
    "id": "07f86268a08a",
@@ -1035,7 +1580,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "b39fe5994cd6",
@@ -1064,7 +1609,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "876c69cc5091",
@@ -1097,7 +1642,54 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
+  },
+  {
+   "id": "aa4068f6f9fd",
+   "title": "Site Reliability Engineer - Saudi Only",
+   "company": "Lucidya",
+   "location": "Riyadh, Riyadh Province, Saudi Arabia",
+   "region": "gulf",
+   "remote": false,
+   "role": "devops",
+   "url": "https://apply.workable.com/j/B519978733",
+   "source": "Lucidya",
+   "posted_at": "2026-09-03",
+   "score": 65,
+   "matched": [
+    "aws",
+    "bash",
+    "linux",
+    "ha_clustering",
+    "prometheus",
+    "grafana",
+    "haproxy",
+    "redis",
+    "networking"
+   ],
+   "partial": [
+    "azure",
+    "docker",
+    "kubernetes",
+    "terraform",
+    "ansible",
+    "cicd",
+    "jenkins",
+    "github_actions",
+    "git",
+    "python"
+   ],
+   "missing": [
+    "gcp",
+    "elk",
+    "datadog",
+    "rabbitmq"
+   ],
+   "years": 1,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
   },
   {
    "id": "f97933f21a56",
@@ -1131,7 +1723,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "9c1f88b24bcd",
@@ -1160,7 +1752,7 @@
    "visa": "yes",
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "4df60cb8970b",
@@ -1193,7 +1785,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "665eefd9ffe5",
@@ -1231,7 +1823,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "2b5555fc3e80",
@@ -1260,7 +1852,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "97f4f45b2ed0",
@@ -1289,7 +1881,73 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
+  },
+  {
+   "id": "198b28f65df3",
+   "title": "Cloud / Network / Cybersecurity Engineer",
+   "company": "Pavago",
+   "location": "Egypt",
+   "region": "egypt",
+   "remote": true,
+   "role": "cloud",
+   "url": "https://jobs.workable.com/view/ozjY5vkTyGGfdtxEBZ4wBN/remote-cloud-%2F-network-%2F-cybersecurity-engineer-in-egypt-at-pavago",
+   "source": "Workable",
+   "posted_at": "2026-10-22",
+   "score": 64,
+   "matched": [
+    "aws",
+    "networking"
+   ],
+   "partial": [
+    "azure",
+    "incident"
+   ],
+   "missing": [
+    "gcp"
+   ],
+   "years": 3,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "a3367ba01eeb",
+   "title": "Mid-Level DevOps Engineer - 1 Year - Remote - Octopus by RTG",
+   "company": "Robusta",
+   "location": "Egypt",
+   "region": "egypt",
+   "remote": true,
+   "role": "devops",
+   "url": "https://apply.workable.com/j/7FD972CE83",
+   "source": "Robusta",
+   "posted_at": "2026-11-08",
+   "score": 63,
+   "matched": [
+    "aws",
+    "bash",
+    "linux",
+    "networking"
+   ],
+   "partial": [
+    "azure",
+    "docker",
+    "kubernetes",
+    "terraform",
+    "cicd",
+    "git",
+    "python"
+   ],
+   "missing": [
+    "gcp",
+    "powershell"
+   ],
+   "years": 3,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
   },
   {
    "id": "17e9ed4261b4",
@@ -1326,7 +1984,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "fa9ff1c9c5b6",
@@ -1362,7 +2020,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "998aeaae5f7a",
@@ -1394,7 +2052,7 @@
    "visa": "unknown",
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "947d5a955c4e",
@@ -1428,7 +2086,83 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
+  },
+  {
+   "id": "6cdfa0ad40fd",
+   "title": "SiteCore DevOps / Platform Engineer",
+   "company": "Arcsen",
+   "location": "Maadi, Egypt",
+   "region": "egypt",
+   "remote": false,
+   "role": "devops",
+   "url": "https://jobs.workable.com/view/ibmBGKQxj5M4MxEp3YXGFW/hybrid-sitecore-devops-%2F-platform-engineer-in-maadi-at-arcsen",
+   "source": "Workable",
+   "posted_at": "2026-06-17",
+   "score": 62,
+   "matched": [
+    "ha_clustering",
+    "backup_dr"
+   ],
+   "partial": [
+    "azure",
+    "docker",
+    "kubernetes",
+    "terraform",
+    "cicd",
+    "git",
+    "incident"
+   ],
+   "missing": [
+    "splunk"
+   ],
+   "years": null,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "a57ef94e1185",
+   "title": "Cloud DevOps Engineer - Azure/AWS (On Site )",
+   "company": "SSC HR Solutions",
+   "location": "Cairo, Egypt",
+   "region": "egypt",
+   "remote": false,
+   "role": "devops",
+   "url": "https://jobs.workable.com/view/woeuiTo5E4AWfihTSjDF3W/cloud-devops-engineer---azure%2Faws-(on-site-)-in-cairo-at-ssc-hr-solutions",
+   "source": "Workable",
+   "posted_at": "2026-08-11",
+   "score": 62,
+   "matched": [
+    "aws",
+    "bash",
+    "networking",
+    "backup_dr",
+    "cert_aws"
+   ],
+   "partial": [
+    "azure",
+    "docker",
+    "kubernetes",
+    "terraform",
+    "ansible",
+    "cicd",
+    "jenkins",
+    "git",
+    "python",
+    "incident"
+   ],
+   "missing": [
+    "gitlab_ci",
+    "powershell",
+    "cert_k8s"
+   ],
+   "years": 3,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
   },
   {
    "id": "4c56340d1266",
@@ -1480,7 +2214,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "b9a1c9077430",
@@ -1517,7 +2251,7 @@
    "visa": "unknown",
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "014fa06cf57c",
@@ -1542,7 +2276,7 @@
    "visa": "unknown",
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "2e1cde3a15d5",
@@ -1567,7 +2301,158 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
+  },
+  {
+   "id": "2fd59a7f95fa",
+   "title": "Salesforce DevOps Engineer",
+   "company": "99brightminds",
+   "location": "Cairo, Egypt",
+   "region": "egypt",
+   "remote": true,
+   "role": "devops",
+   "url": "https://jobs.workable.com/view/9RcJ7iy77LAgRFoKyvsJNp/remote-salesforce-devops-engineer-in-cairo-at-99brightminds",
+   "source": "Workable",
+   "posted_at": "2026-11-08",
+   "score": 60,
+   "matched": [],
+   "partial": [
+    "azure",
+    "cicd",
+    "jenkins",
+    "github_actions",
+    "git"
+   ],
+   "missing": [],
+   "years": 4,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "83d90cc019d2",
+   "title": "IT Systems Administrator",
+   "company": "MIRA CONSTRUCTION L.L.C",
+   "location": "Dubai, United Arab Emirates",
+   "region": "gulf",
+   "remote": false,
+   "role": "sysadmin",
+   "url": "https://jobs.workable.com/view/4rVbYSdtoEaAb9cAzcWGTw/it-systems-administrator-in-dubai-at-mira-construction-l.l.c",
+   "source": "Workable",
+   "posted_at": "2026-09-19",
+   "score": 60,
+   "matched": [
+    "aws",
+    "linux",
+    "vmware",
+    "virtualization",
+    "networking",
+    "backup_dr"
+   ],
+   "partial": [
+    "azure"
+   ],
+   "missing": [
+    "active_directory",
+    "m365",
+    "hyperv",
+    "cisco"
+   ],
+   "years": 2,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "c08d548d457d",
+   "title": "Maximo Infrastructure Architect/Engineer",
+   "company": "MaxAccelerate",
+   "location": "Dubai, United Arab Emirates",
+   "region": "gulf",
+   "remote": true,
+   "role": "infra",
+   "url": "https://jobs.workable.com/view/p4Vt9FfHdvr9byfxtRYHw9/remote-maximo-infrastructure-architect%2Fengineer-in-dubai-at-maxaccelerate",
+   "source": "Workable",
+   "posted_at": "2026-10-31",
+   "score": 59,
+   "matched": [
+    "aws",
+    "bash",
+    "linux",
+    "rhel",
+    "ha_clustering",
+    "prometheus",
+    "grafana",
+    "haproxy",
+    "networking",
+    "backup_dr"
+   ],
+   "partial": [
+    "azure",
+    "docker",
+    "terraform",
+    "ansible",
+    "cicd",
+    "jenkins",
+    "github_actions",
+    "git",
+    "python"
+   ],
+   "missing": [
+    "openshift",
+    "helm",
+    "gitlab_ci",
+    "argocd",
+    "sql_server",
+    "oracle_db",
+    "kafka"
+   ],
+   "years": null,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "cc37f0cac1b0",
+   "title": "DevOps Engineer",
+   "company": "webook.com",
+   "location": "Riyadh, Saudi Arabia",
+   "region": "gulf",
+   "remote": false,
+   "role": "devops",
+   "url": "https://jobs.workable.com/view/tdRFkxawyBS1D8BaFqFmBa/devops-engineer-in-riyadh-at-webook.com",
+   "source": "Workable",
+   "posted_at": "2026-05-21",
+   "score": 59,
+   "matched": [
+    "aws",
+    "bash",
+    "linux",
+    "cert_aws"
+   ],
+   "partial": [
+    "docker",
+    "kubernetes",
+    "terraform",
+    "ansible",
+    "cicd",
+    "jenkins",
+    "git",
+    "python"
+   ],
+   "missing": [
+    "gcp",
+    "puppet",
+    "cert_gcp"
+   ],
+   "years": 3,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
   },
   {
    "id": "64cae4993fa2",
@@ -1618,7 +2503,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "8ac4aa54737c",
@@ -1666,7 +2551,130 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
+  },
+  {
+   "id": "760431de8d6a",
+   "title": "Cloud Platform Engineer",
+   "company": "Mozn",
+   "location": "Dubai, United Arab Emirates",
+   "region": "gulf",
+   "remote": false,
+   "role": "devops",
+   "url": "https://jobs.workable.com/view/aKSyjrQRwMXmQ92MapMvde/cloud-platform-engineer-in-dubai-at-mozn",
+   "source": "Workable",
+   "posted_at": "2026-10-27",
+   "score": 58,
+   "matched": [
+    "aws",
+    "bash",
+    "linux",
+    "prometheus",
+    "grafana",
+    "nginx",
+    "haproxy",
+    "networking"
+   ],
+   "partial": [
+    "kubernetes",
+    "terraform",
+    "github_actions",
+    "git",
+    "python"
+   ],
+   "missing": [
+    "gcp",
+    "istio",
+    "pulumi",
+    "argocd",
+    "golang",
+    "datadog"
+   ],
+   "years": 4,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "3113677a6b47",
+   "title": "Data Platform Engineer",
+   "company": "BlackStone eIT",
+   "location": "Dubai, United Arab Emirates",
+   "region": "gulf",
+   "remote": false,
+   "role": "devops",
+   "url": "https://jobs.workable.com/view/kAjksadwoNmFdB5sj2XkrP/data-platform-engineer-in-dubai-at-blackstone-eit",
+   "source": "Workable",
+   "posted_at": "2026-04-10",
+   "score": 58,
+   "matched": [
+    "aws",
+    "prometheus",
+    "grafana",
+    "redis"
+   ],
+   "partial": [
+    "azure",
+    "docker",
+    "python",
+    "mysql"
+   ],
+   "missing": [
+    "gcp",
+    "m365",
+    "postgresql"
+   ],
+   "years": 3,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "44f26389d1ec",
+   "title": "DevOps Engineer (Saudi Only)",
+   "company": "Lucidya",
+   "location": "Riyadh, Riyadh Province, Saudi Arabia",
+   "region": "gulf",
+   "remote": false,
+   "role": "devops",
+   "url": "https://apply.workable.com/j/FAE968EB43",
+   "source": "Lucidya",
+   "posted_at": "2026-10-19",
+   "score": 57,
+   "matched": [
+    "aws",
+    "bash",
+    "linux",
+    "prometheus",
+    "grafana",
+    "networking"
+   ],
+   "partial": [
+    "docker",
+    "kubernetes",
+    "terraform",
+    "ansible",
+    "cicd",
+    "jenkins",
+    "github_actions",
+    "git",
+    "python",
+    "incident"
+   ],
+   "missing": [
+    "gcp",
+    "cloudformation",
+    "puppet",
+    "gitlab_ci",
+    "vault"
+   ],
+   "years": 1,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
   },
   {
    "id": "99e044ce10be",
@@ -1697,7 +2705,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "aa36d3b3f34e",
@@ -1735,7 +2743,84 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
+  },
+  {
+   "id": "121cbb585aca",
+   "title": "Devops & SysOps Architect",
+   "company": "Integrant",
+   "location": "Cairo, Egypt",
+   "region": "egypt",
+   "remote": false,
+   "role": "devops",
+   "url": "https://jobs.workable.com/view/tih7KEzHLH3BDuh3CEEMTx/hybrid-devops-%26-sysops-architect-in-cairo-at-integrant",
+   "source": "Workable",
+   "posted_at": "2026-04-26",
+   "score": 57,
+   "matched": [
+    "aws",
+    "linux",
+    "rhel",
+    "prometheus",
+    "networking",
+    "backup_dr"
+   ],
+   "partial": [
+    "azure",
+    "kubernetes",
+    "terraform",
+    "ansible",
+    "cicd",
+    "jenkins",
+    "incident",
+    "storage"
+   ],
+   "missing": [
+    "istio",
+    "argocd",
+    "vault",
+    "cert_k8s",
+    "cert_azure",
+    "cert_redhat",
+    "cert_terraform"
+   ],
+   "years": null,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "a91d77d88bdb",
+   "title": "SAP Basis Consultant",
+   "company": "Müller`s Solutions",
+   "location": "Riyadh, Saudi Arabia",
+   "region": "gulf",
+   "remote": false,
+   "role": "sap",
+   "url": "https://jobs.workable.com/view/6qFZHNpUYv1t5v6k6tcZy9/sap-basis-consultant-in-riyadh-at-m%C3%BCller%60s-solutions",
+   "source": "Workable",
+   "posted_at": "2025-12-15",
+   "score": 57,
+   "matched": [
+    "linux",
+    "ha_clustering",
+    "sap_hana",
+    "backup_dr"
+   ],
+   "partial": [
+    "incident"
+   ],
+   "missing": [
+    "sql_server",
+    "oracle_db",
+    "sap_basis"
+   ],
+   "years": 3,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
   },
   {
    "id": "b340ed967326",
@@ -1776,7 +2861,7 @@
    "visa": "unknown",
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "f0b46975e8e0",
@@ -1811,7 +2896,7 @@
     "German"
    ],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "b117eb54e7e7",
@@ -1840,7 +2925,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "53d7ae32b0da",
@@ -1880,7 +2965,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "7546dbad739f",
@@ -1909,7 +2994,117 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
+  },
+  {
+   "id": "f3d9ac559555",
+   "title": "Junior .NET Developer (Linux & Red Hat OpenShift)",
+   "company": "Advansys",
+   "location": "Giza, Egypt",
+   "region": "egypt",
+   "remote": false,
+   "role": "sysadmin",
+   "url": "https://jobs.workable.com/view/4PHVMXjV1rSMHf53iZkvUy/hybrid-junior-.net-developer-(linux-%26-red-hat-openshift)-in-giza-at-advansys",
+   "source": "Workable",
+   "posted_at": "2026-10-29",
+   "score": 56,
+   "matched": [
+    "bash",
+    "linux",
+    "rhel",
+    "networking"
+   ],
+   "partial": [
+    "azure",
+    "docker",
+    "kubernetes",
+    "cicd",
+    "jenkins",
+    "git"
+   ],
+   "missing": [
+    "openshift",
+    "helm",
+    "gitlab_ci",
+    "cert_redhat"
+   ],
+   "years": 1,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "c81553d67df5",
+   "title": "GCP DevOps Specialist",
+   "company": "Müller`s Solutions",
+   "location": "Cairo, Egypt",
+   "region": "egypt",
+   "remote": false,
+   "role": "devops",
+   "url": "https://jobs.workable.com/view/bHxVZj2DnqAWV3xtW9zcgP/gcp-devops-specialist-in-cairo-at-m%C3%BCller%60s-solutions",
+   "source": "Workable",
+   "posted_at": "2026-03-04",
+   "score": 55,
+   "matched": [
+    "bash",
+    "ha_clustering",
+    "prometheus"
+   ],
+   "partial": [
+    "kubernetes",
+    "terraform",
+    "cicd",
+    "jenkins",
+    "python",
+    "incident"
+   ],
+   "missing": [
+    "gcp",
+    "serverless",
+    "gitlab_ci"
+   ],
+   "years": 3,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "2cbf80cd841b",
+   "title": "GCP DevOps Specialist",
+   "company": "Müller`s Solutions",
+   "location": "Dubai, United Arab Emirates",
+   "region": "gulf",
+   "remote": false,
+   "role": "devops",
+   "url": "https://jobs.workable.com/view/5hh5TJWqssuHVY69K4UFtf/gcp-devops-specialist-in-dubai-at-m%C3%BCller%60s-solutions",
+   "source": "Workable",
+   "posted_at": "2026-03-04",
+   "score": 55,
+   "matched": [
+    "bash",
+    "ha_clustering",
+    "prometheus"
+   ],
+   "partial": [
+    "kubernetes",
+    "terraform",
+    "cicd",
+    "jenkins",
+    "python",
+    "incident"
+   ],
+   "missing": [
+    "gcp",
+    "serverless",
+    "gitlab_ci"
+   ],
+   "years": 3,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
   },
   {
    "id": "22b9e38b1f65",
@@ -1947,7 +3142,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "d0ca7c49890a",
@@ -1978,41 +3173,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
-  },
-  {
-   "id": "98ef060826b6",
-   "title": "Software Engineer - Data Infrastructure",
-   "company": "Canonical",
-   "location": "Home based - EMEA",
-   "region": "remote",
-   "remote": true,
-   "role": "infra",
-   "url": "https://job-boards.greenhouse.io/canonical/jobs/3014391",
-   "source": "Canonical",
-   "posted_at": "2021-05-12",
-   "score": 54,
-   "matched": [
-    "linux",
-    "mongodb",
-    "redis"
-   ],
-   "partial": [
-    "openstack",
-    "kubernetes",
-    "python",
-    "mysql"
-   ],
-   "missing": [
-    "elk",
-    "postgresql",
-    "kafka"
-   ],
-   "years": null,
-   "visa": null,
-   "langs_nice": [],
-   "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "4d58c7bbb6da",
@@ -2046,7 +3207,79 @@
    "visa": "unknown",
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
+  },
+  {
+   "id": "98ef060826b6",
+   "title": "Software Engineer - Data Infrastructure",
+   "company": "Canonical",
+   "location": "Home based - EMEA",
+   "region": "remote",
+   "remote": true,
+   "role": "infra",
+   "url": "https://job-boards.greenhouse.io/canonical/jobs/3014391",
+   "source": "Canonical",
+   "posted_at": "2021-05-12",
+   "score": 54,
+   "matched": [
+    "linux",
+    "mongodb",
+    "redis"
+   ],
+   "partial": [
+    "openstack",
+    "kubernetes",
+    "python",
+    "mysql"
+   ],
+   "missing": [
+    "elk",
+    "postgresql",
+    "kafka"
+   ],
+   "years": null,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "a65d13bc6a32",
+   "title": "AI Infrastructure Engineer III",
+   "company": "Mozn",
+   "location": "Cairo, Egypt",
+   "region": "egypt",
+   "remote": true,
+   "role": "infra",
+   "url": "https://jobs.workable.com/view/ovcEenuaNevaK82iSML4Ej/remote-ai-infrastructure-engineer-iii-in-cairo-at-mozn",
+   "source": "Workable",
+   "posted_at": "2026-07-27",
+   "score": 54,
+   "matched": [
+    "aws",
+    "bash",
+    "prometheus",
+    "grafana"
+   ],
+   "partial": [
+    "azure",
+    "kubernetes",
+    "terraform",
+    "ansible",
+    "cicd",
+    "python"
+   ],
+   "missing": [
+    "gcp",
+    "helm",
+    "argocd",
+    "elk"
+   ],
+   "years": 4,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
   },
   {
    "id": "58505b3f6394",
@@ -2090,103 +3323,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
-  },
-  {
-   "id": "3ff11315ec84",
-   "title": "AWS Cloud Solutions Engineer (all genders)",
-   "company": "Alice&Bob.Company",
-   "location": "Remote Worldwide",
-   "region": "remote",
-   "remote": true,
-   "role": "cloud",
-   "url": "https://himalayas.app/companies/alice-bob-company/jobs/aws-cloud-solutions-engineer-all-genders?utm_source=api",
-   "source": "Himalayas",
-   "posted_at": "2026-11-01",
-   "score": 53,
-   "matched": [
-    "aws",
-    "cert_aws"
-   ],
-   "partial": [
-    "docker",
-    "kubernetes",
-    "terraform",
-    "cicd",
-    "python"
-   ],
-   "missing": [
-    "cloudformation",
-    "golang"
-   ],
-   "years": null,
-   "visa": null,
-   "langs_nice": [],
-   "first_seen": "2026-11-10",
-   "is_new": false
-  },
-  {
-   "id": "35d301770e78",
-   "title": "Software Engineer - Data Infrastructure - Kafka",
-   "company": "Canonical",
-   "location": "Remote Worldwide",
-   "region": "remote",
-   "remote": true,
-   "role": "infra",
-   "url": "https://himalayas.app/companies/canonical/jobs/software-engineer-data-infrastructure-kafka?utm_source=api",
-   "source": "Himalayas",
-   "posted_at": "2026-10-29",
-   "score": 53,
-   "matched": [
-    "linux",
-    "mongodb",
-    "redis",
-    "backup_dr"
-   ],
-   "partial": [
-    "openstack",
-    "kubernetes",
-    "python",
-    "mysql"
-   ],
-   "missing": [
-    "elk",
-    "postgresql",
-    "oracle_db",
-    "kafka"
-   ],
-   "years": null,
-   "visa": null,
-   "langs_nice": [],
-   "first_seen": "2026-11-10",
-   "is_new": false
-  },
-  {
-   "id": "ee5403f3b2f3",
-   "title": "Linux devices software engineer - snapd",
-   "company": "Canonical",
-   "location": "Remote Worldwide",
-   "region": "remote",
-   "remote": true,
-   "role": "sysadmin",
-   "url": "https://himalayas.app/companies/canonical/jobs/linux-devices-software-engineer-snapd?utm_source=api",
-   "source": "Himalayas",
-   "posted_at": "2026-11-01",
-   "score": 53,
-   "matched": [
-    "linux"
-   ],
-   "partial": [
-    "python"
-   ],
-   "missing": [
-    "golang"
-   ],
-   "years": null,
-   "visa": null,
-   "langs_nice": [],
-   "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "b7b0e8aae81a",
@@ -2239,7 +3376,103 @@
    "visa": "unknown",
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
+  },
+  {
+   "id": "3ff11315ec84",
+   "title": "AWS Cloud Solutions Engineer (all genders)",
+   "company": "Alice&Bob.Company",
+   "location": "Remote Worldwide",
+   "region": "remote",
+   "remote": true,
+   "role": "cloud",
+   "url": "https://himalayas.app/companies/alice-bob-company/jobs/aws-cloud-solutions-engineer-all-genders?utm_source=api",
+   "source": "Himalayas",
+   "posted_at": "2026-11-01",
+   "score": 53,
+   "matched": [
+    "aws",
+    "cert_aws"
+   ],
+   "partial": [
+    "docker",
+    "kubernetes",
+    "terraform",
+    "cicd",
+    "python"
+   ],
+   "missing": [
+    "cloudformation",
+    "golang"
+   ],
+   "years": null,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "35d301770e78",
+   "title": "Software Engineer - Data Infrastructure - Kafka",
+   "company": "Canonical",
+   "location": "Remote Worldwide",
+   "region": "remote",
+   "remote": true,
+   "role": "infra",
+   "url": "https://himalayas.app/companies/canonical/jobs/software-engineer-data-infrastructure-kafka?utm_source=api",
+   "source": "Himalayas",
+   "posted_at": "2026-10-29",
+   "score": 53,
+   "matched": [
+    "linux",
+    "mongodb",
+    "redis",
+    "backup_dr"
+   ],
+   "partial": [
+    "openstack",
+    "kubernetes",
+    "python",
+    "mysql"
+   ],
+   "missing": [
+    "elk",
+    "postgresql",
+    "oracle_db",
+    "kafka"
+   ],
+   "years": null,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "ee5403f3b2f3",
+   "title": "Linux devices software engineer - snapd",
+   "company": "Canonical",
+   "location": "Remote Worldwide",
+   "region": "remote",
+   "remote": true,
+   "role": "sysadmin",
+   "url": "https://himalayas.app/companies/canonical/jobs/linux-devices-software-engineer-snapd?utm_source=api",
+   "source": "Himalayas",
+   "posted_at": "2026-11-01",
+   "score": 53,
+   "matched": [
+    "linux"
+   ],
+   "partial": [
+    "python"
+   ],
+   "missing": [
+    "golang"
+   ],
+   "years": null,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
   },
   {
    "id": "98d83549e54a",
@@ -2278,7 +3511,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "8e354fe79439",
@@ -2309,7 +3542,65 @@
     "German"
    ],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
+  },
+  {
+   "id": "aff213721926",
+   "title": "Infrastructure Architect - 7 months contract",
+   "company": "Müller`s Solutions",
+   "location": "Riyadh, Saudi Arabia",
+   "region": "gulf",
+   "remote": false,
+   "role": "infra",
+   "url": "https://jobs.workable.com/view/3CNGAEAry2zHVnLxWnCFaM/infrastructure-architect---7-months-contract-in-riyadh-at-m%C3%BCller%60s-solutions",
+   "source": "Workable",
+   "posted_at": "2024-07-29",
+   "score": 52,
+   "matched": [
+    "aws",
+    "networking"
+   ],
+   "partial": [
+    "azure"
+   ],
+   "missing": [
+    "gcp",
+    "cisco"
+   ],
+   "years": 4,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "4a3b186d61ba",
+   "title": "Infrastructure Architect",
+   "company": "Müller`s Solutions",
+   "location": "Riyadh, Saudi Arabia",
+   "region": "gulf",
+   "remote": false,
+   "role": "infra",
+   "url": "https://jobs.workable.com/view/rXx7YaYfPWRcaZsRA2W6xw/infrastructure-architect-in-riyadh-at-m%C3%BCller%60s-solutions",
+   "source": "Workable",
+   "posted_at": "2024-02-28",
+   "score": 52,
+   "matched": [
+    "aws",
+    "networking"
+   ],
+   "partial": [
+    "azure"
+   ],
+   "missing": [
+    "gcp",
+    "cisco"
+   ],
+   "years": 4,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
   },
   {
    "id": "b5c0fabc987c",
@@ -2343,7 +3634,7 @@
    "visa": "unknown",
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "0a07e948360a",
@@ -2385,7 +3676,7 @@
    "visa": "unknown",
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "36f447a61093",
@@ -2418,10 +3709,10 @@
    "visa": "unknown",
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
-   "id": "399d470c7d85",
+   "id": "d368b64ef5d0",
    "title": "Google Cloud Data Platform and Security Architect",
    "company": "Intelance",
    "location": "London",
@@ -2429,7 +3720,7 @@
    "remote": true,
    "role": "cloud",
    "url": "https://www.arbeitnow.co.uk/jobs/companies/intelance/google-cloud-data-platform-and-security-architect-london-297226",
-   "source": "Arbeitnow",
+   "source": "Arbeitnow UK",
    "posted_at": "2026-11-10",
    "score": 50,
    "matched": [
@@ -2443,7 +3734,7 @@
    "visa": "unknown",
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "af10df3031ae",
@@ -2477,7 +3768,63 @@
    "visa": "unknown",
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
+  },
+  {
+   "id": "ee3878f8cec9",
+   "title": "System Engineer - Microsoft Infrastructure",
+   "company": "BlueCloud Technologies",
+   "location": "Cairo, Egypt",
+   "region": "egypt",
+   "remote": false,
+   "role": "infra",
+   "url": "https://jobs.workable.com/view/mHEh82g22eApJWYuESuuQp/system-engineer---microsoft-infrastructure-in-cairo-at-bluecloud-technologies",
+   "source": "Workable",
+   "posted_at": "2026-09-20",
+   "score": 50,
+   "matched": [
+    "bash",
+    "windows_server",
+    "networking"
+   ],
+   "partial": [],
+   "missing": [
+    "powershell",
+    "active_directory",
+    "sql_server"
+   ],
+   "years": 3,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "efabb8a46d92",
+   "title": "Regional Network & IT Infrastructure Engineer",
+   "company": "Platinumlist",
+   "location": "Dubai, United Arab Emirates",
+   "region": "gulf",
+   "remote": false,
+   "role": "infra",
+   "url": "https://jobs.workable.com/view/3yUt9CuswaMjj6maJg5Twp/regional-network-%26-it-infrastructure-engineer-in-dubai-at-platinumlist",
+   "source": "Workable",
+   "posted_at": "2026-11-10",
+   "score": 50,
+   "matched": [
+    "networking",
+    "firewalls"
+   ],
+   "partial": [],
+   "missing": [
+    "active_directory",
+    "m365"
+   ],
+   "years": 3,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
   },
   {
    "id": "506c99511c43",
@@ -2515,7 +3862,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "846bb5bb2380",
@@ -2546,7 +3893,114 @@
    "visa": "yes",
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
+  },
+  {
+   "id": "f23a418fe3be",
+   "title": "Google Cloud Engineer",
+   "company": "Müller`s Solutions",
+   "location": "Cairo, Egypt",
+   "region": "egypt",
+   "remote": false,
+   "role": "cloud",
+   "url": "https://jobs.workable.com/view/64gocLyfMdiVs66r9nTH3V/google-cloud-engineer-in-cairo-at-m%C3%BCller%60s-solutions",
+   "source": "Workable",
+   "posted_at": "2026-03-03",
+   "score": 49,
+   "matched": [
+    "prometheus",
+    "networking"
+   ],
+   "partial": [
+    "docker",
+    "kubernetes",
+    "terraform",
+    "cicd",
+    "jenkins",
+    "python"
+   ],
+   "missing": [
+    "gcp",
+    "serverless",
+    "golang",
+    "cert_gcp"
+   ],
+   "years": 3,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "0789884ff1e8",
+   "title": "Google Cloud Engineer",
+   "company": "Müller`s Solutions",
+   "location": "Dubai, United Arab Emirates",
+   "region": "gulf",
+   "remote": false,
+   "role": "cloud",
+   "url": "https://jobs.workable.com/view/661PREWhFyb7uqTBYGo7qZ/google-cloud-engineer-in-dubai-at-m%C3%BCller%60s-solutions",
+   "source": "Workable",
+   "posted_at": "2026-03-03",
+   "score": 49,
+   "matched": [
+    "prometheus",
+    "networking"
+   ],
+   "partial": [
+    "docker",
+    "kubernetes",
+    "terraform",
+    "cicd",
+    "jenkins",
+    "python"
+   ],
+   "missing": [
+    "gcp",
+    "serverless",
+    "golang",
+    "cert_gcp"
+   ],
+   "years": 3,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "ab9a708cc22c",
+   "title": "Azure Cloud Engineer",
+   "company": "Müller`s Solutions",
+   "location": "Riyadh, Saudi Arabia",
+   "region": "gulf",
+   "remote": false,
+   "role": "cloud",
+   "url": "https://jobs.workable.com/view/jqJ4aNGQ7sDHbzdtUBJmyS/azure-cloud-engineer-in-riyadh-at-m%C3%BCller%60s-solutions",
+   "source": "Workable",
+   "posted_at": "2026-03-03",
+   "score": 48,
+   "matched": [
+    "networking",
+    "backup_dr"
+   ],
+   "partial": [
+    "azure",
+    "docker",
+    "kubernetes",
+    "terraform",
+    "cicd"
+   ],
+   "missing": [
+    "powershell",
+    "active_directory",
+    "m365",
+    "cert_azure"
+   ],
+   "years": 3,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
   },
   {
    "id": "e37d9508b010",
@@ -2576,7 +4030,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "4e11400af4d9",
@@ -2609,7 +4063,57 @@
    "visa": "unknown",
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
+  },
+  {
+   "id": "7fc24168735f",
+   "title": "Google Cloud AI Specialist",
+   "company": "Müller`s Solutions",
+   "location": "Cairo, Egypt",
+   "region": "egypt",
+   "remote": false,
+   "role": "cloud",
+   "url": "https://jobs.workable.com/view/wrd8H9vL78CUA3CRSgNSor/google-cloud-ai-specialist-in-cairo-at-m%C3%BCller%60s-solutions",
+   "source": "Workable",
+   "posted_at": "2026-03-04",
+   "score": 30,
+   "matched": [],
+   "partial": [
+    "python"
+   ],
+   "missing": [
+    "gcp"
+   ],
+   "years": 3,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
+   "id": "332465a7ac6f",
+   "title": "Google Cloud AI Specialist",
+   "company": "Müller`s Solutions",
+   "location": "Dubai, United Arab Emirates",
+   "region": "gulf",
+   "remote": false,
+   "role": "cloud",
+   "url": "https://jobs.workable.com/view/8kuByNfxPrbZg1c9en75Zd/google-cloud-ai-specialist-in-dubai-at-m%C3%BCller%60s-solutions",
+   "source": "Workable",
+   "posted_at": "2026-03-04",
+   "score": 30,
+   "matched": [],
+   "partial": [
+    "python"
+   ],
+   "missing": [
+    "gcp"
+   ],
+   "years": 3,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
   },
   {
    "id": "cb2ebaaca4dd",
@@ -2637,7 +4141,7 @@
    "visa": "yes",
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "0a2fe88158b0",
@@ -2664,7 +4168,7 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "edccabebc396",
@@ -2685,7 +4189,7 @@
    "visa": "unknown",
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   },
   {
    "id": "8b7110181fd0",
@@ -2708,130 +4212,134 @@
    "visa": "unknown",
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
+   "is_new": true
   }
  ],
  "gaps": {
   "missing": [
    [
     "gcp",
-    22
+    42
    ],
    [
     "golang",
-    20
+    23
    ],
    [
     "elk",
-    16
+    21
+   ],
+   [
+    "argocd",
+    15
    ],
    [
     "postgresql",
+    14
+   ],
+   [
+    "helm",
+    14
+   ],
+   [
+    "gitlab_ci",
     13
    ],
    [
     "kafka",
-    12
-   ],
-   [
-    "argocd",
-    11
-   ],
-   [
-    "helm",
-    11
+    13
    ],
    [
     "serverless",
-    7
-   ],
-   [
-    "gitlab_ci",
-    7
-   ],
-   [
-    "cloudformation",
-    6
+    12
    ],
    [
     "powershell",
-    4
+    10
    ],
    [
-    "rabbitmq",
-    4
+    "cloudformation",
+    7
    ],
    [
-    "oracle_db",
-    3
+    "sql_server",
+    6
+   ],
+   [
+    "active_directory",
+    6
+   ],
+   [
+    "m365",
+    6
    ],
    [
     "vault",
-    3
-   ],
-   [
-    "cert_gcp",
-    2
+    5
    ]
   ],
   "partial": [
    [
-    "kubernetes",
-    52
+    "python",
+    74
    ],
    [
-    "python",
-    52
+    "kubernetes",
+    73
    ],
    [
     "docker",
-    36
+    53
    ],
    [
     "cicd",
-    32
+    50
    ],
    [
     "terraform",
-    31
+    49
    ],
    [
     "git",
-    25
+    35
    ],
    [
-    "storage",
-    15
+    "azure",
+    35
    ],
    [
     "incident",
-    15
+    30
    ],
    [
     "ansible",
-    14
+    25
    ],
    [
-    "openstack",
-    13
+    "jenkins",
+    21
    ]
   ]
  },
  "dropped": {
-  "title not a target role": 5381,
-  "senior/lead title": 222,
-  "duplicate": 21,
+  "title not a target role": 5536,
+  "senior/lead title": 276,
+  "duplicate": 37,
+  "asks for 5+ years": 29,
   "location outside Egypt / Gulf / Europe": 20,
-  "remote but limited to another country": 10,
+  "asks for 6+ years": 12,
+  "remote but limited to another country": 11,
   "ad is not written in English": 10,
-  "asks for 5+ years": 4,
-  "not enough infra keywords": 4,
-  "requires German": 3,
-  "asks for 6+ years": 2,
+  "not enough infra keywords": 10,
+  "nationals only": 9,
+  "asks for 10+ years": 5,
+  "requires German": 4,
+  "asks for 7+ years": 3,
   "no visa sponsorship": 2,
+  "asks for 8+ years": 2,
+  "asks for 15+ years": 2,
   "requires French": 1,
-  "requires Greek": 1,
-  "asks for 10+ years": 1
+  "requires Greek": 1
  },
  "sources": [
   {
@@ -2843,6 +4351,14 @@
    "ats": "greenhouse:canonical"
   },
   {
+   "name": "Lucidya",
+   "kind": "company",
+   "ok": true,
+   "fetched": 48,
+   "kept": 2,
+   "ats": "workable:lucidya"
+  },
+  {
    "name": "Mollie",
    "kind": "company",
    "ok": true,
@@ -2851,12 +4367,20 @@
    "ats": "ashby:mollie"
   },
   {
-   "name": "N26",
+   "name": "CEQUENS",
    "kind": "company",
    "ok": true,
-   "fetched": 35,
+   "fetched": 11,
    "kept": 1,
-   "ats": "greenhouse:n26"
+   "ats": "workable:cequens"
+  },
+  {
+   "name": "Robusta",
+   "kind": "company",
+   "ok": true,
+   "fetched": 85,
+   "kept": 1,
+   "ats": "workable:robusta"
   },
   {
    "name": "Salla",
@@ -2865,6 +4389,14 @@
    "fetched": 33,
    "kept": 1,
    "ats": "workable:salla"
+  },
+  {
+   "name": "N26",
+   "kind": "company",
+   "ok": true,
+   "fetched": 35,
+   "kept": 1,
+   "ats": "greenhouse:n26"
   },
   {
    "name": "trivago",
@@ -2878,37 +4410,9 @@
    "name": "GitLab",
    "kind": "company",
    "ok": true,
-   "fetched": 253,
+   "fetched": 251,
    "kept": 1,
    "ats": "greenhouse:gitlab"
-  },
-  {
-   "name": "remotive",
-   "kind": "board",
-   "ok": true,
-   "fetched": 26,
-   "kept": 0
-  },
-  {
-   "name": "remoteok",
-   "kind": "board",
-   "ok": true,
-   "fetched": 99,
-   "kept": 0
-  },
-  {
-   "name": "arbeitnow",
-   "kind": "board",
-   "ok": true,
-   "fetched": 2136,
-   "kept": 0
-  },
-  {
-   "name": "arbeitnow_uk",
-   "kind": "board",
-   "ok": true,
-   "fetched": 500,
-   "kept": 0
   },
   {
    "name": "Thndr",
@@ -2917,6 +4421,21 @@
    "fetched": 15,
    "kept": 0,
    "ats": "ashby:thndr"
+  },
+  {
+   "name": "Swvl",
+   "kind": "company",
+   "ok": true,
+   "fetched": 0,
+   "kept": 0,
+   "ats": "workable:swvl"
+  },
+  {
+   "name": "remotive",
+   "kind": "board",
+   "ok": true,
+   "fetched": 26,
+   "kept": 0
   },
   {
    "name": "Careem",
@@ -2935,11 +4454,34 @@
    "ats": "greenhouse:tamara"
   },
   {
-   "name": "himalayas",
+   "name": "remoteok",
    "kind": "board",
    "ok": true,
-   "fetched": 114,
+   "fetched": 99,
    "kept": 0
+  },
+  {
+   "name": "Brimore",
+   "kind": "company",
+   "ok": true,
+   "fetched": 0,
+   "kept": 0,
+   "ats": "smartrecruiters:brimore"
+  },
+  {
+   "name": "arbeitnow",
+   "kind": "board",
+   "ok": true,
+   "fetched": 2149,
+   "kept": 0
+  },
+  {
+   "name": "Lean Technologies",
+   "kind": "company",
+   "ok": true,
+   "fetched": 9,
+   "kept": 0,
+   "ats": "ashby:leantech"
   },
   {
    "name": "Foodics",
@@ -2950,12 +4492,26 @@
    "ats": "workable:foodics"
   },
   {
+   "name": "arbeitnow_uk",
+   "kind": "board",
+   "ok": true,
+   "fetched": 500,
+   "kept": 0
+  },
+  {
    "name": "Adyen",
    "kind": "company",
    "ok": true,
    "fetched": 249,
    "kept": 0,
    "ats": "greenhouse:adyen"
+  },
+  {
+   "name": "himalayas",
+   "kind": "board",
+   "ok": true,
+   "fetched": 114,
+   "kept": 0
   },
   {
    "name": "Wolt",
@@ -2990,20 +4546,20 @@
    "ats": "greenhouse:celonis"
   },
   {
+   "name": "Personio",
+   "kind": "company",
+   "ok": true,
+   "fetched": 1,
+   "kept": 0,
+   "ats": "recruitee:personio"
+  },
+  {
    "name": "SumUp",
    "kind": "company",
    "ok": true,
    "fetched": 341,
    "kept": 0,
    "ats": "greenhouse:sumup"
-  },
-  {
-   "name": "Delivery Hero",
-   "kind": "company",
-   "ok": true,
-   "fetched": 6,
-   "kept": 0,
-   "ats": "smartrecruiters:DeliveryHero"
   },
   {
    "name": "Contentful",
@@ -3014,12 +4570,28 @@
    "ats": "greenhouse:contentful"
   },
   {
+   "name": "Bolt",
+   "kind": "company",
+   "ok": true,
+   "fetched": 5,
+   "kept": 0,
+   "ats": "lever:boltjobs"
+  },
+  {
    "name": "Grafana Labs",
    "kind": "company",
    "ok": true,
    "fetched": 139,
    "kept": 0,
    "ats": "greenhouse:grafanalabs"
+  },
+  {
+   "name": "Delivery Hero",
+   "kind": "company",
+   "ok": true,
+   "fetched": 6,
+   "kept": 0,
+   "ats": "smartrecruiters:DeliveryHero"
   },
   {
    "name": "Elastic",
@@ -3030,140 +4602,11 @@
    "ats": "greenhouse:elastic"
   },
   {
-   "name": "Personio",
-   "kind": "company",
+   "name": "workable",
+   "kind": "board",
    "ok": true,
-   "fetched": 1,
-   "kept": 0,
-   "ats": "recruitee:personio"
-  },
-  {
-   "name": "Bolt",
-   "kind": "company",
-   "ok": true,
-   "fetched": 5,
-   "kept": 0,
-   "ats": "lever:boltjobs"
-  },
-  {
-   "name": "Instabug",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['instabug'])"
-  },
-  {
-   "name": "Paymob",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['paymob'])"
-  },
-  {
-   "name": "Breadfast",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['breadfast'])"
-  },
-  {
-   "name": "Vezeeta",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['vezeeta'])"
-  },
-  {
-   "name": "Dell Technologies",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://dell.wd1.myworkdayjobs.com/wday/cxs/dell/External/jobs"
-  },
-  {
-   "name": "Swvl",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['swvl'])"
-  },
-  {
-   "name": "Khazna",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['khazna'])"
-  },
-  {
-   "name": "CyShield",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['cyshield'])"
-  },
-  {
-   "name": "ITWorx",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['itworx'])"
-  },
-  {
-   "name": "Sumerge",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['sumerge'])"
-  },
-  {
-   "name": "MNT-Halan",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['mnt-halan', 'halan', 'mnthalan'])"
-  },
-  {
-   "name": "Talabat",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['talabat'])"
-  },
-  {
-   "name": "Rabbit",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['rabbitmart', 'rabbit'])"
-  },
-  {
-   "name": "Kitopi",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['kitopi'])"
-  },
-  {
-   "name": "valU",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['valu'])"
+   "fetched": 168,
+   "kept": 0
   },
   {
    "name": "Property Finder",
@@ -3174,14 +4617,6 @@
    "error": "not found (no public job board found for slugs ['propertyfinder'])"
   },
   {
-   "name": "Bayzat",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['bayzat'])"
-  },
-  {
    "name": "Tabby",
    "kind": "company",
    "ok": false,
@@ -3190,36 +4625,12 @@
    "error": "not found (no public job board found for slugs ['tabby'])"
   },
   {
-   "name": "GetYourGuide",
+   "name": "Kitopi",
    "kind": "company",
    "ok": false,
    "fetched": 0,
    "kept": 0,
-   "error": "not found (no public job board found for slugs ['getyourguide'])"
-  },
-  {
-   "name": "Klarna",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['klarna'])"
-  },
-  {
-   "name": "Noon",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['noon', 'nooncom'])"
-  },
-  {
-   "name": "Trade Republic",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['traderepublic'])"
+   "error": "not found (no public job board found for slugs ['kitopi'])"
   },
   {
    "name": "Anghami",
@@ -3230,12 +4641,52 @@
    "error": "not found (no public job board found for slugs ['anghami'])"
   },
   {
-   "name": "Lean Technologies",
+   "name": "Bayzat",
    "kind": "company",
    "ok": false,
    "fetched": 0,
    "kept": 0,
-   "error": "not found (no public job board found for slugs ['leantechnologies', 'lean'])"
+   "error": "not found (no public job board found for slugs ['bayzat'])"
+  },
+  {
+   "name": "GetYourGuide",
+   "kind": "company",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "not found (no public job board found for slugs ['getyourguide'])"
+  },
+  {
+   "name": "Trade Republic",
+   "kind": "company",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "not found (no public job board found for slugs ['traderepublic'])"
+  },
+  {
+   "name": "Deriv",
+   "kind": "company",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "not found (no public job board found for slugs ['deriv'])"
+  },
+  {
+   "name": "Noon",
+   "kind": "company",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "not found (no public job board found for slugs ['noon', 'nooncom'])"
+  },
+  {
+   "name": "Klarna",
+   "kind": "company",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "not found (no public job board found for slugs ['klarna'])"
   },
   {
    "name": "Taxfix",
@@ -3252,34 +4703,26 @@
    "fetched": 0,
    "kept": 0,
    "error": "not found (no public job board found for slugs ['deel'])"
-  },
-  {
-   "name": "Deriv",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['deriv'])"
   }
  ],
  "career_links": [
   {
-   "name": "Instabug",
-   "url": null,
+   "name": "Instabug (Luciq)",
+   "url": "https://www.ycombinator.com/companies/luciq/jobs",
    "regions": [
     "egypt",
     "remote"
    ],
-   "fallback": true
+   "fallback": false
   },
   {
    "name": "Paymob",
-   "url": null,
+   "url": "https://jobs.global.vc/companies/paymob",
    "regions": [
     "egypt",
     "gulf"
    ],
-   "fallback": true
+   "fallback": false
   },
   {
    "name": "MNT-Halan",
@@ -3287,15 +4730,15 @@
    "regions": [
     "egypt"
    ],
-   "fallback": true
+   "fallback": false
   },
   {
    "name": "Breadfast",
-   "url": null,
+   "url": "https://www.breadfast.com/careers_categories/technology",
    "regions": [
     "egypt"
    ],
-   "fallback": true
+   "fallback": false
   },
   {
    "name": "Vezeeta",
@@ -3304,17 +4747,7 @@
     "egypt",
     "gulf"
    ],
-   "fallback": true
-  },
-  {
-   "name": "Swvl",
-   "url": null,
-   "regions": [
-    "egypt",
-    "gulf",
-    "europe"
-   ],
-   "fallback": true
+   "fallback": false
   },
   {
    "name": "valU",
@@ -3322,7 +4755,7 @@
    "regions": [
     "egypt"
    ],
-   "fallback": true
+   "fallback": false
   },
   {
    "name": "Rabbit",
@@ -3330,7 +4763,7 @@
    "regions": [
     "egypt"
    ],
-   "fallback": true
+   "fallback": false
   },
   {
    "name": "Khazna",
@@ -3338,15 +4771,15 @@
    "regions": [
     "egypt"
    ],
-   "fallback": true
+   "fallback": false
   },
   {
    "name": "Dell Technologies",
-   "url": null,
+   "url": "https://jobs.dell.com",
    "regions": [
     "egypt"
    ],
-   "fallback": true
+   "fallback": false
   },
   {
    "name": "_VOIS",
@@ -3543,7 +4976,7 @@
     "egypt",
     "gulf"
    ],
-   "fallback": true
+   "fallback": false
   },
   {
    "name": "ITWorx",
@@ -3552,7 +4985,7 @@
     "egypt",
     "gulf"
    ],
-   "fallback": true
+   "fallback": false
   },
   {
    "name": "Sumerge",
@@ -3561,7 +4994,7 @@
     "egypt",
     "gulf"
    ],
-   "fallback": true
+   "fallback": false
   },
   {
    "name": "Tabby",
@@ -3574,12 +5007,12 @@
   },
   {
    "name": "Talabat",
-   "url": null,
+   "url": "https://careers.deliveryhero.com/talabat-jobs",
    "regions": [
     "gulf",
     "egypt"
    ],
-   "fallback": true
+   "fallback": false
   },
   {
    "name": "Noon",
@@ -3601,14 +5034,6 @@
   },
   {
    "name": "Kitopi",
-   "url": null,
-   "regions": [
-    "gulf"
-   ],
-   "fallback": true
-  },
-  {
-   "name": "Lean Technologies",
    "url": null,
    "regions": [
     "gulf"

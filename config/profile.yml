@@ -56,6 +56,7 @@ filters:
   include_senior: false              # true = also show Senior titles
   max_years_required: 4              # hide jobs asking for more than this
   europe_requires_sponsorship: true  # hide Europe jobs that say "no visa sponsorship"
+  max_age_days: 30                   # hide jobs posted more than this many days ago
 
 # Keywords used to build the LinkedIn / Wuzzuf / Bayt search links on the site
 search:
@@ -69,16 +70,22 @@ search:
     - SAP HANA Administrator
 
   # LinkedIn POSTS search (recruiter / HR "we are hiring" posts).
-  # Each role is combined with each place: hiring AND (role) AND (place)
+  # Keep these short and plain: LinkedIn post search returns nothing for long OR/AND queries.
+  # Each link searches: hiring <role> <place>
   post_roles:
-    DevOps: 'DevOps OR DevSecOps'
-    Cloud: '"cloud engineer" OR "cloud infrastructure" OR "cloud operations"'
-    Infrastructure: '"infrastructure engineer" OR "infra engineer" OR virtualization OR VMware'
-    System Admin: '"system administrator" OR "systems administrator" OR sysadmin OR "linux administrator"'
-    System Engineer: '"system engineer" OR "systems engineer"'
-    SRE / Platform: 'SRE OR "site reliability" OR "platform engineer"'
-    SAP HANA: '"SAP HANA" OR "SAP Basis"'
+    DevOps: 'DevOps'
+    Cloud: 'Cloud Engineer'
+    Infrastructure: 'Infrastructure Engineer'
+    System Admin: 'System Administrator'
+    System Engineer: 'System Engineer'
+    SRE / Platform: 'SRE'
+    Linux: 'Linux'
+    SAP HANA: 'SAP Basis'
   post_places:
-    مصر: 'Egypt OR Cairo OR Giza OR Alexandria OR Maadi OR "New Cairo" OR "Smart Village"'
-    الخليج: 'UAE OR Dubai OR "Abu Dhabi" OR KSA OR Riyadh OR Jeddah OR Qatar OR Doha OR Kuwait OR Bahrain OR Oman'
-    ريموت وrelocation: 'remote OR relocation OR "visa sponsorship"'
+    مصر: 'Egypt'
+    القاهرة: 'Cairo'
+    الإمارات: 'UAE'
+    السعودية: 'Saudi'
+    قطر: 'Qatar'
+    ريموت: 'remote'
+    Relocation: 'relocation'

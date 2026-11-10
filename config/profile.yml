@@ -1,0 +1,84 @@
+# Your profile. The radar compares every job against this.
+# Skill keys must exist in radar/skills.py (e.g. aws, kubernetes, terraform, cert_k8s).
+
+name: Ahmed Al-Saeed
+headline: Cloud & DevOps Engineer, 2 years production, AWS SAA, VCP-DCV
+
+skills:
+  # Used in production at work (counts 100%)
+  strong:
+    - aws
+    - cert_aws
+    - linux
+    - rhel
+    - suse
+    - windows_server
+    - vmware
+    - cert_vmware
+    - proxmox
+    - virtualization
+    - ha_clustering
+    - sap_hana
+    - prometheus
+    - grafana
+    - zabbix
+    - veeam
+    - backup_dr
+    - firewalls
+    - networking
+    - haproxy
+    - nginx
+    - apache
+    - iis
+    - mongodb
+    - redis
+    - bash
+  # Used in projects / training only (counts 60%, shown as "project level")
+  familiar:
+    - docker
+    - kubernetes
+    - terraform
+    - ansible
+    - jenkins
+    - github_actions
+    - cicd
+    - git
+    - python
+    - azure
+    - openstack
+    - devsecops
+    - mysql
+    - storage
+    - incident
+
+filters:
+  regions: [egypt, remote, gulf, europe]
+  include_senior: false              # true = also show Senior titles
+  max_years_required: 4              # hide jobs asking for more than this
+  europe_requires_sponsorship: true  # hide Europe jobs that say "no visa sponsorship"
+
+# Keywords used to build the LinkedIn / Wuzzuf / Bayt search links on the site
+search:
+  keywords:
+    - DevOps Engineer
+    - Cloud Engineer
+    - Infrastructure Engineer
+    - System Administrator
+    - Systems Engineer
+    - Site Reliability Engineer
+    - SAP HANA Administrator
+
+  # LinkedIn POSTS search (recruiter / HR "we are hiring" posts).
+  # Each role is combined with each place: hiring AND (role) AND (place)
+  post_roles:
+    DevOps: 'DevOps OR DevSecOps'
+    Cloud: '"cloud engineer" OR "cloud infrastructure" OR "cloud operations"'
+    Infrastructure: '"infrastructure engineer" OR "infra engineer" OR virtualization OR VMware'
+    System Admin: '"system administrator" OR "systems administrator" OR sysadmin OR "linux administrator"'
+    System Engineer: '"system engineer" OR "systems engineer"'
+    SRE / Platform: 'SRE OR "site reliability" OR "platform engineer"'
+    SAP HANA: '"SAP HANA" OR "SAP Basis"'
+  post_places:
+    مصر: 'Egypt OR Cairo OR Giza OR Alexandria OR Maadi OR "New Cairo" OR "Smart Village"'
+    الخليج: 'UAE OR Dubai OR "Abu Dhabi" OR KSA OR Riyadh OR Jeddah OR Qatar OR Doha OR Kuwait OR Bahrain OR Oman'
+    ريموت وrelocation: 'remote OR relocation OR "visa sponsorship"'

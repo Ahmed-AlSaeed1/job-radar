@@ -1,0 +1,121 @@
+# Companies and job boards the radar checks every day.
+#
+# How to add a company (one entry):
+#   - name: Company Name
+#     slugs: [companyname]        # the word in its careers URL, e.g. jobs.lever.co/<slug>
+#     regions: [egypt]            # where you expect its jobs: egypt / gulf / europe / remote
+#
+# The radar tries Greenhouse, Lever, Ashby, Workable, SmartRecruiters and Recruitee
+# automatically and remembers which one worked (state/detected_ats.json).
+# If you know the system, pin it:  ats: greenhouse   (faster, no guessing)
+# Companies on Workday:           workday_url: https://<tenant>.wd1.myworkdayjobs.com/<Site>
+# Companies with no public feed:  link: true   (the site builds a LinkedIn jobs search for it)
+#                                 career_url: https://...   (optional: official careers page)
+# Any company whose automatic fetch fails also shows up as a LinkedIn link.
+#
+# The "Sources" tab on the site shows which entries worked on the last run.
+
+job_boards:
+  - id: arbeitnow        # Europe, many English + visa-sponsorship jobs
+  - id: arbeitnow_uk     # United Kingdom
+  - id: remotive         # remote jobs
+  - id: remoteok         # remote jobs
+  - id: himalayas        # remote jobs open to Egypt
+
+companies:
+  # ---------------- Egypt
+  - {name: Instabug,        slugs: [instabug],                     regions: [egypt, remote]}
+  - {name: Paymob,          slugs: [paymob],                       regions: [egypt, gulf]}
+  - {name: MNT-Halan,       slugs: [mnt-halan, halan, mnthalan],   regions: [egypt]}
+  - {name: Breadfast,       slugs: [breadfast],                    regions: [egypt]}
+  - {name: Vezeeta,         slugs: [vezeeta],                      regions: [egypt, gulf]}
+  - {name: Swvl,            slugs: [swvl],                         regions: [egypt, gulf, europe]}
+  - {name: Thndr,           slugs: [thndr],                        regions: [egypt]}
+  - {name: valU,            slugs: [valu],                         regions: [egypt]}
+  - {name: Rabbit,          slugs: [rabbitmart, rabbit],           regions: [egypt]}
+  - {name: Khazna,          slugs: [khazna],                       regions: [egypt]}
+  - {name: Dell Technologies, workday_url: "https://dell.wd1.myworkdayjobs.com/External", regions: [egypt]}
+  - {name: _VOIS,           career_url: "https://jobs.vodafone.com", regions: [egypt]}
+  - {name: Microsoft,       career_url: "https://jobs.careers.microsoft.com", regions: [egypt]}
+  - {name: IBM,             career_url: "https://www.ibm.com/careers", regions: [egypt]}
+  - {name: Siemens,         career_url: "https://jobs.siemens.com", regions: [egypt]}
+  - {name: Valeo,           link: true, regions: [egypt]}
+  - {name: Orange Business, career_url: "https://orange.jobs", regions: [egypt]}
+  - {name: Fawry,           link: true, regions: [egypt]}
+
+  - {name: Vodafone Egypt,  link: true, career_url: "https://jobs.vodafone.com", regions: [egypt]}
+  - {name: Orange Egypt,    link: true, regions: [egypt]}
+  - {name: Telecom Egypt (WE), link: true, regions: [egypt]}
+  - {name: e& Egypt,        link: true, regions: [egypt]}
+  - {name: Huawei,          link: true, regions: [egypt, gulf]}
+  - {name: Ericsson,        link: true, regions: [egypt, gulf, europe]}
+  - {name: Nokia,           link: true, regions: [egypt, europe]}
+  - {name: Oracle,          link: true, regions: [egypt, gulf]}
+  - {name: Amazon Web Services, link: true, regions: [egypt, gulf, europe]}
+  - {name: PwC,             link: true, career_url: "https://www.pwc.com/m1/en/careers/experienced-jobs.html", regions: [egypt, gulf]}
+  - {name: Deloitte,        link: true, regions: [egypt, gulf]}
+  - {name: EY,              link: true, regions: [egypt, gulf]}
+  - {name: KPMG,            link: true, regions: [egypt, gulf]}
+  - {name: Giza Systems,    link: true, regions: [egypt, gulf]}
+  - {name: Raya IT,         link: true, regions: [egypt]}
+  - {name: CyShield,        slugs: [cyshield],                     regions: [egypt, gulf]}
+  - {name: ITWorx,          slugs: [itworx],                       regions: [egypt, gulf]}
+  - {name: Sumerge,         slugs: [sumerge],                      regions: [egypt, gulf]}
+
+  # ---------------- Gulf
+  - {name: Careem,          ats: greenhouse, slugs: [careem],      regions: [gulf]}
+  - {name: Tamara,          ats: greenhouse, slugs: [tamara],      regions: [gulf, egypt]}
+  - {name: Tabby,           slugs: [tabby],                        regions: [gulf, egypt]}
+  - {name: Talabat,         slugs: [talabat],                      regions: [gulf, egypt]}
+  - {name: Noon,            slugs: [noon, nooncom],                regions: [gulf, egypt]}
+  - {name: Property Finder, slugs: [propertyfinder],               regions: [gulf, egypt]}
+  - {name: Kitopi,          slugs: [kitopi],                       regions: [gulf]}
+  - {name: Lean Technologies, slugs: [leantechnologies, lean],     regions: [gulf]}
+  - {name: Foodics,         slugs: [foodics],                      regions: [gulf, egypt]}
+  - {name: Salla,           slugs: [salla],                        regions: [gulf]}
+  - {name: Anghami,         slugs: [anghami],                      regions: [gulf]}
+  - {name: Bayzat,          slugs: [bayzat],                       regions: [gulf]}
+  - {name: Deriv,           slugs: [deriv],                        regions: [gulf, europe, remote]}
+  - {name: G42,             career_url: "https://www.g42.ai/careers", regions: [gulf]}
+  - {name: Emirates NBD,    career_url: "https://www.emiratesnbd.com/en/careers", regions: [gulf]}
+  - {name: stc,             link: true, regions: [gulf]}
+
+  - {name: e& (Etisalat UAE), link: true, regions: [gulf]}
+  - {name: du,              link: true, regions: [gulf]}
+  - {name: Zain,            link: true, regions: [gulf]}
+  - {name: Ooredoo,         link: true, regions: [gulf]}
+  - {name: Mobily,          link: true, regions: [gulf]}
+  - {name: Elm,             link: true, regions: [gulf]}
+
+  # ---------------- Europe (companies known to relocate/sponsor)
+  - {name: N26,             slugs: [n26],                          regions: [europe]}
+  - {name: Adyen,           slugs: [adyen],                        regions: [europe]}
+  - {name: Wolt,            slugs: [wolt],                         regions: [europe]}
+  - {name: Delivery Hero,   slugs: [DeliveryHero, deliveryhero],   regions: [europe, gulf]}
+  - {name: HelloFresh,      slugs: [hellofresh],                   regions: [europe]}
+  - {name: Klarna,          slugs: [klarna],                       regions: [europe]}
+  - {name: Bolt,            slugs: [bolt, boltjobs],               regions: [europe]}
+  - {name: Spotify,         ats: lever, slugs: [spotify],          regions: [europe]}
+  - {name: GetYourGuide,    slugs: [getyourguide],                 regions: [europe]}
+  - {name: trivago,         slugs: [trivago],                      regions: [europe]}
+  - {name: Celonis,         slugs: [celonis],                      regions: [europe]}
+  - {name: Personio,        slugs: [personio],                     regions: [europe]}
+  - {name: SumUp,           slugs: [sumup],                        regions: [europe]}
+  - {name: Trade Republic,  slugs: [traderepublic],                regions: [europe]}
+  - {name: Mollie,          slugs: [mollie],                       regions: [europe]}
+  - {name: Contentful,      slugs: [contentful],                   regions: [europe]}
+  - {name: Taxfix,          slugs: [taxfix],                       regions: [europe]}
+  - {name: Zalando,         career_url: "https://jobs.zalando.com", regions: [europe]}
+  - {name: Booking.com,     career_url: "https://jobs.booking.com", regions: [europe]}
+  - {name: SAP,             career_url: "https://jobs.sap.com",     regions: [europe, egypt, gulf]}
+  - {name: SUSE,            career_url: "https://www.suse.com/company/careers/", regions: [europe, remote]}
+  - {name: Red Hat,         career_url: "https://www.redhat.com/en/jobs", regions: [europe, remote]}
+
+  # ---------------- Remote-first (hire from Egypt / EMEA)
+  - {name: Canonical,       slugs: [canonical],                    regions: [remote, europe]}
+  - {name: Grafana Labs,    slugs: [grafanalabs],                  regions: [remote, europe]}
+  - {name: GitLab,          slugs: [gitlab],                       regions: [remote, europe]}
+  - {name: Elastic,         slugs: [elastic],                      regions: [remote, europe]}
+  - {name: Deel,            slugs: [deel],                         regions: [remote, europe]}
+
+  # ---------------- Your own companies: add them below this line

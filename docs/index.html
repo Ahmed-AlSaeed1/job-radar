@@ -174,11 +174,15 @@ footer{color:var(--muted);font-size:.82rem;padding:24px 0 40px;border-top:1px so
   <nav class="tabs" role="tablist">
     <button role="tab" data-tab="jobs" aria-selected="true">الوظايف</button>
     <button role="tab" data-tab="gaps" aria-selected="false">ناقصك إيه</button>
-    <button role="tab" data-tab="search" aria-selected="false">ابحث بنفسك</button>
+    <button role="tab" data-tab="search" aria-selected="false">بوستات HR ومواقع التوظيف</button>
     <button role="tab" data-tab="sources" aria-selected="false">المصادر</button>
   </nav>
 
   <section class="panel on" id="tab-jobs" role="tabpanel">
+    <div class="box" style="margin:14px 0;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
+      <span>بوستات الـ HR على LinkedIn وروابط Wuzzuf وBayt وLinkedIn جاهزة في تبويب لوحدها.</span>
+      <button type="button" id="goSearch" style="background:var(--accent);color:#fff;border:0;border-radius:8px;padding:8px 14px;cursor:pointer">افتح بوستات HR ومواقع التوظيف</button>
+    </div>
     <div class="filters">
       <div class="seg" id="regionSeg" role="group" aria-label="المنطقة">
         <button data-r="all" aria-pressed="true">الكل</button>
@@ -507,6 +511,7 @@ function dropLabel(k){
 }
 
 /* events */
+document.getElementById("goSearch").addEventListener("click", () => { document.querySelector('nav.tabs button[data-tab="search"]').click(); window.scrollTo({top: 0, behavior: "smooth"}); });
 document.querySelectorAll("nav.tabs button").forEach(b => b.addEventListener("click", () => {
   document.querySelectorAll("nav.tabs button").forEach(x => x.setAttribute("aria-selected", x === b));
   document.querySelectorAll(".panel").forEach(p => p.classList.toggle("on", p.id === "tab-" + b.dataset.tab));

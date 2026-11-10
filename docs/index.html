@@ -235,15 +235,15 @@ footer{color:var(--muted);font-size:.82rem;padding:24px 0 40px;border-top:1px so
 
   <section class="panel" id="tab-search" role="tabpanel">
     <p class="note">LinkedIn وWuzzuf وBayt مبيسمحوش بسحب الوظايف أوتوماتيك، فدي روابط بحث جاهزة ومتظبطة على الأدوار بتاعتك. افتحها كل يوم.</p>
-    <label class="toggle"><input type="checkbox" id="day" checked> LinkedIn: آخر 24 ساعة بس (لو شلتها: آخر أسبوع)</label>
 
     <div class="box posts">
       <h2>بوستات الـ HR والـ recruiters على LinkedIn</h2>
-      <p class="sub">البوستات اللي بتقول "We are hiring" زي اللي بيكتبها الـ recruiters، مرتبة بالأحدث. لازم تكون عامل login على LinkedIn. لو في البوست إيميل، ابعت الـ CV عليه على طول وحط اسم الوظيفة في الـ subject.</p>
+      <p class="sub">البوستات اللي بتقول "We are hiring" زي اللي بيكتبها الـ recruiters، من آخر أسبوع ومرتبة بالأحدث. لازم تكون عامل login على LinkedIn. لو في البوست إيميل، ابعت الـ CV عليه على طول وحط اسم الوظيفة في الـ subject.</p>
       <div id="postGroups"></div>
     </div>
 
     <h2 class="section">إعلانات الوظايف</h2>
+    <label class="toggle"><input type="checkbox" id="day" checked> إعلانات LinkedIn: آخر 24 ساعة بس (لو شلتها: آخر أسبوع)</label>
     <div id="searchGroups"></div>
 
     <h2 class="section">شركات بتتابعها من غير feed أوتوماتيك</h2>
@@ -472,10 +472,11 @@ function renderSearch(){
     kws.map(kw => `<a href="${esc(fn(kw))}" target="_blank" rel="noopener">${esc(kw)}</a>`).join("")}</div></div>`).join("");
   // recruiter posts: hiring AND (role) AND (place)
   const roles = (DATA.search && DATA.search.post_roles) || {DevOps: "DevOps"};
-  const places = (DATA.search && DATA.search.post_places) || {"مصر": "Egypt OR Cairo"};
-  const post = q => `https://www.linkedin.com/search/results/content/?keywords=${enc(q)}&datePosted=${enc(day ? '"past-24h"' : '"past-week"')}&sortBy=${enc('"date_posted"')}`;
+  const places = (DATA.search && DATA.search.post_places) || {"مصر": "Egypt"};
+  // posts: always the past week (24h is too narrow for posts), newest first, plain keywords only
+  const post = q => `https://www.linkedin.com/search/results/content/?keywords=${enc(q)}&datePosted=${enc('"past-week"')}&sortBy=${enc('"date_posted"')}`;
   $("#postGroups").innerHTML = Object.entries(places).map(([pl, plq]) => `<div class="group"><h3>${esc(pl)}</h3><div class="links">${
-    Object.entries(roles).map(([r, rq]) => `<a href="${esc(post(`hiring AND (${rq}) AND (${plq})`))}" target="_blank" rel="noopener">${esc(r)}</a>`).join("")
+    Object.entries(roles).map(([r, rq]) => `<a href="${esc(post(`hiring ${rq} ${plq}`))}" target="_blank" rel="noopener">${esc(r)}</a>`).join("")
   }</div></div>`).join("");
 
   // companies without a feed: official page if known, else LinkedIn jobs search for that company + your roles

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T17:49+00:00",
+ "generated_at": "2026-11-10T17:52+00:00",
  "today": "2026-11-10",
  "demo": false,
  "first_run": false,
@@ -859,7 +859,7 @@
    "is_new": true
   },
   {
-   "id": "998aeaae5f7a",
+   "id": "9680b2d59c7b",
    "title": "Platform Engineer",
    "company": "Faculty",
    "location": "London",
@@ -867,7 +867,7 @@
    "remote": false,
    "role": "devops",
    "url": "https://www.arbeitnow.co.uk/jobs/companies/faculty/platform-engineer-london-87528",
-   "source": "Arbeitnow",
+   "source": "Arbeitnow UK",
    "posted_at": "2026-11-09",
    "score": 62,
    "matched": [
@@ -977,6 +977,31 @@
    "is_new": true
   },
   {
+   "id": "014fa06cf57c",
+   "title": "Research Engineer - Data Infrastructure",
+   "company": "Elevenlabs",
+   "location": "United Kingdom",
+   "region": "europe",
+   "remote": false,
+   "role": "infra",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/elevenlabs/research-engineer-data-infrastructure-united-kingdom-397791",
+   "source": "Arbeitnow UK",
+   "posted_at": "2026-11-08",
+   "score": 60,
+   "matched": [],
+   "partial": [
+    "kubernetes",
+    "git",
+    "storage"
+   ],
+   "missing": [],
+   "years": null,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
    "id": "b9a1c9077430",
    "title": "Platform Engineer",
    "company": "Sensor Tower",
@@ -1007,31 +1032,6 @@
     "elk",
     "postgresql"
    ],
-   "years": null,
-   "visa": "unknown",
-   "langs_nice": [],
-   "first_seen": "2026-11-10",
-   "is_new": true
-  },
-  {
-   "id": "014fa06cf57c",
-   "title": "Research Engineer - Data Infrastructure",
-   "company": "Elevenlabs",
-   "location": "United Kingdom",
-   "region": "europe",
-   "remote": false,
-   "role": "infra",
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/elevenlabs/research-engineer-data-infrastructure-united-kingdom-397791",
-   "source": "Arbeitnow UK",
-   "posted_at": "2026-11-08",
-   "score": 60,
-   "matched": [],
-   "partial": [
-    "kubernetes",
-    "git",
-    "storage"
-   ],
-   "missing": [],
    "years": null,
    "visa": "unknown",
    "langs_nice": [],
@@ -1372,7 +1372,7 @@
    "is_new": true
   },
   {
-   "id": "b340ed967326",
+   "id": "1dcff71ef7b9",
    "title": "Dev Ops Engineer",
    "company": "Smarkets",
    "location": "London",
@@ -1380,7 +1380,7 @@
    "remote": false,
    "role": "devops",
    "url": "https://www.arbeitnow.co.uk/jobs/companies/smarkets/dev-ops-engineer-london-19247",
-   "source": "Arbeitnow",
+   "source": "Arbeitnow UK",
    "posted_at": "2026-11-10",
    "score": 56,
    "matched": [
@@ -1849,7 +1849,7 @@
    "is_new": true
   },
   {
-   "id": "b5c0fabc987c",
+   "id": "aea17ddd85e5",
    "title": "Platform Engineer",
    "company": "ManyPets",
    "location": "London, England, United Kingdom",
@@ -1857,7 +1857,7 @@
    "remote": false,
    "role": "devops",
    "url": "https://www.arbeitnow.co.uk/jobs/companies/manypets/platform-engineer-london-211309",
-   "source": "Arbeitnow",
+   "source": "Arbeitnow UK",
    "posted_at": "2026-11-09",
    "score": 51,
    "matched": [
@@ -2046,6 +2046,29 @@
    "is_new": true
   },
   {
+   "id": "9968730a9775",
+   "title": "AI Platform Engineer",
+   "company": "Nexcade",
+   "location": "London",
+   "region": "europe",
+   "remote": false,
+   "role": "devops",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/nexcade/ai-platform-engineer-london-38072",
+   "source": "Arbeitnow UK",
+   "posted_at": "2026-11-08",
+   "score": null,
+   "matched": [],
+   "partial": [
+    "python"
+   ],
+   "missing": [],
+   "years": null,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": true
+  },
+  {
    "id": "edccabebc396",
    "title": "Package Reliability Engineer (f/m/d)",
    "company": "Black Semiconductor GmbH",
@@ -2061,29 +2084,6 @@
    "partial": [],
    "missing": [],
    "years": 3,
-   "visa": "unknown",
-   "langs_nice": [],
-   "first_seen": "2026-11-10",
-   "is_new": true
-  },
-  {
-   "id": "8b7110181fd0",
-   "title": "AI Platform Engineer",
-   "company": "Nexcade",
-   "location": "London",
-   "region": "europe",
-   "remote": false,
-   "role": "devops",
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/nexcade/ai-platform-engineer-london-38072",
-   "source": "Arbeitnow",
-   "posted_at": "2026-11-08",
-   "score": null,
-   "matched": [],
-   "partial": [
-    "python"
-   ],
-   "missing": [],
-   "years": null,
    "visa": "unknown",
    "langs_nice": [],
    "first_seen": "2026-11-10",
@@ -2197,19 +2197,19 @@
   ]
  },
  "dropped": {
-  "title not a target role": 5547,
-  "senior/lead title": 270,
+  "title not a target role": 5545,
+  "senior/lead title": 269,
   "posted more than 30 days ago": 145,
-  "location outside Egypt / Gulf / Europe": 12,
+  "location outside Egypt / Gulf / Europe": 13,
   "duplicate": 11,
-  "ad is not written in English": 9,
+  "ad is not written in English": 11,
   "remote but limited to another country": 6,
   "asks for 6+ years": 6,
   "asks for 5+ years": 5,
   "requires German": 4,
   "not enough infra keywords": 3,
-  "requires French": 1,
   "no visa sponsorship": 1,
+  "requires French": 1,
   "requires Greek": 1,
   "asks for 7+ years": 1,
   "asks for 8+ years": 1
@@ -2264,6 +2264,14 @@
    "ats": "ashby:thndr"
   },
   {
+   "name": "Swvl",
+   "kind": "company",
+   "ok": true,
+   "fetched": 0,
+   "kept": 0,
+   "ats": "workable:swvl"
+  },
+  {
    "name": "remotive",
    "kind": "board",
    "ok": true,
@@ -2279,12 +2287,11 @@
    "ats": "workable:cequens"
   },
   {
-   "name": "Swvl",
-   "kind": "company",
+   "name": "remoteok",
+   "kind": "board",
    "ok": true,
-   "fetched": 0,
-   "kept": 0,
-   "ats": "workable:swvl"
+   "fetched": 99,
+   "kept": 0
   },
   {
    "name": "Careem",
@@ -2303,26 +2310,19 @@
    "ats": "greenhouse:tamara"
   },
   {
+   "name": "arbeitnow_uk",
+   "kind": "board",
+   "ok": true,
+   "fetched": 500,
+   "kept": 0
+  },
+  {
    "name": "Brimore",
    "kind": "company",
    "ok": true,
    "fetched": 0,
    "kept": 0,
    "ats": "smartrecruiters:brimore"
-  },
-  {
-   "name": "remoteok",
-   "kind": "board",
-   "ok": true,
-   "fetched": 99,
-   "kept": 0
-  },
-  {
-   "name": "arbeitnow",
-   "kind": "board",
-   "ok": true,
-   "fetched": 2150,
-   "kept": 0
   },
   {
    "name": "Lean Technologies",
@@ -2341,10 +2341,10 @@
    "ats": "workable:foodics"
   },
   {
-   "name": "arbeitnow_uk",
+   "name": "arbeitnow",
    "kind": "board",
    "ok": true,
-   "fetched": 500,
+   "fetched": 2150,
    "kept": 0
   },
   {
@@ -2395,20 +2395,20 @@
    "ats": "lever:boltjobs"
   },
   {
+   "name": "Spotify",
+   "kind": "company",
+   "ok": true,
+   "fetched": 85,
+   "kept": 0,
+   "ats": "lever:spotify"
+  },
+  {
    "name": "trivago",
    "kind": "company",
    "ok": true,
    "fetched": 17,
    "kept": 0,
    "ats": "greenhouse:trivago"
-  },
-  {
-   "name": "Delivery Hero",
-   "kind": "company",
-   "ok": true,
-   "fetched": 5,
-   "kept": 0,
-   "ats": "smartrecruiters:DeliveryHero"
   },
   {
    "name": "Celonis",
@@ -2419,14 +2419,6 @@
    "ats": "greenhouse:celonis"
   },
   {
-   "name": "Personio",
-   "kind": "company",
-   "ok": true,
-   "fetched": 1,
-   "kept": 0,
-   "ats": "recruitee:personio"
-  },
-  {
    "name": "SumUp",
    "kind": "company",
    "ok": true,
@@ -2435,20 +2427,20 @@
    "ats": "greenhouse:sumup"
   },
   {
+   "name": "Personio",
+   "kind": "company",
+   "ok": true,
+   "fetched": 1,
+   "kept": 0,
+   "ats": "recruitee:personio"
+  },
+  {
    "name": "Contentful",
    "kind": "company",
    "ok": true,
    "fetched": 31,
    "kept": 0,
    "ats": "greenhouse:contentful"
-  },
-  {
-   "name": "Spotify",
-   "kind": "company",
-   "ok": true,
-   "fetched": 85,
-   "kept": 0,
-   "ats": "lever:spotify"
   },
   {
    "name": "Grafana Labs",
@@ -2475,6 +2467,14 @@
    "ats": "greenhouse:elastic"
   },
   {
+   "name": "Delivery Hero",
+   "kind": "company",
+   "ok": true,
+   "fetched": 5,
+   "kept": 0,
+   "ats": "smartrecruiters:DeliveryHero"
+  },
+  {
    "name": "workable",
    "kind": "board",
    "ok": true,
@@ -2490,20 +2490,20 @@
    "error": "not found (no public job board found for slugs ['tabby'])"
   },
   {
-   "name": "Kitopi",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['kitopi'])"
-  },
-  {
    "name": "Property Finder",
    "kind": "company",
    "ok": false,
    "fetched": 0,
    "kept": 0,
    "error": "not found (no public job board found for slugs ['propertyfinder'])"
+  },
+  {
+   "name": "Kitopi",
+   "kind": "company",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "not found (no public job board found for slugs ['kitopi'])"
   },
   {
    "name": "Anghami",
@@ -2538,20 +2538,20 @@
    "error": "not found (no public job board found for slugs ['traderepublic'])"
   },
   {
-   "name": "Deriv",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['deriv'])"
-  },
-  {
    "name": "Noon",
    "kind": "company",
    "ok": false,
    "fetched": 0,
    "kept": 0,
    "error": "not found (no public job board found for slugs ['noon', 'nooncom'])"
+  },
+  {
+   "name": "Deriv",
+   "kind": "company",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "not found (no public job board found for slugs ['deriv'])"
   },
   {
    "name": "Klarna",
@@ -3108,14 +3108,14 @@
    "SAP HANA Administrator"
   ],
   "post_roles": {
-   "DevOps": "DevOps",
-   "Cloud": "Cloud Engineer",
-   "Infrastructure": "Infrastructure Engineer",
-   "System Admin": "System Administrator",
-   "System Engineer": "System Engineer",
-   "SRE / Platform": "SRE",
-   "Linux": "Linux",
-   "SAP HANA": "SAP Basis"
+   "DevOps": "\"DevOps Engineer\"",
+   "Cloud": "\"Cloud Engineer\"",
+   "Infrastructure": "\"Infrastructure Engineer\"",
+   "System Admin": "\"System Administrator\"",
+   "System Engineer": "\"System Engineer\"",
+   "SRE / Platform": "\"Site Reliability\"",
+   "Linux": "\"Linux Administrator\"",
+   "SAP HANA": "\"SAP Basis\""
   },
   "post_places": {
    "مصر": "Egypt",

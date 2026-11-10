@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>رادار الوظايف</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📡</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#EEF2F1; --surface:#FFFFFF; --sunk:#F5F8F7; --ink:#142028; --muted:#5B6B73; --line:#D3DCDA;
+  --accent:#0B6E6E; --accent-ink:#FFFFFF; --new:#B8741A; --have:#2E7D4F; --part:#0B6E6E; --miss:#B5462F;
+  --have-bg:#E4F1E9; --part-bg:#E1F0EF; --miss-bg:#F8E7E2; --new-bg:#FBF0DD;
+  color-scheme:light;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E161B; --surface:#152229; --sunk:#111C22; --ink:#E3EBEA; --muted:#8FA3A8; --line:#24343C;
+    --accent:#4CB5B0; --accent-ink:#0E161B; --new:#E3A443; --have:#5DBB84; --part:#4CB5B0; --miss:#E07A62;
+    --have-bg:#173226; --part-bg:#14302F; --miss-bg:#3A1F19; --new-bg:#3A2B12;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E161B; --surface:#152229; --sunk:#111C22; --ink:#E3EBEA; --muted:#8FA3A8; --line:#24343C;
+  --accent:#4CB5B0; --accent-ink:#0E161B; --new:#E3A443; --have:#5DBB84; --part:#4CB5B0; --miss:#E07A62;
+  --have-bg:#173226; --part-bg:#14302F; --miss-bg:#3A1F19; --new-bg:#3A2B12;
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:"IBM Plex Sans Arabic",system-ui,"Segoe UI",Tahoma,sans-serif;font-size:16px;line-height:1.6}
+a{color:var(--accent)}
+button,select,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+
+/* header */
+header{padding:36px 0 18px}
+.brand{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+h1{font-size:2.1rem;line-height:1.2;margin:0;font-weight:700;letter-spacing:-.01em}
+.who{color:var(--muted);font-size:.95rem}
+.pulse{margin:14px 0 0;font-size:1.25rem;font-weight:500;max-width:60ch}
+.pulse b{font-weight:700}
+.pulse .n-new{color:var(--new)}
+.meta{color:var(--muted);font-size:.85rem;margin-top:6px}
+.banner{margin-top:16px;padding:12px 16px;border-radius:10px;background:var(--new-bg);border:1px solid var(--new);font-size:.95rem}
+
+/* tabs */
+nav.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin-top:22px;overflow-x:auto}
+nav.tabs button{background:none;border:0;padding:10px 14px;cursor:pointer;color:var(--muted);
+  border-bottom:3px solid transparent;margin-bottom:-1px;white-space:nowrap;font-weight:500}
+nav.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
+.panel{display:none;padding:20px 0 60px}
+.panel.on{display:block}
+
+/* filters */
+.filters{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding:12px 0;
+  display:flex;flex-wrap:wrap;gap:10px;align-items:center;border-bottom:1px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:var(--surface)}
+.seg button{border:0;background:none;padding:6px 14px;cursor:pointer;font-size:.92rem}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+.filters select,.filters input[type=search]{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:6px 10px;font-size:.92rem}
+.filters input[type=search]{flex:1 1 200px;min-width:160px}
+.range{display:inline-flex;align-items:center;gap:8px;font-size:.9rem;color:var(--muted)}
+.range output{min-width:3ch;color:var(--ink);font-weight:600}
+.count{color:var(--muted);font-size:.9rem;margin:14px 0 8px}
+
+/* job list */
+.list{background:var(--surface);border:1px solid var(--line);border-radius:14px}
+.job{display:grid;grid-template-columns:76px 1fr;gap:6px 18px;padding:18px 20px;border-top:1px solid var(--line)}
+.job:first-child{border-top:0}
+.job.dim{opacity:.55}
+.score{grid-row:1 / span 3;text-align:center;padding-top:2px}
+.score .pct{font-size:1.9rem;font-weight:700;line-height:1;font-variant-numeric:tabular-nums}
+.score .lbl{font-size:.72rem;color:var(--muted);margin-top:4px}
+.score.hi .pct{color:var(--have)} .score.mid .pct{color:var(--accent)} .score.lo .pct{color:var(--miss)}
+.head{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 12px}
+.title{font-size:1.12rem;font-weight:600;color:var(--ink);text-decoration:none;text-align:right}
+.title:hover{text-decoration:underline}
+.where{color:var(--muted);font-size:.92rem;display:flex;flex-wrap:wrap;gap:4px 14px}
+.where span{text-align:right}
+.flag{font-size:.78rem;font-weight:600;padding:1px 8px;border-radius:6px}
+.flag.new{background:var(--new-bg);color:var(--new)}
+.flag.region{background:var(--sunk);color:var(--muted);border:1px solid var(--line)}
+
+/* the coverage strip: one segment per skill the job asks for */
+.strip{display:flex;gap:3px;height:10px;margin:10px 0 2px;max-width:520px}
+.strip i{flex:1;border-radius:3px;min-width:6px}
+.strip i.h{background:var(--have)} .strip i.p{background:var(--part)} .strip i.m{background:var(--miss)}
+.strip i.p{background:repeating-linear-gradient(135deg,var(--part) 0 4px,transparent 4px 7px);box-shadow:inset 0 0 0 1.5px var(--part)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.chip{font-size:.8rem;padding:2px 9px;border-radius:999px;border:1px solid transparent}
+.chip.h{background:var(--have-bg);color:var(--have)}
+.chip.p{background:var(--part-bg);color:var(--part);border-color:var(--part);border-style:dashed}
+.chip.m{background:var(--miss-bg);color:var(--miss)}
+.chip.info{background:var(--sunk);color:var(--muted);border-color:var(--line)}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.btn{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:5px 12px;cursor:pointer;font-size:.88rem;text-decoration:none;color:var(--ink)}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:600}
+.btn[aria-pressed="true"]{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+.empty{padding:40px 20px;text-align:center;color:var(--muted)}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:.82rem;color:var(--muted);margin:6px 0 0}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:18px;height:8px;border-radius:3px;display:inline-block}
+
+/* gaps */
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px}
+.box h2{font-size:1.15rem;margin:0 0 4px}
+.box p.sub{color:var(--muted);margin:0 0 16px;font-size:.92rem;max-width:60ch}
+.gap{display:grid;grid-template-columns:minmax(120px,190px) 1fr auto;gap:10px;align-items:center;padding:7px 0;border-top:1px solid var(--line)}
+.gap:first-of-type{border-top:0}
+.gap .nm{font-weight:500;direction:ltr;text-align:right}
+.gap .bar{height:8px;background:var(--sunk);border-radius:4px;overflow:hidden}
+.gap .bar i{display:block;height:100%;border-radius:4px}
+.gap .n{font-variant-numeric:tabular-nums;color:var(--muted);font-size:.88rem}
+.gap .tip{grid-column:1 / -1;color:var(--muted);font-size:.86rem;margin-top:-2px}
+.advice{margin-top:20px}
+.advice li{margin:6px 0}
+
+/* search links */
+.group{margin-bottom:22px}
+.group h3{font-size:1rem;margin:0 0 8px}
+.links{display:flex;flex-wrap:wrap;gap:8px}
+.links a{font-size:.88rem;padding:5px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);text-decoration:none;color:var(--ink);direction:ltr}
+.links a:hover{border-color:var(--accent);color:var(--accent)}
+.toggle{display:inline-flex;gap:8px;align-items:center;font-size:.92rem;margin-bottom:16px}
+
+.posts{margin-bottom:28px}
+.posts .group h3{color:var(--accent)}
+h2.section{font-size:1.15rem;margin:8px 0 14px}
+.links a.alt{border-style:dashed}
+.links a .src{color:var(--muted);font-size:.78rem;margin-inline-start:6px}
+/* sources */
+.tablewrap{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:14px}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+th,td{padding:9px 14px;text-align:right;border-top:1px solid var(--line);white-space:nowrap}
+th{font-weight:600;color:var(--muted);border-top:0;background:var(--sunk)}
+td.err{white-space:normal;color:var(--miss);font-size:.82rem;min-width:220px;direction:ltr;text-align:left}
+.ok{color:var(--have);font-weight:600} .bad{color:var(--miss);font-weight:600}
+.note{color:var(--muted);font-size:.9rem;max-width:70ch}
+footer{color:var(--muted);font-size:.82rem;padding:24px 0 40px;border-top:1px solid var(--line)}
+
+@media (max-width:720px){
+  h1{font-size:1.7rem}
+  .cols{grid-template-columns:1fr}
+  .job{grid-template-columns:56px 1fr;padding:16px 14px;gap:4px 12px}
+  .score .pct{font-size:1.45rem}
+  .gap{grid-template-columns:120px 1fr auto}
+  .filters{position:static}
+}
+@media (prefers-reduced-motion:no-preference){
+  .list{animation:rise .35s ease-out}
+  @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand"><h1>رادار الوظايف</h1><span class="who" id="who"></span></div>
+    <p class="pulse" id="pulse">بيحمّل الوظايف…</p>
+    <div class="meta" id="meta"></div>
+    <div class="banner" id="banner" hidden></div>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button role="tab" data-tab="jobs" aria-selected="true">الوظايف</button>
+    <button role="tab" data-tab="gaps" aria-selected="false">ناقصك إيه</button>
+    <button role="tab" data-tab="search" aria-selected="false">ابحث بنفسك</button>
+    <button role="tab" data-tab="sources" aria-selected="false">المصادر</button>
+  </nav>
+
+  <section class="panel on" id="tab-jobs" role="tabpanel">
+    <div class="filters">
+      <div class="seg" id="regionSeg" role="group" aria-label="المنطقة">
+        <button data-r="all" aria-pressed="true">الكل</button>
+        <button data-r="egypt" aria-pressed="false">مصر</button>
+        <button data-r="remote" aria-pressed="false">ريموت</button>
+        <button data-r="gulf" aria-pressed="false">الخليج</button>
+        <button data-r="europe" aria-pressed="false">أوروبا</button>
+      </div>
+      <select id="role" aria-label="نوع الوظيفة"><option value="all">كل الأدوار</option></select>
+      <select id="view" aria-label="عرض">
+        <option value="open">اللي لسه مقدمتش فيها</option>
+        <option value="new">الجديدة النهارده</option>
+        <option value="saved">المحفوظة</option>
+        <option value="applied">قدمت فيها</option>
+        <option value="hidden">المستبعدة</option>
+      </select>
+      <select id="sort" aria-label="الترتيب">
+        <option value="score">الأعلى توافق</option>
+        <option value="date">الأحدث</option>
+      </select>
+      <label class="range">توافق من <input type="range" id="minScore" min="0" max="90" step="10" value="0"><output id="minOut">0%</output></label>
+      <input type="search" id="q" placeholder="ابحث بالشركة أو المسمى أو المهارة" aria-label="بحث">
+    </div>
+    <div class="legend" aria-hidden="true">
+      <span><i style="background:var(--miss)"></i>ناقصك</span>
+      <span><i style="background:repeating-linear-gradient(135deg,var(--part) 0 4px,transparent 4px 7px);box-shadow:inset 0 0 0 1.5px var(--part)"></i>عندك في مشاريع بس</span>
+      <span><i style="background:var(--have)"></i>عندك</span></div>
+    <div class="count" id="count"></div>
+    <div class="list" id="list"></div>
+  </section>
+
+  <section class="panel" id="tab-gaps" role="tabpanel">
+    <div class="cols">
+      <div class="box">
+        <h2>مطلوب ومش عندك</h2>
+        <p class="sub">المهارات اللي الوظايف المناسبة ليك بتطلبها أكتر حاجة ومش موجودة في الـ CV. الرقم هو عدد الوظايف اللي طالباها.</p>
+        <div id="gapMissing"></div>
+      </div>
+      <div class="box">
+        <h2>عندك، بس في مشاريع بس</h2>
+        <p class="sub">دي مطلوبة كتير وانت عارفها، بس مش في شغل production. حوّلها لخبرة حقيقية تقدر تتكلم عنها في الإنترفيو.</p>
+        <div id="gapPartial"></div>
+      </div>
+    </div>
+    <div class="box advice">
+      <h2>عشان تبقى fit أكتر</h2>
+      <ul id="advice"></ul>
+    </div>
+  </section>
+
+  <section class="panel" id="tab-search" role="tabpanel">
+    <p class="note">LinkedIn وWuzzuf وBayt مبيسمحوش بسحب الوظايف أوتوماتيك، فدي روابط بحث جاهزة ومتظبطة على الأدوار بتاعتك. افتحها كل يوم.</p>
+    <label class="toggle"><input type="checkbox" id="day" checked> LinkedIn: آخر 24 ساعة بس (لو شلتها: آخر أسبوع)</label>
+
+    <div class="box posts">
+      <h2>بوستات الـ HR والـ recruiters على LinkedIn</h2>
+      <p class="sub">البوستات اللي بتقول "We are hiring" زي اللي بيكتبها الـ recruiters، مرتبة بالأحدث. لازم تكون عامل login على LinkedIn. لو في البوست إيميل، ابعت الـ CV عليه على طول وحط اسم الوظيفة في الـ subject.</p>
+      <div id="postGroups"></div>
+    </div>
+
+    <h2 class="section">إعلانات الوظايف</h2>
+    <div id="searchGroups"></div>
+
+    <h2 class="section">شركات بتتابعها من غير feed أوتوماتيك</h2>
+    <p class="note">كل اسم بيفتح بحث LinkedIn عن وظايفها في أدوارك. اللي جنبه ↺ كان المفروض يتسحب أوتوماتيك بس فشل في آخر تشغيل.</p>
+    <div id="careerLinks"></div>
+  </section>
+
+  <section class="panel" id="tab-sources" role="tabpanel">
+    <p class="note">كل مصدر اتسحب منه في آخر تشغيل. لو شركة ظاهرة "مش لاقيها"، يبقى الـ slug غلط أو الشركة مش على نظام توظيف مفتوح. عدّلها في <code>config/companies.yml</code> أو حوّلها لـ <code>career_url</code>.</p>
+    <div class="tablewrap"><table>
+      <thead><tr><th>المصدر</th><th>الحالة</th><th>اتسحب</th><th>مناسب ليك</th><th>النظام</th><th>ملاحظة</th></tr></thead>
+      <tbody id="srcBody"></tbody>
+    </table></div>
+    <h3 style="margin-top:26px;font-size:1rem">ليه وظايف اتشالت</h3>
+    <div class="tablewrap"><table><tbody id="dropBody"></tbody></table></div>
+  </section>
+
+  <footer>بيانات الوظايف من صفحات التوظيف الرسمية للشركات ومن Arbeitnow وRemotive و<a href="https://remoteok.com" rel="noopener">Remote OK</a> وHimalayas. بيتحدث كل يوم عن طريق GitHub Actions.</footer>
+</div>
+
+<script>
+const REGION = {egypt:"مصر", remote:"ريموت", gulf:"الخليج", europe:"أوروبا"};
+const DROP_AR = {
+  "title not a target role":"المسمى مش من الأدوار بتاعتك",
+  "senior/lead title":"Senior / Lead",
+  "location outside Egypt / Gulf / Europe":"المكان بره مصر والخليج وأوروبا",
+  "remote but limited to another country":"ريموت بس لدولة تانية",
+  "remote limited to another country":"ريموت بس لدولة تانية",
+  "nationals only":"للمواطنين بس",
+  "ad is not written in English":"الإعلان مش بالإنجليزي",
+  "no visa sponsorship":"مفيش visa sponsorship",
+  "not enough infra keywords":"مفيهاش مهارات infra كفاية",
+  "duplicate":"مكررة من مصدر تاني"
+};
+const HINTS = {
+  helm:"سهلة بعد Kubernetes: اعمل chart لتطبيق في مشروعك الحالي.",
+  argocd:"اعمل GitOps على نفس الـ cluster بتاع مشروعك: Argo CD بيسحب من GitHub.",
+  gcp:"لو عندك AWS، الـ concepts نفسها. Google Cloud Skills Boost فيه labs مجانية.",
+  cert_k8s:"الـ CKA بتفرق جداً في أوروبا والخليج، وبتثبت إن Kubernetes عندك مش مجرد مشروع.",
+  golang:"مش لازم تبقى developer: كفاية تقرا وتعدّل tools وoperators مكتوبة بـ Go.",
+  datadog:"فيه trial مجاني، وفكرته قريبة من Prometheus وGrafana اللي انت شغال بيهم.",
+  gitlab_ci:"نفس فكرة GitHub Actions وJenkins اللي عندك، حوّل pipeline واحدة ليه.",
+  powershell:"مهمة لوظايف Windows: اكتب scripts لمهام AD والـ patching اللي بتعملها.",
+  active_directory:"مطلوبة في System Engineer في مصر: lab صغير على Proxmox يكفي.",
+  istio:"متقدمة شوية؛ أجّلها لبعد Helm وArgo CD.",
+  postgresql:"قريبة من MySQL اللي عندك: اتعلم replication والـ backups فيها.",
+  elk:"شغّل stack صغير للـ logs جنب Prometheus في مشروعك.",
+  cert_azure:"AZ-104 مناسبة جداً لخلفيتك في Windows والـ infra.",
+  cert_redhat:"RHCSA بتقوّي Linux على الورق، وانت أصلاً شغال RHEL.",
+  sap_basis:"قريبة جداً من شغلك على HANA؛ ممكن تبقى ميزة نادرة في الخليج.",
+  kafka:"غالباً مطلوبة لتشغيله مش لتطويره: deploy وmonitoring.",
+};
+const PART_HINT = "اعمل مشروع حقيقي بيشتغل على GitHub (مش tutorial) واكتب عنه سطر في الـ CV بنتيجة واضحة.";
+
+let DATA = null, state = {region:"all", role:"all", view:"open", sort:"score", min:0, q:""};
+let marks = {};
+const STORE = "radar-marks-v1";
+try { marks = JSON.parse(localStorage.getItem(STORE) || "{}"); } catch(e) { marks = {}; }
+function saveMarks(){ try { localStorage.setItem(STORE, JSON.stringify(marks)); } catch(e) {} }
+
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const nf = new Intl.NumberFormat("en");
+const name = k => (DATA.skill_names && DATA.skill_names[k]) || k;
+
+function ago(d){
+  if(!d) return "";
+  const days = Math.round((new Date(DATA.today) - new Date(d)) / 864e5);
+  if (days <= 0) return "النهارده";
+  if (days === 1) return "امبارح";
+  if (days === 2) return "من يومين";
+  if (days <= 10) return `من ${days} أيام`;
+  return `من ${days} يوم`;
+}
+
+async function load(){
+  try {
+    const r = await fetch("data/jobs.json", {cache:"no-store"});
+    if (!r.ok) throw new Error(r.status);
+    DATA = await r.json();
+  } catch(e) {
+    $("#pulse").textContent = "ملف الوظايف مش موجود لسه. شغّل الـ workflow من تبويب Actions في GitHub.";
+    return;
+  }
+  renderHeader(); fillRoles(); renderJobs(); renderGaps(); renderSearch(); renderSources();
+}
+
+function renderHeader(){
+  const jobs = DATA.jobs, nNew = jobs.filter(j => j.is_new).length;
+  $("#who").textContent = DATA.profile.headline || "";
+  $("#pulse").innerHTML = DATA.first_run
+    ? `أول تشغيل: لقيت <b>${jobs.length}</b> وظيفة مناسبة. من بكرة هتشوف الجديد بس متعلّم.`
+    : `<b class="n-new">${nNew}</b> وظيفة جديدة النهارده، من <b>${jobs.length}</b> وظيفة مفتوحة مناسبة ليك.`;
+  const t = new Date(DATA.generated_at);
+  const ok = DATA.sources.filter(s => s.ok).length;
+  $("#meta").textContent = `آخر تحديث ${t.toLocaleString("ar-EG-u-nu-latn",{dateStyle:"medium",timeStyle:"short"})}، من ${ok} مصدر شغال`;
+  if (DATA.demo) {
+    const b = $("#banner"); b.hidden = false;
+    b.textContent = "دي بيانات تجريبية بشركات وهمية عشان تشوف شكل الموقع. هتتبدل بوظايف حقيقية بعد أول تشغيل للـ workflow.";
+  }
+}
+
+function fillRoles(){
+  const sel = $("#role");
+  Object.entries(DATA.roles).forEach(([k,v]) => sel.insertAdjacentHTML("beforeend", `<option value="${k}">${esc(v)}</option>`));
+}
+
+function visible(){
+  const q = state.q.trim().toLowerCase();
+  let list = DATA.jobs.filter(j => {
+    const m = marks[j.id];
+    if (state.view === "open" && (m === "applied" || m === "hidden")) return false;
+    if (state.view === "new" && (!j.is_new || m === "hidden")) return false;
+    if (state.view === "saved" && m !== "saved") return false;
+    if (state.view === "applied" && m !== "applied") return false;
+    if (state.view === "hidden" && m !== "hidden") return false;
+    if (state.region !== "all" && j.region !== state.region) return false;
+    if (state.role !== "all" && j.role !== state.role) return false;
+    if (state.min && (j.score ?? 0) < state.min) return false;
+    if (q) {
+      const hay = [j.title, j.company, j.location, ...j.matched, ...j.partial, ...j.missing].map(name).join(" ").toLowerCase()
+        + " " + [j.title, j.company, j.location].join(" ").toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+  list.sort(state.sort === "date"
+    ? (a,b) => (b.first_seen||"").localeCompare(a.first_seen||"") || (b.posted_at||"").localeCompare(a.posted_at||"")
+    : (a,b) => (b.score ?? -1) - (a.score ?? -1));
+  return list;
+}
+
+function jobHTML(j){
+  const m = marks[j.id];
+  const cls = j.score == null ? "" : j.score >= 75 ? "hi" : j.score >= 55 ? "mid" : "lo";
+  const segs = [...j.missing.map(k=>["m",k]), ...j.partial.map(k=>["p",k]), ...j.matched.map(k=>["h",k])];
+  const strip = segs.length ? `<div class="strip" role="img" aria-label="عندك ${j.matched.length}، في مشاريع ${j.partial.length}، ناقصك ${j.missing.length}">${
+    segs.map(([c,k]) => `<i class="${c}" title="${esc(name(k))}"></i>`).join("")}</div>` : "";
+  const chips = [
+    ...j.missing.map(k => `<span class="chip m" dir="ltr">${esc(name(k))}</span>`),
+    ...j.partial.map(k => `<span class="chip p" dir="ltr">${esc(name(k))}</span>`),
+    ...j.matched.map(k => `<span class="chip h" dir="ltr">${esc(name(k))}</span>`),
+  ];
+  const info = [];
+  if (j.years) info.push(`طالب ${j.years}+ سنين`);
+  if (j.visa === "yes") info.push(j.region === "europe" ? "فيه visa sponsorship" : "فيه فيزا / relocation");
+  if (j.visa === "unknown" && j.region === "europe") info.push("الفيزا مش مذكورة: اسأل");
+  if (j.langs_nice && j.langs_nice.length) info.push(`${j.langs_nice.join("، ")} ميزة إضافية`);
+  if (j.remote && j.region !== "remote") info.push("ريموت");
+  return `<article class="job${m === "hidden" ? " dim" : ""}" data-id="${j.id}">
+    <div class="score ${cls}"><div class="pct">${j.score == null ? "؟" : j.score + "%"}</div><div class="lbl">توافق</div></div>
+    <div>
+      <div class="head">
+        <a class="title" dir="ltr" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
+        ${j.is_new ? '<span class="flag new">جديدة</span>' : ""}
+        <span class="flag region">${REGION[j.region]}</span>
+      </div>
+      <div class="where"><span dir="ltr">${esc(j.company)}</span><span dir="ltr">${esc(j.location)}</span><span>ظهرت ${ago(j.first_seen)}</span><span>${esc(j.source)}</span></div>
+    </div>
+    <div>${strip}<div class="chips">${chips.join("")}${info.map(t => `<span class="chip info">${esc(t)}</span>`).join("")}</div>
+      <div class="actions">
+        <a class="btn primary" href="${esc(j.url)}" target="_blank" rel="noopener">افتح الوظيفة وقدّم</a>
+        <button class="btn" data-mark="saved" aria-pressed="${m==="saved"}">${m==="saved" ? "محفوظة" : "احفظ"}</button>
+        <button class="btn" data-mark="applied" aria-pressed="${m==="applied"}">${m==="applied" ? "قدمت فيها" : "علّم إني قدمت"}</button>
+        <button class="btn" data-mark="hidden" aria-pressed="${m==="hidden"}">${m==="hidden" ? "مستبعدة" : "مش مناسبة"}</button>
+      </div>
+    </div>
+  </article>`;
+}
+
+function renderJobs(){
+  const list = visible();
+  $("#count").textContent = `${nf.format(list.length)} وظيفة`;
+  $("#list").innerHTML = list.length ? list.map(jobHTML).join("")
+    : `<div class="empty">مفيش وظايف بالفلاتر دي. جرّب "الكل" في المنطقة أو قلّل نسبة التوافق.</div>`;
+}
+
+function gapRows(rows, kind){
+  if (!rows.length) return `<p class="note">مفيش لسه.</p>`;
+  const max = rows[0][1];
+  const color = kind === "m" ? "var(--miss)" : "var(--part)";
+  return rows.map(([k,n]) => `<div class="gap">
+      <span class="nm">${esc(name(k))}</span>
+      <span class="bar"><i style="width:${Math.max(6, n/max*100)}%;background:${color}"></i></span>
+      <span class="n">${n}</span>
+      ${kind === "m" && HINTS[k] ? `<span class="tip">${esc(HINTS[k])}</span>` : ""}
+    </div>`).join("");
+}
+
+function renderGaps(){
+  $("#gapMissing").innerHTML = gapRows(DATA.gaps.missing, "m");
+  $("#gapPartial").innerHTML = gapRows(DATA.gaps.partial, "p");
+  const top = DATA.gaps.missing.slice(0,3).map(([k]) => name(k));
+  const part = DATA.gaps.partial.slice(0,3).map(([k]) => name(k));
+  const tips = [];
+  if (top.length) tips.push(`ابدأ بالأكتر طلباً: <b dir="ltr">${top.map(esc).join("، ")}</b>. دي لوحدها هترفع توافقك في أغلب الوظايف.`);
+  if (part.length) tips.push(`<b dir="ltr">${part.map(esc).join("، ")}</b> عندك في مشاريع. ${PART_HINT}`);
+  tips.push("خبرتك في SAP HANA وHA clusters وVMware → Proxmox نادرة. حطها في أول سطرين في الـ CV والـ LinkedIn headline.");
+  tips.push("الـ CV مكتوب فيه إن الإنجليزي Fluent. لو المستوى الحقيقي متوسط، عدّلها أو اتمرّن على الإنترفيو بالإنجليزي قبل ما تقدم على أوروبا.");
+  tips.push("في أوروبا، قدّم الأول على الوظايف اللي فيها \"فيه visa sponsorship\"، وفي اللي مش مذكور فيها، اسأل الـ recruiter بشكل مباشر.");
+  $("#advice").innerHTML = tips.map(t => `<li>${t}</li>`).join("");
+}
+
+function enc(s){ return encodeURIComponent(s); }
+function renderSearch(){
+  const kws = (DATA.search && DATA.search.keywords) || ["DevOps Engineer"];
+  const day = $("#day").checked;
+  const li = (kw, loc, extra="") => `https://www.linkedin.com/jobs/search/?keywords=${enc(kw)}&location=${enc(loc)}&f_E=2%2C3%2C4${day ? "&f_TPR=r86400" : ""}${extra}&sortBy=DD`;
+  const slug = kw => kw.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+  const groups = [
+    ["LinkedIn: مصر", kw => li(kw, "Egypt")],
+    ["LinkedIn: ريموت من مصر", kw => li(kw, "Egypt", "&f_WT=2")],
+    ["LinkedIn: الإمارات", kw => li(kw, "United Arab Emirates")],
+    ["LinkedIn: السعودية", kw => li(kw, "Saudi Arabia")],
+    ["LinkedIn: قطر", kw => li(kw, "Qatar")],
+    ["LinkedIn: أوروبا + visa sponsorship", kw => li(kw + " visa sponsorship", "European Union")],
+    ["Wuzzuf", kw => `https://wuzzuf.net/search/jobs/?q=${enc(kw)}&a=hpb`],
+    ["Bayt: الإمارات", kw => `https://www.bayt.com/en/uae/jobs/${slug(kw)}-jobs/`],
+    ["Bayt: السعودية", kw => `https://www.bayt.com/en/saudi-arabia/jobs/${slug(kw)}-jobs/`],
+    ["Bayt: مصر", kw => `https://www.bayt.com/en/egypt/jobs/${slug(kw)}-jobs/`],
+    ["NaukriGulf", kw => `https://www.naukrigulf.com/${slug(kw)}-jobs`],
+    ["GulfTalent", kw => `https://www.gulftalent.com/jobs/search?keywords=${enc(kw)}`],
+    ["Relocate.me (أوروبا بـ relocation)", kw => `https://relocate.me/search?query=${enc(kw)}`],
+  ];
+  $("#searchGroups").innerHTML = groups.map(([title, fn]) => `<div class="group"><h3>${esc(title)}</h3><div class="links">${
+    kws.map(kw => `<a href="${esc(fn(kw))}" target="_blank" rel="noopener">${esc(kw)}</a>`).join("")}</div></div>`).join("");
+  // recruiter posts: hiring AND (role) AND (place)
+  const roles = (DATA.search && DATA.search.post_roles) || {DevOps: "DevOps"};
+  const places = (DATA.search && DATA.search.post_places) || {"مصر": "Egypt OR Cairo"};
+  const post = q => `https://www.linkedin.com/search/results/content/?keywords=${enc(q)}&datePosted=${enc(day ? '"past-24h"' : '"past-week"')}&sortBy=${enc('"date_posted"')}`;
+  $("#postGroups").innerHTML = Object.entries(places).map(([pl, plq]) => `<div class="group"><h3>${esc(pl)}</h3><div class="links">${
+    Object.entries(roles).map(([r, rq]) => `<a href="${esc(post(`hiring AND (${rq}) AND (${plq})`))}" target="_blank" rel="noopener">${esc(r)}</a>`).join("")
+  }</div></div>`).join("");
+
+  // companies without a feed: official page if known, else LinkedIn jobs search for that company + your roles
+  const roleQ = '(DevOps OR Cloud OR Infrastructure OR "System Administrator" OR "System Engineer" OR SRE)';
+  const locOf = {egypt: "Egypt", gulf: "United Arab Emirates", europe: "European Union", remote: "Egypt"};
+  const byRegion = {egypt: [], gulf: [], europe: [], remote: []};
+  (DATA.career_links || []).forEach(c => (byRegion[(c.regions || [])[0]] || byRegion.egypt).push(c));
+  $("#careerLinks").innerHTML = Object.entries(byRegion).filter(([, l]) => l.length).map(([reg, list]) =>
+    `<div class="group"><h3>${REGION[reg]}</h3><div class="links">${list.map(c => {
+      const li = `https://www.linkedin.com/jobs/search/?keywords=${enc(`"${c.name.replace(/\s*\(.*\)/, "")}" AND ${roleQ}`)}&location=${enc(locOf[reg])}${reg === "remote" ? "&f_WT=2" : ""}&sortBy=DD`;
+      const mark = c.fallback ? " ↺" : "";
+      return `<a href="${esc(li)}" target="_blank" rel="noopener">${esc(c.name)}${mark}</a>` +
+        (c.url ? `<a class="alt" href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.name)}<span class="src">صفحة التوظيف</span></a>` : "");
+    }).join("")}</div></div>`).join("");
+}
+
+function renderSources(){
+  $("#srcBody").innerHTML = DATA.sources.map(s => `<tr>
+    <td dir="ltr" style="text-align:right">${esc(s.name)}</td>
+    <td class="${s.ok ? "ok" : "bad"}">${s.ok ? "شغال" : "مش لاقيه"}</td>
+    <td>${nf.format(s.fetched)}</td><td>${nf.format(s.kept)}</td>
+    <td dir="ltr" style="text-align:right">${esc(s.ats || (s.kind === "board" ? "job board" : ""))}</td>
+    <td class="err">${esc(s.error || "")}</td></tr>`).join("");
+  $("#dropBody").innerHTML = Object.entries(DATA.dropped || {}).map(([k,n]) =>
+    `<tr><td>${esc(dropLabel(k))}</td><td>${nf.format(n)}</td></tr>`).join("");
+}
+function dropLabel(k){
+  if (DROP_AR[k]) return DROP_AR[k];
+  let m = k.match(/^asks for (\d+)\+ years$/); if (m) return `طالب ${m[1]}+ سنين خبرة`;
+  m = k.match(/^requires (\w+)$/); if (m) return `طالب لغة ${m[1]}`;
+  m = k.match(/^region (\w+) disabled$/); if (m) return `منطقة متقفلة في الإعدادات: ${REGION[m[1]] || m[1]}`;
+  return k;
+}
+
+/* events */
+document.querySelectorAll("nav.tabs button").forEach(b => b.addEventListener("click", () => {
+  document.querySelectorAll("nav.tabs button").forEach(x => x.setAttribute("aria-selected", x === b));
+  document.querySelectorAll(".panel").forEach(p => p.classList.toggle("on", p.id === "tab-" + b.dataset.tab));
+}));
+$("#regionSeg").addEventListener("click", e => {
+  const b = e.target.closest("button"); if (!b) return;
+  state.region = b.dataset.r;
+  $("#regionSeg").querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x === b));
+  renderJobs();
+});
+$("#role").addEventListener("change", e => { state.role = e.target.value; renderJobs(); });
+$("#view").addEventListener("change", e => { state.view = e.target.value; renderJobs(); });
+$("#sort").addEventListener("change", e => { state.sort = e.target.value; renderJobs(); });
+$("#minScore").addEventListener("input", e => { state.min = +e.target.value; $("#minOut").textContent = state.min + "%"; renderJobs(); });
+$("#q").addEventListener("input", e => { state.q = e.target.value; renderJobs(); });
+$("#day").addEventListener("change", renderSearch);
+$("#list").addEventListener("click", e => {
+  const b = e.target.closest("button[data-mark]"); if (!b) return;
+  const id = b.closest(".job").dataset.id, mk = b.dataset.mark;
+  if (marks[id] === mk) delete marks[id]; else marks[id] = mk;
+  saveMarks(); renderJobs();
+});
+load();
+</script>
+</body>
+</html>

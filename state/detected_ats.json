@@ -74,5 +74,9 @@
  "Bolt": {
   "ats": "lever",
   "slug": "boltjobs"
+ },
+ "GetYourGuide": {
+  "ats": "ashby",
+  "slug": "getyourguide"
  }
 }

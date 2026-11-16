@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-15T11:52+00:00",
- "today": "2026-11-15",
+ "generated_at": "2026-11-16T12:36+00:00",
+ "today": "2026-11-16",
  "demo": false,
  "first_run": false,
  "profile": {
@@ -93,139 +93,150 @@
  },
  "jobs": [
   {
-   "id": "03c57e7f7e48",
-   "title": "Manufacturing Systems Engineer",
-   "company": "Gravis Robotics",
-   "location": "Zurich",
+   "id": "661138a33acb",
+   "title": "Site Reliability Engineer / SRE (all genders)",
+   "company": "Lio",
+   "location": "Munich Office",
    "region": "europe",
    "remote": false,
-   "role": "sysadmin",
-   "url": "https://www.arbeitnow.ch/jobs/companies/gravis-robotics/manufacturing-systems-engineer-zurich-132979",
-   "source": "Arbeitnow",
-   "posted_at": "2026-11-15",
-   "score": 80,
-   "matched": [
-    "networking"
-   ],
-   "partial": [
-    "python"
-   ],
-   "missing": [],
-   "years": 3,
-   "visa": "unknown",
-   "langs_nice": [],
-   "first_seen": "2026-11-15",
-   "is_new": true
-  },
-  {
-   "id": "6b0fc32a90a1",
-   "title": "Platform Engineer",
-   "company": "Finmid.com",
-   "location": "Berlin / Greece / Remote",
-   "region": "europe",
-   "remote": true,
    "role": "devops",
-   "url": "https://www.arbeitnow.com/jobs/companies/finmidcom/remote-platform-engineer-34275",
+   "url": "https://www.arbeitnow.com/jobs/companies/lio/site-reliability-engineer-sre-all-genders-munich-409694",
    "source": "Arbeitnow",
-   "posted_at": "2026-11-15",
-   "score": 67,
+   "posted_at": "2026-11-16",
+   "score": 71,
    "matched": [
-    "aws"
+    "ha_clustering",
+    "mongodb"
    ],
    "partial": [
-    "docker",
-    "kubernetes",
-    "terraform",
     "cicd",
+    "github_actions",
+    "git",
+    "python",
     "incident"
    ],
    "missing": [],
    "years": null,
    "visa": "unknown",
    "langs_nice": [],
-   "first_seen": "2026-11-15",
+   "first_seen": "2026-11-16",
    "is_new": true
   },
   {
-   "id": "e81eca2e24d7",
-   "title": "Data Platform Engineer (m/f/d)",
-   "company": "Flix",
-   "location": "Berlin, Berlin, Germany",
+   "id": "3dfeb8fc9220",
+   "title": "Platform Engineer",
+   "company": "Conduct",
+   "location": "London, UK",
    "region": "europe",
    "remote": false,
    "role": "devops",
-   "url": "https://www.arbeitnow.com/jobs/companies/flix/data-platform-engineer-berlin-328247",
-   "source": "Arbeitnow",
-   "posted_at": "2026-11-15",
-   "score": 50,
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/conduct/platform-engineer-london-373548",
+   "source": "Arbeitnow UK",
+   "posted_at": "2026-11-13",
+   "score": 51,
    "matched": [
-    "aws",
-    "networking"
+    "aws"
    ],
    "partial": [
-    "kubernetes",
+    "azure",
+    "docker",
     "terraform",
     "cicd",
-    "python",
-    "incident"
+    "github_actions",
+    "git"
    ],
    "missing": [
-    "gitlab_ci",
-    "datadog",
-    "kafka"
+    "gcp",
+    "postgresql"
+   ],
+   "years": null,
+   "visa": "yes",
+   "langs_nice": [],
+   "first_seen": "2026-11-16",
+   "is_new": true
+  },
+  {
+   "id": "a0d3b288c973",
+   "title": "Site Reliability Engineer (Remote)(Located in the United Kingdom)",
+   "company": "knowbe4",
+   "location": "Remote",
+   "region": "remote",
+   "remote": true,
+   "role": "devops",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/knowbe4/site-reliability-engineer-remotelocated-in-the-united-kingdom-272906",
+   "source": "Arbeitnow UK",
+   "posted_at": "2026-11-13",
+   "score": 46,
+   "matched": [
+    "aws"
+   ],
+   "partial": [
+    "azure",
+    "docker",
+    "terraform",
+    "cicd",
+    "git",
+    "python"
+   ],
+   "missing": [
+    "gcp",
+    "serverless",
+    "datadog"
    ],
    "years": 3,
-   "visa": "unknown",
-   "langs_nice": [],
-   "first_seen": "2026-11-15",
-   "is_new": true
-  },
-  {
-   "id": "3ba1d1c73094",
-   "title": "Platform Engineer - SailPoint IdentityIQ",
-   "company": "Advansys",
-   "location": "Nasr City, Egypt",
-   "region": "egypt",
-   "remote": false,
-   "role": "devops",
-   "url": "https://jobs.workable.com/view/wy6ftZdvQuM7v9gV7dY7T9/platform-engineer---sailpoint-identityiq-in-nasr-city-at-advansys",
-   "source": "Workable",
-   "posted_at": "2026-11-15",
-   "score": 0,
-   "matched": [],
-   "partial": [],
-   "missing": [
-    "active_directory",
-    "oracle_db"
-   ],
-   "years": 4,
    "visa": null,
    "langs_nice": [],
-   "first_seen": "2026-11-15",
+   "first_seen": "2026-11-16",
    "is_new": true
   },
   {
-   "id": "4a6f9420598d",
-   "title": "Platform Engineer - SailPoint IdentityIQ",
-   "company": "Advansys",
-   "location": "Riyadh, Saudi Arabia",
-   "region": "gulf",
+   "id": "724b14e4e3f8",
+   "title": "Platform Engineer",
+   "company": "DeepJudge",
+   "location": "Zurich HQ",
+   "region": "europe",
    "remote": false,
    "role": "devops",
-   "url": "https://jobs.workable.com/view/dtXUfQcif7oorVP5MQyPvF/platform-engineer---sailpoint-identityiq-in-riyadh-at-advansys",
-   "source": "Workable",
-   "posted_at": "2026-11-15",
-   "score": 0,
+   "url": "https://www.arbeitnow.ch/jobs/companies/deepjudge/platform-engineer-zurich-377144",
+   "source": "Arbeitnow",
+   "posted_at": "2026-11-16",
+   "score": 45,
    "matched": [],
-   "partial": [],
+   "partial": [
+    "kubernetes",
+    "cicd",
+    "python"
+   ],
    "missing": [
-    "active_directory",
-    "oracle_db"
+    "golang"
    ],
    "years": 4,
    "visa": "unknown",
    "langs_nice": [],
-   "first_seen": "2026-11-15",
+   "first_seen": "2026-11-16",
+   "is_new": true
+  },
+  {
+   "id": "fd55d6625ad8",
+   "title": "AI Platform Engineer",
+   "company": "Nexcade",
+   "location": "London",
+   "region": "europe",
+   "remote": false,
+   "role": "devops",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/nexcade/ai-platform-engineer-london-130710",
+   "source": "Arbeitnow UK",
+   "posted_at": "2026-11-13",
+   "score": null,
+   "matched": [],
+   "partial": [
+    "python"
+   ],
+   "missing": [],
+   "years": null,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-16",
    "is_new": true
   },
   {
@@ -371,6 +382,56 @@
    "is_new": false
   },
   {
+   "id": "03c57e7f7e48",
+   "title": "Manufacturing Systems Engineer",
+   "company": "Gravis Robotics",
+   "location": "Zurich",
+   "region": "europe",
+   "remote": false,
+   "role": "sysadmin",
+   "url": "https://www.arbeitnow.ch/jobs/companies/gravis-robotics/manufacturing-systems-engineer-zurich-132979",
+   "source": "Arbeitnow",
+   "posted_at": "2026-11-15",
+   "score": 80,
+   "matched": [
+    "networking"
+   ],
+   "partial": [
+    "python"
+   ],
+   "missing": [],
+   "years": 3,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-15",
+   "is_new": false
+  },
+  {
+   "id": "d0fbc8fa75d8",
+   "title": "Software Engineer, Knowledge Engine  – Data Infrastructure",
+   "company": "Exa",
+   "location": "Zurich",
+   "region": "europe",
+   "remote": false,
+   "role": "infra",
+   "url": "https://www.arbeitnow.ch/jobs/companies/exa/software-engineer-knowledge-engine-data-infrastructure-zurich-412838",
+   "source": "Arbeitnow",
+   "posted_at": "2026-11-10",
+   "score": 80,
+   "matched": [
+    "ha_clustering"
+   ],
+   "partial": [
+    "python"
+   ],
+   "missing": [],
+   "years": null,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-11",
+   "is_new": false
+  },
+  {
    "id": "93c762fbc48d",
    "title": "DevOps Engineer - Edgy & System (m/f/d)",
    "company": "Almetra",
@@ -430,31 +491,6 @@
    "visa": "unknown",
    "langs_nice": [],
    "first_seen": "2026-11-14",
-   "is_new": false
-  },
-  {
-   "id": "d0fbc8fa75d8",
-   "title": "Software Engineer, Knowledge Engine  – Data Infrastructure",
-   "company": "Exa",
-   "location": "Zurich",
-   "region": "europe",
-   "remote": false,
-   "role": "infra",
-   "url": "https://www.arbeitnow.ch/jobs/companies/exa/software-engineer-knowledge-engine-data-infrastructure-zurich-412838",
-   "source": "Arbeitnow",
-   "posted_at": "2026-11-10",
-   "score": 80,
-   "matched": [
-    "ha_clustering"
-   ],
-   "partial": [
-    "python"
-   ],
-   "missing": [],
-   "years": null,
-   "visa": "unknown",
-   "langs_nice": [],
-   "first_seen": "2026-11-11",
    "is_new": false
   },
   {
@@ -836,6 +872,35 @@
    "is_new": false
   },
   {
+   "id": "6b0fc32a90a1",
+   "title": "Platform Engineer",
+   "company": "Finmid.com",
+   "location": "Berlin / Greece / Remote",
+   "region": "europe",
+   "remote": true,
+   "role": "devops",
+   "url": "https://www.arbeitnow.com/jobs/companies/finmidcom/remote-platform-engineer-34275",
+   "source": "Arbeitnow",
+   "posted_at": "2026-11-15",
+   "score": 67,
+   "matched": [
+    "aws"
+   ],
+   "partial": [
+    "docker",
+    "kubernetes",
+    "terraform",
+    "cicd",
+    "incident"
+   ],
+   "missing": [],
+   "years": null,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-15",
+   "is_new": false
+  },
+  {
    "id": "b39fe5994cd6",
    "title": "Software Engineer - Cloud Images",
    "company": "Canonical",
@@ -1007,40 +1072,6 @@
     "powershell"
    ],
    "years": 3,
-   "visa": null,
-   "langs_nice": [],
-   "first_seen": "2026-11-10",
-   "is_new": false
-  },
-  {
-   "id": "947d5a955c4e",
-   "title": "Infrastructure Verification Engineer",
-   "company": "TechBiz Global",
-   "location": "Remote Worldwide",
-   "region": "remote",
-   "remote": true,
-   "role": "infra",
-   "url": "https://himalayas.app/companies/techbiz-global/jobs/infrastructure-verification-engineer?utm_source=api",
-   "source": "Himalayas",
-   "posted_at": "2026-10-29",
-   "score": 62,
-   "matched": [
-    "bash",
-    "linux"
-   ],
-   "partial": [
-    "docker",
-    "kubernetes",
-    "cicd",
-    "jenkins",
-    "github_actions",
-    "git",
-    "python"
-   ],
-   "missing": [
-    "gitlab_ci"
-   ],
-   "years": null,
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
@@ -1263,6 +1294,54 @@
     "rabbitmq"
    ],
    "years": null,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": false
+  },
+  {
+   "id": "8ac4aa54737c",
+   "title": "Database Reliability Engineer",
+   "company": "Sporty Group",
+   "location": "Remote Worldwide",
+   "region": "remote",
+   "remote": true,
+   "role": "devops",
+   "url": "https://himalayas.app/companies/sporty-group/jobs/database-reliability-engineer-1433119502?utm_source=api",
+   "source": "Himalayas",
+   "posted_at": "2026-11-15",
+   "score": 58,
+   "matched": [
+    "aws",
+    "ha_clustering",
+    "prometheus",
+    "grafana",
+    "apache",
+    "mongodb",
+    "networking",
+    "backup_dr"
+   ],
+   "partial": [
+    "docker",
+    "kubernetes",
+    "terraform",
+    "ansible",
+    "cicd",
+    "jenkins",
+    "git",
+    "python",
+    "incident",
+    "mysql"
+   ],
+   "missing": [
+    "helm",
+    "argocd",
+    "golang",
+    "elk",
+    "postgresql",
+    "rabbitmq"
+   ],
+   "years": 4,
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
@@ -1599,37 +1678,6 @@
    "is_new": false
   },
   {
-   "id": "0a775329ad3c",
-   "title": "Data Platform Engineer – Data Operations (all genders)",
-   "company": "Skdse",
-   "location": "Munich, Bavaria",
-   "region": "europe",
-   "remote": false,
-   "role": "devops",
-   "url": "https://www.arbeitnow.com/jobs/companies/skdse/data-platform-engineer-data-operations-all-genders-munich-bavaria-290878",
-   "source": "Arbeitnow",
-   "posted_at": "2026-11-12",
-   "score": 54,
-   "matched": [
-    "bash",
-    "linux"
-   ],
-   "partial": [
-    "docker",
-    "cicd",
-    "python"
-   ],
-   "missing": [
-    "gcp",
-    "postgresql"
-   ],
-   "years": null,
-   "visa": "unknown",
-   "langs_nice": [],
-   "first_seen": "2026-11-12",
-   "is_new": false
-  },
-  {
    "id": "22b9e38b1f65",
    "title": "AI Infrastructure Engineer III",
    "company": "Mozn",
@@ -1663,40 +1711,6 @@
    ],
    "years": 4,
    "visa": null,
-   "langs_nice": [],
-   "first_seen": "2026-11-10",
-   "is_new": false
-  },
-  {
-   "id": "4d58c7bbb6da",
-   "title": "Platform Engineer II - Observability",
-   "company": "Mollie",
-   "location": "Milan",
-   "region": "europe",
-   "remote": true,
-   "role": "devops",
-   "url": "https://jobs.ashbyhq.com/mollie/95309d2e-3f83-4601-a1d0-85bce08d995e",
-   "source": "Mollie",
-   "posted_at": "2026-11-13",
-   "score": 54,
-   "matched": [
-    "linux",
-    "prometheus",
-    "grafana"
-   ],
-   "partial": [
-    "docker",
-    "kubernetes",
-    "terraform",
-    "python"
-   ],
-   "missing": [
-    "helm",
-    "golang",
-    "datadog"
-   ],
-   "years": null,
-   "visa": "unknown",
    "langs_nice": [],
    "first_seen": "2026-11-10",
    "is_new": false
@@ -1806,6 +1820,42 @@
    "is_new": false
   },
   {
+   "id": "35d301770e78",
+   "title": "Software Engineer - Data Infrastructure - Kafka",
+   "company": "Canonical",
+   "location": "Remote Worldwide",
+   "region": "remote",
+   "remote": true,
+   "role": "infra",
+   "url": "https://himalayas.app/companies/canonical/jobs/software-engineer-data-infrastructure-kafka?utm_source=api",
+   "source": "Himalayas",
+   "posted_at": "2026-10-29",
+   "score": 53,
+   "matched": [
+    "linux",
+    "mongodb",
+    "redis",
+    "backup_dr"
+   ],
+   "partial": [
+    "openstack",
+    "kubernetes",
+    "python",
+    "mysql"
+   ],
+   "missing": [
+    "elk",
+    "postgresql",
+    "oracle_db",
+    "kafka"
+   ],
+   "years": null,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-10",
+   "is_new": false
+  },
+  {
    "id": "ee5403f3b2f3",
    "title": "Linux devices software engineer - snapd",
    "company": "Canonical",
@@ -1833,36 +1883,37 @@
    "is_new": false
   },
   {
-   "id": "3160382612b5",
-   "title": "Platform Engineer",
-   "company": "Conduct",
-   "location": "London, UK",
+   "id": "e81eca2e24d7",
+   "title": "Data Platform Engineer (m/f/d)",
+   "company": "Flix",
+   "location": "Berlin, Berlin, Germany",
    "region": "europe",
    "remote": false,
    "role": "devops",
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/conduct/platform-engineer-london-373548",
+   "url": "https://www.arbeitnow.com/jobs/companies/flix/data-platform-engineer-berlin-328247",
    "source": "Arbeitnow",
-   "posted_at": "2026-11-13",
-   "score": 51,
+   "posted_at": "2026-11-15",
+   "score": 50,
    "matched": [
-    "aws"
+    "aws",
+    "networking"
    ],
    "partial": [
-    "azure",
-    "docker",
+    "kubernetes",
     "terraform",
     "cicd",
-    "github_actions",
-    "git"
+    "python",
+    "incident"
    ],
    "missing": [
-    "gcp",
-    "postgresql"
+    "gitlab_ci",
+    "datadog",
+    "kafka"
    ],
-   "years": null,
-   "visa": "yes",
+   "years": 3,
+   "visa": "unknown",
    "langs_nice": [],
-   "first_seen": "2026-11-14",
+   "first_seen": "2026-11-15",
    "is_new": false
   },
   {
@@ -1927,40 +1978,6 @@
    "is_new": false
   },
   {
-   "id": "8184e247a62d",
-   "title": "Site Reliability Engineer (Remote)(Located in the United Kingdom)",
-   "company": "knowbe4",
-   "location": "Remote",
-   "region": "remote",
-   "remote": true,
-   "role": "devops",
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/knowbe4/site-reliability-engineer-remotelocated-in-the-united-kingdom-272906",
-   "source": "Arbeitnow",
-   "posted_at": "2026-11-13",
-   "score": 46,
-   "matched": [
-    "aws"
-   ],
-   "partial": [
-    "azure",
-    "docker",
-    "terraform",
-    "cicd",
-    "git",
-    "python"
-   ],
-   "missing": [
-    "gcp",
-    "serverless",
-    "datadog"
-   ],
-   "years": 3,
-   "visa": null,
-   "langs_nice": [],
-   "first_seen": "2026-11-14",
-   "is_new": false
-  },
-  {
    "id": "00dd68e021b3",
    "title": "Site Reliability Engineer (Platform) - remote friendly",
    "company": "Qonto",
@@ -1987,66 +2004,6 @@
    "visa": "unknown",
    "langs_nice": [],
    "first_seen": "2026-11-13",
-   "is_new": false
-  },
-  {
-   "id": "cdd6ae157e8e",
-   "title": "Infrastructure Engineer (m/f/d)",
-   "company": "Flix",
-   "location": "Berlin, Germany",
-   "region": "europe",
-   "remote": false,
-   "role": "infra",
-   "url": "https://www.arbeitnow.com/jobs/companies/flix/infrastructure-engineer-berlin-50947",
-   "source": "Arbeitnow",
-   "posted_at": "2026-11-14",
-   "score": 40,
-   "matched": [],
-   "partial": [
-    "docker",
-    "kubernetes",
-    "terraform",
-    "python"
-   ],
-   "missing": [
-    "active_directory",
-    "m365"
-   ],
-   "years": 3,
-   "visa": "unknown",
-   "langs_nice": [],
-   "first_seen": "2026-11-14",
-   "is_new": false
-  },
-  {
-   "id": "b44a0408a2dd",
-   "title": "DevOps, Core Platform",
-   "company": "Signal Processing Engineer (RF Processing & Analytics)",
-   "location": "Paris",
-   "region": "europe",
-   "remote": false,
-   "role": "devops",
-   "url": "https://www.arbeitnow.fr/jobs/companies/signal-processing-engineer-rf-processing-analytics/devops-core-platform-paris-148388",
-   "source": "Arbeitnow",
-   "posted_at": "2026-11-11",
-   "score": 30,
-   "matched": [],
-   "partial": [
-    "kubernetes",
-    "cicd",
-    "python",
-    "storage"
-   ],
-   "missing": [
-    "openshift",
-    "helm",
-    "argocd",
-    "golang"
-   ],
-   "years": null,
-   "visa": "unknown",
-   "langs_nice": [],
-   "first_seen": "2026-11-11",
    "is_new": false
   },
   {
@@ -2077,26 +2034,51 @@
    "is_new": false
   },
   {
-   "id": "796afa6e5332",
-   "title": "AI Platform Engineer",
-   "company": "Nexcade",
-   "location": "London",
-   "region": "europe",
+   "id": "3ba1d1c73094",
+   "title": "Platform Engineer - SailPoint IdentityIQ",
+   "company": "Advansys",
+   "location": "Nasr City, Egypt",
+   "region": "egypt",
    "remote": false,
    "role": "devops",
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/nexcade/ai-platform-engineer-london-130710",
-   "source": "Arbeitnow",
-   "posted_at": "2026-11-13",
-   "score": null,
+   "url": "https://jobs.workable.com/view/wy6ftZdvQuM7v9gV7dY7T9/platform-engineer---sailpoint-identityiq-in-nasr-city-at-advansys",
+   "source": "Workable",
+   "posted_at": "2026-11-15",
+   "score": 0,
    "matched": [],
-   "partial": [
-    "python"
+   "partial": [],
+   "missing": [
+    "active_directory",
+    "oracle_db"
    ],
-   "missing": [],
-   "years": null,
+   "years": 4,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-15",
+   "is_new": false
+  },
+  {
+   "id": "4a6f9420598d",
+   "title": "Platform Engineer - SailPoint IdentityIQ",
+   "company": "Advansys",
+   "location": "Riyadh, Saudi Arabia",
+   "region": "gulf",
+   "remote": false,
+   "role": "devops",
+   "url": "https://jobs.workable.com/view/dtXUfQcif7oorVP5MQyPvF/platform-engineer---sailpoint-identityiq-in-riyadh-at-advansys",
+   "source": "Workable",
+   "posted_at": "2026-11-15",
+   "score": 0,
+   "matched": [],
+   "partial": [],
+   "missing": [
+    "active_directory",
+    "oracle_db"
+   ],
+   "years": 4,
    "visa": "unknown",
    "langs_nice": [],
-   "first_seen": "2026-11-14",
+   "first_seen": "2026-11-15",
    "is_new": false
   }
  ],
@@ -2104,14 +2086,18 @@
   "missing": [
    [
     "gcp",
-    16
+    15
    ],
    [
     "helm",
-    12
+    11
    ],
    [
-    "gitlab_ci",
+    "elk",
+    11
+   ],
+   [
+    "golang",
     9
    ],
    [
@@ -2119,39 +2105,35 @@
     9
    ],
    [
-    "golang",
-    9
+    "gitlab_ci",
+    8
    ],
    [
-    "elk",
-    9
+    "postgresql",
+    8
    ],
    [
     "cloudformation",
     7
    ],
    [
-    "postgresql",
-    7
-   ],
-   [
-    "datadog",
-    6
-   ],
-   [
     "serverless",
     5
    ],
    [
-    "active_directory",
+    "oracle_db",
     5
    ],
    [
-    "oracle_db",
-    4
+    "datadog",
+    5
    ],
    [
     "kafka",
+    5
+   ],
+   [
+    "active_directory",
     4
    ],
    [
@@ -2159,22 +2141,22 @@
     3
    ],
    [
-    "m365",
+    "istio",
     3
    ]
   ],
   "partial": [
    [
     "kubernetes",
-    41
-   ],
-   [
-    "docker",
-    35
+    40
    ],
    [
     "python",
-    34
+    33
+   ],
+   [
+    "docker",
+    32
    ],
    [
     "cicd",
@@ -2182,11 +2164,11 @@
    ],
    [
     "terraform",
-    30
+    29
    ],
    [
     "git",
-    21
+    22
    ],
    [
     "azure",
@@ -2194,7 +2176,7 @@
    ],
    [
     "ansible",
-    13
+    14
    ],
    [
     "github_actions",
@@ -2202,25 +2184,24 @@
    ],
    [
     "incident",
-    11
+    13
    ]
   ]
  },
  "dropped": {
-  "title not a target role": 5612,
-  "senior/lead title": 252,
-  "posted more than 30 days ago": 147,
+  "title not a target role": 5603,
+  "senior/lead title": 250,
+  "posted more than 30 days ago": 146,
   "location outside Egypt / Gulf / Europe": 18,
   "asks for 5+ years": 10,
-  "duplicate": 7,
-  "ad is not written in English": 6,
+  "ad is not written in English": 7,
+  "duplicate": 6,
   "remote but limited to another country": 5,
   "asks for 6+ years": 5,
   "asks for 10+ years": 2,
   "requires German": 2,
   "not enough infra keywords": 2,
   "asks for 7+ years": 1,
-  "requires French": 1,
   "requires Greek": 1,
   "asks for 8+ years": 1
  },
@@ -2234,18 +2215,10 @@
    "ats": "greenhouse:canonical"
   },
   {
-   "name": "Mollie",
-   "kind": "company",
-   "ok": true,
-   "fetched": 48,
-   "kept": 2,
-   "ats": "ashby:mollie"
-  },
-  {
    "name": "Robusta",
    "kind": "company",
    "ok": true,
-   "fetched": 86,
+   "fetched": 88,
    "kept": 1,
    "ats": "workable:robusta"
   },
@@ -2261,16 +2234,17 @@
    "name": "N26",
    "kind": "company",
    "ok": true,
-   "fetched": 34,
+   "fetched": 32,
    "kept": 1,
    "ats": "greenhouse:n26"
   },
   {
-   "name": "remotive",
-   "kind": "board",
+   "name": "Mollie",
+   "kind": "company",
    "ok": true,
-   "fetched": 32,
-   "kept": 0
+   "fetched": 46,
+   "kept": 1,
+   "ats": "ashby:mollie"
   },
   {
    "name": "Thndr",
@@ -2279,6 +2253,13 @@
    "fetched": 17,
    "kept": 0,
    "ats": "ashby:thndr"
+  },
+  {
+   "name": "remotive",
+   "kind": "board",
+   "ok": true,
+   "fetched": 32,
+   "kept": 0
   },
   {
    "name": "Swvl",
@@ -2315,7 +2296,7 @@
    "name": "Tamara",
    "kind": "company",
    "ok": true,
-   "fetched": 36,
+   "fetched": 37,
    "kept": 0,
    "ats": "greenhouse:tamara"
   },
@@ -2331,7 +2312,7 @@
    "name": "arbeitnow",
    "kind": "board",
    "ok": true,
-   "fetched": 2123,
+   "fetched": 2127,
    "kept": 0
   },
   {
@@ -2346,7 +2327,7 @@
    "name": "Foodics",
    "kind": "company",
    "ok": true,
-   "fetched": 31,
+   "fetched": 30,
    "kept": 0,
    "ats": "workable:foodics"
   },
@@ -2369,7 +2350,7 @@
    "name": "Adyen",
    "kind": "company",
    "ok": true,
-   "fetched": 246,
+   "fetched": 243,
    "kept": 0,
    "ats": "greenhouse:adyen"
   },
@@ -2385,16 +2366,9 @@
    "name": "HelloFresh",
    "kind": "company",
    "ok": true,
-   "fetched": 380,
+   "fetched": 373,
    "kept": 0,
    "ats": "greenhouse:hellofresh"
-  },
-  {
-   "name": "himalayas",
-   "kind": "board",
-   "ok": true,
-   "fetched": 111,
-   "kept": 0
   },
   {
    "name": "Bolt",
@@ -2416,7 +2390,7 @@
    "name": "GetYourGuide",
    "kind": "company",
    "ok": true,
-   "fetched": 67,
+   "fetched": 69,
    "kept": 0,
    "ats": "ashby:getyourguide"
   },
@@ -2432,9 +2406,24 @@
    "name": "Celonis",
    "kind": "company",
    "ok": true,
-   "fetched": 265,
+   "fetched": 264,
    "kept": 0,
    "ats": "greenhouse:celonis"
+  },
+  {
+   "name": "himalayas",
+   "kind": "board",
+   "ok": true,
+   "fetched": 109,
+   "kept": 0
+  },
+  {
+   "name": "SumUp",
+   "kind": "company",
+   "ok": true,
+   "fetched": 325,
+   "kept": 0,
+   "ats": "greenhouse:sumup"
   },
   {
    "name": "Personio",
@@ -2443,14 +2432,6 @@
    "fetched": 1,
    "kept": 0,
    "ats": "recruitee:personio"
-  },
-  {
-   "name": "SumUp",
-   "kind": "company",
-   "ok": true,
-   "fetched": 326,
-   "kept": 0,
-   "ats": "greenhouse:sumup"
   },
   {
    "name": "Contentful",
@@ -2464,7 +2445,7 @@
    "name": "Grafana Labs",
    "kind": "company",
    "ok": true,
-   "fetched": 140,
+   "fetched": 136,
    "kept": 0,
    "ats": "greenhouse:grafanalabs"
   },
@@ -2500,20 +2481,20 @@
    "kept": 0
   },
   {
-   "name": "Tabby",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['tabby'])"
-  },
-  {
    "name": "Property Finder",
    "kind": "company",
    "ok": false,
    "fetched": 0,
    "kept": 0,
    "error": "not found (no public job board found for slugs ['propertyfinder'])"
+  },
+  {
+   "name": "Tabby",
+   "kind": "company",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "not found (no public job board found for slugs ['tabby'])"
   },
   {
    "name": "Kitopi",
@@ -2532,20 +2513,20 @@
    "error": "not found (no public job board found for slugs ['anghami'])"
   },
   {
-   "name": "Trade Republic",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['traderepublic'])"
-  },
-  {
    "name": "Bayzat",
    "kind": "company",
    "ok": false,
    "fetched": 0,
    "kept": 0,
    "error": "not found (no public job board found for slugs ['bayzat'])"
+  },
+  {
+   "name": "Trade Republic",
+   "kind": "company",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "not found (no public job board found for slugs ['traderepublic'])"
   },
   {
    "name": "Deriv",

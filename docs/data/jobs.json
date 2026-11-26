@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-25T14:06+00:00",
- "today": "2026-11-25",
+ "generated_at": "2026-11-26T13:43+00:00",
+ "today": "2026-11-26",
  "demo": false,
  "first_run": false,
  "profile": {
@@ -93,6 +93,306 @@
  },
  "jobs": [
   {
+   "id": "54bd65d819ce",
+   "title": "Mid-Level System Administrator (Banking)",
+   "company": "Advansys",
+   "location": "Nasr City, Egypt",
+   "region": "egypt",
+   "remote": false,
+   "role": "sysadmin",
+   "url": "https://jobs.workable.com/view/jYsgPsgLx8shGH7abfLRG6/hybrid-mid-level-system-administrator-(banking)-in-nasr-city-at-advansys",
+   "source": "Workable",
+   "posted_at": "2026-11-25",
+   "score": 66,
+   "matched": [
+    "aws",
+    "bash",
+    "linux",
+    "rhel",
+    "windows_server",
+    "vmware",
+    "virtualization",
+    "ha_clustering",
+    "prometheus",
+    "grafana",
+    "zabbix",
+    "haproxy",
+    "iis",
+    "networking",
+    "firewalls",
+    "backup_dr"
+   ],
+   "partial": [
+    "azure",
+    "docker",
+    "kubernetes",
+    "terraform",
+    "ansible",
+    "cicd",
+    "python",
+    "incident"
+   ],
+   "missing": [
+    "gcp",
+    "openshift",
+    "puppet",
+    "powershell",
+    "active_directory",
+    "hyperv",
+    "nagios",
+    "cert_redhat"
+   ],
+   "years": 3,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-26",
+   "is_new": true
+  },
+  {
+   "id": "28487f404678",
+   "title": "Platform Engineer, Cloud Infrastructure",
+   "company": "Wayve",
+   "location": "London, United Kingdom",
+   "region": "europe",
+   "remote": false,
+   "role": "devops",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/wayve/platform-engineer-cloud-infrastructure-london-103891",
+   "source": "Arbeitnow",
+   "posted_at": "2026-11-25",
+   "score": 65,
+   "matched": [
+    "aws",
+    "linux",
+    "networking"
+   ],
+   "partial": [
+    "azure",
+    "docker",
+    "terraform",
+    "ansible",
+    "cicd",
+    "git",
+    "incident"
+   ],
+   "missing": [
+    "gcp"
+   ],
+   "years": 2,
+   "visa": "yes",
+   "langs_nice": [],
+   "first_seen": "2026-11-26",
+   "is_new": true
+  },
+  {
+   "id": "d866414b771c",
+   "title": "Site Reliability Engineer",
+   "company": "Signal Ai",
+   "location": "London Office",
+   "region": "europe",
+   "remote": false,
+   "role": "devops",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/signal-ai/site-reliability-engineer-44-featherstone-st-4th-floor-364822",
+   "source": "Arbeitnow UK",
+   "posted_at": "2026-11-25",
+   "score": 64,
+   "matched": [
+    "aws",
+    "linux",
+    "haproxy",
+    "networking"
+   ],
+   "partial": [
+    "kubernetes",
+    "terraform",
+    "python",
+    "incident"
+   ],
+   "missing": [
+    "golang",
+    "elk"
+   ],
+   "years": null,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-26",
+   "is_new": true
+  },
+  {
+   "id": "828c358bc0d8",
+   "title": "Model Release Engineer",
+   "company": "Wayve",
+   "location": "London, United Kingdom",
+   "region": "europe",
+   "remote": false,
+   "role": "devops",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/wayve/model-release-engineer-london-307066",
+   "source": "Arbeitnow",
+   "posted_at": "2026-11-25",
+   "score": 60,
+   "matched": [],
+   "partial": [
+    "azure",
+    "kubernetes",
+    "python"
+   ],
+   "missing": [],
+   "years": null,
+   "visa": "yes",
+   "langs_nice": [],
+   "first_seen": "2026-11-26",
+   "is_new": true
+  },
+  {
+   "id": "dbfc23a00173",
+   "title": "Site Reliability Engineer  - AI Assisted Platform & Kubernetes (m/f/d)",
+   "company": "gridscale GmbH",
+   "location": "Köln, Nordrhein-Westfalen, Deutschland",
+   "region": "europe",
+   "remote": false,
+   "role": "devops",
+   "url": "https://www.arbeitnow.com/jobs/companies/gridscale-gmbh/site-reliability-engineer-ai-assisted-platform-kubernetes-koln-373595",
+   "source": "Arbeitnow",
+   "posted_at": "2026-11-26",
+   "score": 56,
+   "matched": [
+    "bash",
+    "linux"
+   ],
+   "partial": [
+    "openstack",
+    "kubernetes",
+    "terraform",
+    "ansible",
+    "cicd",
+    "python",
+    "incident"
+   ],
+   "missing": [
+    "argocd",
+    "vault"
+   ],
+   "years": 4,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-26",
+   "is_new": true
+  },
+  {
+   "id": "a223f4feb076",
+   "title": "DevOps Delivery Engineer",
+   "company": "Euronet – Payments Infrastructure Segment",
+   "location": "Cairo, Egypt",
+   "region": "egypt",
+   "remote": false,
+   "role": "devops",
+   "url": "https://jobs.workable.com/view/wZxom3xT9qLAJF3fCkhysH/hybrid-devops-delivery-engineer-in-cairo-at-euronet-%E2%80%93-payments-infrastructure-segment",
+   "source": "Workable",
+   "posted_at": "2026-11-26",
+   "score": 56,
+   "matched": [
+    "aws",
+    "linux",
+    "rhel",
+    "grafana",
+    "haproxy",
+    "networking",
+    "firewalls"
+   ],
+   "partial": [
+    "azure",
+    "docker",
+    "kubernetes",
+    "terraform",
+    "ansible",
+    "cicd",
+    "jenkins",
+    "github_actions",
+    "git"
+   ],
+   "missing": [
+    "gcp",
+    "helm",
+    "puppet",
+    "gitlab_ci",
+    "nagios",
+    "elk"
+   ],
+   "years": null,
+   "visa": null,
+   "langs_nice": [],
+   "first_seen": "2026-11-26",
+   "is_new": true
+  },
+  {
+   "id": "f3633e6bac77",
+   "title": "IT Engineer",
+   "company": "Causaly",
+   "location": "London",
+   "region": "europe",
+   "remote": false,
+   "role": "sysadmin",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/causaly/it-engineer-london-121214",
+   "source": "Arbeitnow UK",
+   "posted_at": "2026-11-25",
+   "score": 30,
+   "matched": [],
+   "partial": [
+    "git"
+   ],
+   "missing": [
+    "m365"
+   ],
+   "years": null,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-26",
+   "is_new": true
+  },
+  {
+   "id": "fe275636a60f",
+   "title": "Cloud Infrastructure Engineer",
+   "company": "Microagi",
+   "location": "Munich",
+   "region": "europe",
+   "remote": false,
+   "role": "cloud",
+   "url": "https://www.arbeitnow.com/jobs/companies/microagi/cloud-infrastructure-engineer-munich-351332",
+   "source": "Arbeitnow",
+   "posted_at": "2026-11-25",
+   "score": null,
+   "matched": [],
+   "partial": [],
+   "missing": [],
+   "years": null,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-26",
+   "is_new": true
+  },
+  {
+   "id": "316ec192cc16",
+   "title": "Platform Engineer, AI Enablement",
+   "company": "Wayve",
+   "location": "London, United Kingdom",
+   "region": "europe",
+   "remote": false,
+   "role": "devops",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/wayve/platform-engineer-ai-enablement-london-170025",
+   "source": "Arbeitnow",
+   "posted_at": "2026-11-25",
+   "score": null,
+   "matched": [],
+   "partial": [
+    "kubernetes"
+   ],
+   "missing": [],
+   "years": null,
+   "visa": "yes",
+   "langs_nice": [],
+   "first_seen": "2026-11-26",
+   "is_new": true
+  },
+  {
    "id": "bafdaf05fc4f",
    "title": "Software Engineer — Drivers & Virtualization",
    "company": "Arago",
@@ -116,161 +416,7 @@
     "French"
    ],
    "first_seen": "2026-11-25",
-   "is_new": true
-  },
-  {
-   "id": "7ffd0d889575",
-   "title": "Containerization & Virtualisation Engineer",
-   "company": "Canonical",
-   "location": "Remote Worldwide",
-   "region": "remote",
-   "remote": true,
-   "role": "infra",
-   "url": "https://himalayas.app/companies/canonical/jobs/containerization-virtualisation-engineer?utm_source=api",
-   "source": "Himalayas",
-   "posted_at": "2026-11-19",
-   "score": 67,
-   "matched": [
-    "linux",
-    "virtualization",
-    "networking"
-   ],
-   "partial": [
-    "openstack",
-    "docker",
-    "kubernetes",
-    "python",
-    "storage"
-   ],
-   "missing": [
-    "golang"
-   ],
-   "years": null,
-   "visa": null,
-   "langs_nice": [],
-   "first_seen": "2026-11-25",
-   "is_new": true
-  },
-  {
-   "id": "f99b82d6d0a1",
-   "title": "Site Reliability Engineer",
-   "company": "Signal Ai",
-   "location": "London Office",
-   "region": "europe",
-   "remote": false,
-   "role": "devops",
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/signal-ai/site-reliability-engineer-44-featherstone-st-4th-floor-364822",
-   "source": "Arbeitnow",
-   "posted_at": "2026-11-25",
-   "score": 64,
-   "matched": [
-    "aws",
-    "linux",
-    "haproxy",
-    "networking"
-   ],
-   "partial": [
-    "kubernetes",
-    "terraform",
-    "python",
-    "incident"
-   ],
-   "missing": [
-    "golang",
-    "elk"
-   ],
-   "years": null,
-   "visa": "unknown",
-   "langs_nice": [],
-   "first_seen": "2026-11-25",
-   "is_new": true
-  },
-  {
-   "id": "d6cd2ca587ac",
-   "title": "Junior Engineer (Typescript / Python / DevOps / AI / Data)",
-   "company": "Almedia",
-   "location": "Berlin",
-   "region": "europe",
-   "remote": false,
-   "role": "devops",
-   "url": "https://www.arbeitnow.com/jobs/companies/almedia/junior-engineer-typescript-python-devops-ai-data-berlin-138277",
-   "source": "Arbeitnow",
-   "posted_at": "2026-11-25",
-   "score": 60,
-   "matched": [],
-   "partial": [
-    "kubernetes",
-    "cicd",
-    "github_actions",
-    "git",
-    "python"
-   ],
-   "missing": [],
-   "years": null,
-   "visa": "unknown",
-   "langs_nice": [],
-   "first_seen": "2026-11-25",
-   "is_new": true
-  },
-  {
-   "id": "edf52f8a367f",
-   "title": "Site Reliability Engineer  - AI Assisted Platform (OPCP) (m/f/d)",
-   "company": "gridscale GmbH",
-   "location": "Köln, Nordrhein-Westfalen, Deutschland",
-   "region": "europe",
-   "remote": false,
-   "role": "devops",
-   "url": "https://www.arbeitnow.com/jobs/companies/gridscale-gmbh/site-reliability-engineer-ai-assisted-platform-opcp-koln-477122",
-   "source": "Arbeitnow",
-   "posted_at": "2026-11-25",
-   "score": 56,
-   "matched": [
-    "bash",
-    "linux"
-   ],
-   "partial": [
-    "openstack",
-    "kubernetes",
-    "terraform",
-    "ansible",
-    "cicd",
-    "python",
-    "incident"
-   ],
-   "missing": [
-    "argocd",
-    "vault"
-   ],
-   "years": 4,
-   "visa": "unknown",
-   "langs_nice": [],
-   "first_seen": "2026-11-25",
-   "is_new": true
-  },
-  {
-   "id": "eac95bac627c",
-   "title": "IT Engineer",
-   "company": "Causaly",
-   "location": "London",
-   "region": "europe",
-   "remote": false,
-   "role": "sysadmin",
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/causaly/it-engineer-london-121214",
-   "source": "Arbeitnow",
-   "posted_at": "2026-11-25",
-   "score": 30,
-   "matched": [],
-   "partial": [
-    "git"
-   ],
-   "missing": [
-    "m365"
-   ],
-   "years": null,
-   "visa": "unknown",
-   "langs_nice": [],
-   "first_seen": "2026-11-25",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a8439cc922b8",
@@ -297,41 +443,6 @@
     "Portuguese"
    ],
    "first_seen": "2026-11-10",
-   "is_new": false
-  },
-  {
-   "id": "03193bfb0b46",
-   "title": "System & Infrastructure Engineer || Linux - Windows",
-   "company": "WTSS",
-   "location": "Rotterdam, Zuid-Holland, Netherlands",
-   "region": "europe",
-   "remote": false,
-   "role": "infra",
-   "url": "https://www.arbeitnow.nl/jobs/companies/wtss/system-infrastructure-engineer-linux-windows-rotterdam-369310",
-   "source": "Arbeitnow",
-   "posted_at": "2026-11-18",
-   "score": 87,
-   "matched": [
-    "bash",
-    "linux",
-    "windows_server",
-    "proxmox",
-    "virtualization",
-    "ha_clustering",
-    "networking",
-    "firewalls",
-    "backup_dr"
-   ],
-   "partial": [
-    "storage"
-   ],
-   "missing": [
-    "powershell"
-   ],
-   "years": null,
-   "visa": "unknown",
-   "langs_nice": [],
-   "first_seen": "2026-11-19",
    "is_new": false
   },
   {
@@ -1070,6 +1181,33 @@
    "is_new": false
   },
   {
+   "id": "d6cd2ca587ac",
+   "title": "Junior Engineer (Typescript / Python / DevOps / AI / Data)",
+   "company": "Almedia",
+   "location": "Berlin",
+   "region": "europe",
+   "remote": false,
+   "role": "devops",
+   "url": "https://www.arbeitnow.com/jobs/companies/almedia/junior-engineer-typescript-python-devops-ai-data-berlin-138277",
+   "source": "Arbeitnow",
+   "posted_at": "2026-11-25",
+   "score": 60,
+   "matched": [],
+   "partial": [
+    "kubernetes",
+    "cicd",
+    "github_actions",
+    "git",
+    "python"
+   ],
+   "missing": [],
+   "years": null,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-25",
+   "is_new": false
+  },
+  {
    "id": "ddce6b12738d",
    "title": "AI Systems Engineer",
    "company": "Sonarsource",
@@ -1197,6 +1335,48 @@
    "visa": "unknown",
    "langs_nice": [],
    "first_seen": "2026-11-10",
+   "is_new": false
+  },
+  {
+   "id": "7c905f556e10",
+   "title": "Site Reliability Engineer - Data Platform",
+   "company": "N26",
+   "location": "Berlin",
+   "region": "europe",
+   "remote": false,
+   "role": "devops",
+   "url": "https://n26.com/en-eu/careers/positions/8378357?gh_jid=8378357",
+   "source": "N26",
+   "posted_at": "2026-11-11",
+   "score": 58,
+   "matched": [
+    "aws",
+    "ha_clustering",
+    "prometheus",
+    "grafana",
+    "networking"
+   ],
+   "partial": [
+    "docker",
+    "kubernetes",
+    "terraform",
+    "cicd",
+    "jenkins",
+    "github_actions",
+    "git",
+    "python",
+    "incident"
+   ],
+   "missing": [
+    "cloudformation",
+    "argocd",
+    "datadog",
+    "postgresql"
+   ],
+   "years": null,
+   "visa": "yes",
+   "langs_nice": [],
+   "first_seen": "2026-11-12",
    "is_new": false
   },
   {
@@ -1342,44 +1522,6 @@
    "is_new": false
   },
   {
-   "id": "aa36d3b3f34e",
-   "title": "SRE [Processing Core Team]",
-   "company": "Banco Plata, S.A., Institución de Banca Múltiple",
-   "location": "Remote Worldwide",
-   "region": "remote",
-   "remote": true,
-   "role": "devops",
-   "url": "https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/sre-processing-core-team?utm_source=api",
-   "source": "Himalayas",
-   "posted_at": "2026-11-19",
-   "score": 57,
-   "matched": [
-    "aws",
-    "bash",
-    "prometheus",
-    "grafana",
-    "haproxy"
-   ],
-   "partial": [
-    "docker",
-    "kubernetes",
-    "cicd",
-    "jenkins",
-    "python"
-   ],
-   "missing": [
-    "gcp",
-    "helm",
-    "gitlab_ci",
-    "elk"
-   ],
-   "years": 3,
-   "visa": null,
-   "langs_nice": [],
-   "first_seen": "2026-11-10",
-   "is_new": false
-  },
-  {
    "id": "b27af6006ff6",
    "title": "Infrastructure Software Engineer",
    "company": "Namespace",
@@ -1406,6 +1548,41 @@
    "visa": "unknown",
    "langs_nice": [],
    "first_seen": "2026-11-22",
+   "is_new": false
+  },
+  {
+   "id": "edf52f8a367f",
+   "title": "Site Reliability Engineer  - AI Assisted Platform (OPCP) (m/f/d)",
+   "company": "gridscale GmbH",
+   "location": "Köln, Nordrhein-Westfalen, Deutschland",
+   "region": "europe",
+   "remote": false,
+   "role": "devops",
+   "url": "https://www.arbeitnow.com/jobs/companies/gridscale-gmbh/site-reliability-engineer-ai-assisted-platform-opcp-koln-477122",
+   "source": "Arbeitnow",
+   "posted_at": "2026-11-25",
+   "score": 56,
+   "matched": [
+    "bash",
+    "linux"
+   ],
+   "partial": [
+    "openstack",
+    "kubernetes",
+    "terraform",
+    "ansible",
+    "cicd",
+    "python",
+    "incident"
+   ],
+   "missing": [
+    "argocd",
+    "vault"
+   ],
+   "years": 4,
+   "visa": "unknown",
+   "langs_nice": [],
+   "first_seen": "2026-11-25",
    "is_new": false
   },
   {
@@ -1505,50 +1682,6 @@
    "is_new": false
   },
   {
-   "id": "b5da3883f47e",
-   "title": "DevSecOps Engineer",
-   "company": "Advansys",
-   "location": "Riyadh, Saudi Arabia",
-   "region": "gulf",
-   "remote": false,
-   "role": "devops",
-   "url": "https://jobs.workable.com/view/qhkDduPp8GLNxx9qHCoVyU/devsecops-engineer-in-riyadh-at-advansys",
-   "source": "Workable",
-   "posted_at": "2026-11-16",
-   "score": 56,
-   "matched": [
-    "aws",
-    "bash",
-    "networking",
-    "firewalls"
-   ],
-   "partial": [
-    "azure",
-    "docker",
-    "kubernetes",
-    "terraform",
-    "ansible",
-    "cicd",
-    "jenkins",
-    "github_actions",
-    "git",
-    "python",
-    "incident",
-    "devsecops"
-   ],
-   "missing": [
-    "gcp",
-    "cloudformation",
-    "gitlab_ci",
-    "powershell"
-   ],
-   "years": 3,
-   "visa": "unknown",
-   "langs_nice": [],
-   "first_seen": "2026-11-17",
-   "is_new": false
-  },
-  {
    "id": "d0ca7c49890a",
    "title": "Site Reliability Engineer",
    "company": "Canonical",
@@ -1615,38 +1748,6 @@
    "visa": null,
    "langs_nice": [],
    "first_seen": "2026-11-10",
-   "is_new": false
-  },
-  {
-   "id": "cffb2bf9243d",
-   "title": "Cloud Architect",
-   "company": "Vitestro",
-   "location": "Utrecht, Utrecht, Netherlands",
-   "region": "europe",
-   "remote": false,
-   "role": "cloud",
-   "url": "https://www.arbeitnow.nl/jobs/companies/vitestro/cloud-architect-utrecht-463133",
-   "source": "Arbeitnow",
-   "posted_at": "2026-11-19",
-   "score": 53,
-   "matched": [
-    "aws",
-    "grafana"
-   ],
-   "partial": [
-    "terraform",
-    "incident"
-   ],
-   "missing": [
-    "pulumi",
-    "elk"
-   ],
-   "years": null,
-   "visa": "unknown",
-   "langs_nice": [
-    "Dutch"
-   ],
-   "first_seen": "2026-11-19",
    "is_new": false
   },
   {
@@ -1746,81 +1847,6 @@
    "is_new": false
   },
   {
-   "id": "c0514e792bf3",
-   "title": "DevSecOps Engineer (f/x/m)",
-   "company": "spotixx GmbH",
-   "location": "Frankfurt am Main",
-   "region": "europe",
-   "remote": false,
-   "role": "devops",
-   "url": "https://www.arbeitnow.com/jobs/companies/spotixx-gmbh/devsecops-engineer-frankfurt-am-main-26544",
-   "source": "Arbeitnow",
-   "posted_at": "2026-11-23",
-   "score": 52,
-   "matched": [
-    "bash",
-    "networking",
-    "backup_dr"
-   ],
-   "partial": [
-    "terraform",
-    "cicd",
-    "python",
-    "incident",
-    "devsecops"
-   ],
-   "missing": [
-    "gcp",
-    "serverless",
-    "vault",
-    "cert_k8s"
-   ],
-   "years": null,
-   "visa": "unknown",
-   "langs_nice": [],
-   "first_seen": "2026-11-23",
-   "is_new": false
-  },
-  {
-   "id": "3811be4861cd",
-   "title": "DevOps/Platform Engineer",
-   "company": "Wellis",
-   "location": "Rotterdam, Zuid-Holland, Netherlands",
-   "region": "europe",
-   "remote": false,
-   "role": "devops",
-   "url": "https://www.arbeitnow.nl/jobs/companies/wellis/devops-platform-engineer-rotterdam-70516",
-   "source": "Arbeitnow",
-   "posted_at": "2026-11-18",
-   "score": 44,
-   "matched": [
-    "aws",
-    "prometheus",
-    "grafana"
-   ],
-   "partial": [
-    "azure",
-    "docker",
-    "kubernetes",
-    "terraform",
-    "cicd",
-    "incident"
-   ],
-   "missing": [
-    "gcp",
-    "serverless",
-    "pulumi",
-    "datadog",
-    "postgresql",
-    "vault"
-   ],
-   "years": null,
-   "visa": "unknown",
-   "langs_nice": [],
-   "first_seen": "2026-11-19",
-   "is_new": false
-  },
-  {
    "id": "0a2fe88158b0",
    "title": "Devops Engineer (AWS)",
    "company": "Devop.One",
@@ -1852,38 +1878,30 @@
   "missing": [
    [
     "elk",
-    14
+    13
+   ],
+   [
+    "argocd",
+    10
    ],
    [
     "golang",
-    11
+    10
    ],
    [
     "gcp",
-    10
+    9
    ],
    [
     "helm",
     9
    ],
    [
-    "argocd",
-    8
-   ],
-   [
     "gitlab_ci",
-    6
-   ],
-   [
-    "powershell",
     5
    ],
    [
-    "vault",
-    4
-   ],
-   [
-    "pulumi",
+    "powershell",
     4
    ],
    [
@@ -1895,7 +1913,7 @@
     4
    ],
    [
-    "serverless",
+    "vault",
     3
    ],
    [
@@ -1903,7 +1921,15 @@
     3
    ],
    [
+    "active_directory",
+    3
+   ],
+   [
     "oracle_db",
+    3
+   ],
+   [
+    "openshift",
     3
    ],
    [
@@ -1913,63 +1939,61 @@
   ],
   "partial": [
    [
+    "kubernetes",
+    34
+   ],
+   [
     "python",
     33
    ],
    [
-    "kubernetes",
-    32
+    "cicd",
+    26
    ],
    [
-    "cicd",
-    25
+    "terraform",
+    24
    ],
    [
     "docker",
     23
    ],
    [
-    "terraform",
-    23
-   ],
-   [
     "git",
-    20
+    22
    ],
    [
     "azure",
-    14
+    16
    ],
    [
     "ansible",
-    12
+    15
    ],
    [
     "incident",
     11
    ],
    [
-    "jenkins",
+    "github_actions",
     10
    ]
   ]
  },
  "dropped": {
-  "title not a target role": 5683,
-  "senior/lead title": 246,
-  "posted more than 30 days ago": 146,
-  "location outside Egypt / Gulf / Europe": 22,
-  "ad is not written in English": 17,
-  "duplicate": 6,
-  "not enough infra keywords": 5,
+  "title not a target role": 5636,
+  "senior/lead title": 245,
+  "posted more than 30 days ago": 147,
+  "location outside Egypt / Gulf / Europe": 28,
+  "ad is not written in English": 10,
+  "duplicate": 7,
+  "asks for 5+ years": 5,
   "asks for 6+ years": 5,
-  "asks for 7+ years": 5,
-  "asks for 5+ years": 4,
-  "remote but limited to another country": 2,
-  "requires German": 2,
-  "asks for 10+ years": 1,
+  "remote but limited to another country": 4,
+  "requires German": 3,
+  "not enough infra keywords": 3,
   "requires Dutch": 1,
-  "requires Greek": 1
+  "asks for 10+ years": 1
  },
  "sources": [
   {
@@ -1981,10 +2005,18 @@
    "ats": "workable:robusta"
   },
   {
+   "name": "N26",
+   "kind": "company",
+   "ok": true,
+   "fetched": 26,
+   "kept": 1,
+   "ats": "greenhouse:n26"
+  },
+  {
    "name": "Canonical",
    "kind": "company",
    "ok": true,
-   "fetched": 318,
+   "fetched": 319,
    "kept": 1,
    "ats": "greenhouse:canonical"
   },
@@ -1997,18 +2029,10 @@
    "ats": "ashby:thndr"
   },
   {
-   "name": "CEQUENS",
-   "kind": "company",
-   "ok": true,
-   "fetched": 12,
-   "kept": 0,
-   "ats": "workable:cequens"
-  },
-  {
    "name": "remotive",
    "kind": "board",
    "ok": true,
-   "fetched": 30,
+   "fetched": 32,
    "kept": 0
   },
   {
@@ -2018,6 +2042,14 @@
    "fetched": 0,
    "kept": 0,
    "ats": "workable:swvl"
+  },
+  {
+   "name": "CEQUENS",
+   "kind": "company",
+   "ok": true,
+   "fetched": 12,
+   "kept": 0,
+   "ats": "workable:cequens"
   },
   {
    "name": "Lucidya",
@@ -2031,7 +2063,7 @@
    "name": "Careem",
    "kind": "company",
    "ok": true,
-   "fetched": 11,
+   "fetched": 9,
    "kept": 0,
    "ats": "greenhouse:careem"
   },
@@ -2044,13 +2076,6 @@
    "ats": "greenhouse:tamara"
   },
   {
-   "name": "remoteok",
-   "kind": "board",
-   "ok": true,
-   "fetched": 100,
-   "kept": 0
-  },
-  {
    "name": "Brimore",
    "kind": "company",
    "ok": true,
@@ -2059,10 +2084,17 @@
    "ats": "smartrecruiters:brimore"
   },
   {
+   "name": "remoteok",
+   "kind": "board",
+   "ok": true,
+   "fetched": 100,
+   "kept": 0
+  },
+  {
    "name": "arbeitnow",
    "kind": "board",
    "ok": true,
-   "fetched": 2242,
+   "fetched": 2197,
    "kept": 0
   },
   {
@@ -2097,18 +2129,10 @@
    "kept": 0
   },
   {
-   "name": "N26",
-   "kind": "company",
-   "ok": true,
-   "fetched": 24,
-   "kept": 0,
-   "ats": "greenhouse:n26"
-  },
-  {
    "name": "Adyen",
    "kind": "company",
    "ok": true,
-   "fetched": 243,
+   "fetched": 234,
    "kept": 0,
    "ats": "greenhouse:adyen"
   },
@@ -2116,46 +2140,38 @@
    "name": "Wolt",
    "kind": "company",
    "ok": true,
-   "fetched": 177,
+   "fetched": 181,
    "kept": 0,
    "ats": "greenhouse:wolt"
-  },
-  {
-   "name": "himalayas",
-   "kind": "board",
-   "ok": true,
-   "fetched": 115,
-   "kept": 0
   },
   {
    "name": "HelloFresh",
    "kind": "company",
    "ok": true,
-   "fetched": 361,
+   "fetched": 355,
    "kept": 0,
    "ats": "greenhouse:hellofresh"
+  },
+  {
+   "name": "himalayas",
+   "kind": "board",
+   "ok": true,
+   "fetched": 114,
+   "kept": 0
   },
   {
    "name": "Delivery Hero",
    "kind": "company",
    "ok": true,
-   "fetched": 5,
+   "fetched": 4,
    "kept": 0,
    "ats": "smartrecruiters:DeliveryHero"
-  },
-  {
-   "name": "Bolt",
-   "kind": "company",
-   "ok": true,
-   "fetched": 5,
-   "kept": 0,
-   "ats": "lever:boltjobs"
   },
   {
    "name": "Spotify",
    "kind": "company",
    "ok": true,
-   "fetched": 93,
+   "fetched": 97,
    "kept": 0,
    "ats": "lever:spotify"
   },
@@ -2195,7 +2211,7 @@
    "name": "SumUp",
    "kind": "company",
    "ok": true,
-   "fetched": 324,
+   "fetched": 340,
    "kept": 0,
    "ats": "greenhouse:sumup"
   },
@@ -2219,7 +2235,7 @@
    "name": "Grafana Labs",
    "kind": "company",
    "ok": true,
-   "fetched": 136,
+   "fetched": 137,
    "kept": 0,
    "ats": "greenhouse:grafanalabs"
   },
@@ -2227,7 +2243,7 @@
    "name": "GitLab",
    "kind": "company",
    "ok": true,
-   "fetched": 247,
+   "fetched": 243,
    "kept": 0,
    "ats": "greenhouse:gitlab"
   },
@@ -2235,16 +2251,32 @@
    "name": "Elastic",
    "kind": "company",
    "ok": true,
-   "fetched": 390,
+   "fetched": 379,
    "kept": 0,
    "ats": "greenhouse:elastic"
+  },
+  {
+   "name": "Bolt",
+   "kind": "company",
+   "ok": true,
+   "fetched": 5,
+   "kept": 0,
+   "ats": "lever:boltjobs"
   },
   {
    "name": "workable",
    "kind": "board",
    "ok": true,
-   "fetched": 156,
+   "fetched": 155,
    "kept": 0
+  },
+  {
+   "name": "Property Finder",
+   "kind": "company",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "not found (no public job board found for slugs ['propertyfinder'])"
   },
   {
    "name": "Tabby",
@@ -2263,12 +2295,12 @@
    "error": "not found (no public job board found for slugs ['anghami'])"
   },
   {
-   "name": "Noon",
+   "name": "Bayzat",
    "kind": "company",
    "ok": false,
    "fetched": 0,
    "kept": 0,
-   "error": "not found (no public job board found for slugs ['noon', 'nooncom'])"
+   "error": "not found (no public job board found for slugs ['bayzat'])"
   },
   {
    "name": "Trade Republic",
@@ -2279,44 +2311,12 @@
    "error": "not found (no public job board found for slugs ['traderepublic'])"
   },
   {
-   "name": "Bayzat",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['bayzat'])"
-  },
-  {
    "name": "Kitopi",
    "kind": "company",
    "ok": false,
    "fetched": 0,
    "kept": 0,
    "error": "not found (no public job board found for slugs ['kitopi'])"
-  },
-  {
-   "name": "Klarna",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['klarna'])"
-  },
-  {
-   "name": "Property Finder",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['propertyfinder'])"
-  },
-  {
-   "name": "Deel",
-   "kind": "company",
-   "ok": false,
-   "fetched": 0,
-   "kept": 0,
-   "error": "not found (no public job board found for slugs ['deel'])"
   },
   {
    "name": "Deriv",
@@ -2327,12 +2327,36 @@
    "error": "not found (no public job board found for slugs ['deriv'])"
   },
   {
+   "name": "Noon",
+   "kind": "company",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "not found (no public job board found for slugs ['noon', 'nooncom'])"
+  },
+  {
+   "name": "Klarna",
+   "kind": "company",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "not found (no public job board found for slugs ['klarna'])"
+  },
+  {
    "name": "Taxfix",
    "kind": "company",
    "ok": false,
    "fetched": 0,
    "kept": 0,
    "error": "not found (no public job board found for slugs ['taxfix'])"
+  },
+  {
+   "name": "Deel",
+   "kind": "company",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "not found (no public job board found for slugs ['deel'])"
   }
  ],
  "career_links": [
